@@ -1,0 +1,9 @@
+# Site settings
+title: Shubhro Saha
+email: saha@princeton.edu
+description: "Personal web site of Shubhro Saha"
+
+# Build settings
+highlighter: pygments
+markdown: kramdown
+permalink: pretty
