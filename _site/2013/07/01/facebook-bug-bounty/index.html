@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tale of a $1000 Facebook Bug Bounty | Shubhro Saha</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/css/styles.css" rel="stylesheet">
+        <link href="/static/css/syntax.css" rel="stylesheet">
+        <script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-3539301-14']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+            
+        </script>
+    </head>
+    <body>
+        <a href="/"><div class="logo"></div></a>
+        <div class="runner">&nbsp;</div>
+            <br /><br />
+    <br /><br />
+    <br />
+    <h2>Tale of a $1000 Facebook Bug Bounty</h2>
+    <p>For some time a few months ago, I became obsessed with <a href="http://en.wikipedia.org/wiki/Packet_analyzer">wireless sniffing</a>. I didn’t want to sniff others’ wireless traffic so much as be able to detect smartphones by their wireless probes. There is incredible potential in this area– a startup called <a href="http://euclidanalytics.com/">Euclid Analytics</a> is tracking smartphone probes inside stores to provide retail customer analytics.</p>
+
+<p>In my reading, I was surprised to find that until 2010, many major web sites sent sensitive user data over HTTP. That’s when a clever Firefox plugin called <a href="http://en.wikipedia.org/wiki/Firesheep">Firesheep</a> popularized the risks associated with transferring sensitive data over unencrypted connections.</p>
+
+<p>On a whim, I opened my iPhone to check whether the mobile versions of today’s major web sites used HTTPS to transmit sensitive data. Sure enough, the subtle lock symbol over sensitive pages assured me of HTTPS on Google’s sign-in page.</p>
+
+<p><img src="/static/facebook-bug-bounty/google.png" alt="Google mobile sign-in page" /></p>
+
+<p>What caught my eye was that on the Facebook Mobile landing page, the page loaded over HTTP. Notice the lack of a lock.</p>
+
+<p><img src="/static/facebook-bug-bounty/facebook.png" alt="Facebook mobile sign-in page" /></p>
+
+<p>Usually, this is not a problem even for an authentication page, as long as the endpoint receiving the sensitive data (in this case: username and password) is on HTTPS. Many services do this to cut down on the load time of the authentication page. After poking around, I noticed that the password reset page also lacked an SSL certificate on page load.</p>
+
+<p>I wondered: are the endpoints receiving this authentication data secured with an SSL certificate?</p>
+
+<p>As it turned out, the password reset data did not communicate with a secure endpoint. This is troubling because, though rare, anyone with a packet-sniffing program would be able to sniff my new password if I’m resetting the account from a mobile device on an unsecured network. Using a packet-sniffing tool called <a href="http://www.wireshark.org/">Wireshark</a>, I pinpointed the exact HTTP request that exposed my new password.</p>
+
+<p><img src="/static/facebook-bug-bounty/wireshark.png" alt="Wireshark displays the password in plaintext" /></p>
+
+<p>I reported the vulnerability to <a href="https://www.facebook.com/whitehat">Facebook’s Bug Bounty</a> program in late May 2013. Facebook confirmed the bug two weeks later and pushed a patch shortly afterwards. All in all, learning about network security has made this discovery worthwhile, and the $1000 bounty makes it all the nicer. I hardly feel like a security researcher, but I suppose curiosity and dumb luck can be worth something.</p>
+
+<p>[ July 2013 ]</p>
+
+
+        <br /><br />
+        <hr />
+        <center>
+            &copy; 2014 Shubhro Saha
+            &sdot;
+            <a target="_blank" href="/~saha/">Home</a>
+            &sdot;
+            <a target="_blank" href="mailto:saha@princeton.edu">Email</a>
+            &sdot;
+            <a target="_blank" href="http://www.facebook.com/shubhro">Facebook</a>
+            &sdot;
+            <a target="_blank" href="https://twitter.com/shubroski">Twitter</a>
+            &sdot;
+            <a target="_blank" href="http://www.github.com/shbhrsaha">Github</a>
+        </center>
+    </body>
+</html>
