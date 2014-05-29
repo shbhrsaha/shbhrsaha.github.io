@@ -26,7 +26,7 @@ The above graph shows the ranking of campus printers based on the percentage of 
 
  The earlier time-series chart seems to show spikes in printer availability during the late-night, early-morning. This is understandable because most students are usually asleep at that hour. It's unclear whether the global maximum around Thursday night is generally significant for some reason. If anything, we would've expected Thursday night to be a busy night with students printing Friday's problem sets. In any case, it would be worth recording printer data for a few more weeks to observe any weekly patterns.
  
-### Github
-The main Python scripts for this project are available in this [Github repository](https://github.com/shbhrsaha/printers).
+### GitHub
+The main Python scripts for this project are available in this [GitHub repository](https://github.com/shbhrsaha/printers).
 
 [ March 2013 ]

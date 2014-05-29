@@ -56,7 +56,7 @@ The results are quite amusing, most of the time meaning rubbish. Here's a select
 > his head under a claw. <br />
 > I screamed, "Oh! Does, anyone have a Greek insurance?"
 
-### Github
-Try it out yourself! You can download Polly and all the instructions you need from [Github](https://github.com/shbhrsaha/polly/).
+### GitHub
+Try it out yourself! You can download Polly and all the instructions you need from [GitHub](https://github.com/shbhrsaha/polly/).
 
 [ March 2013 ]

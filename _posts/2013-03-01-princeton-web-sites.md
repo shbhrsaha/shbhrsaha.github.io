@@ -28,8 +28,8 @@ And here's the number of web sites by major:
 
 It's expected that Computer Science is near the top of the list, but I was surprised to see Politics, History, and English close behind. In the coming years I bet we'll see more students setting up web sites.
 
-### Github
-The main scripts are available in a [Github repository](https://github.com/shbhrsaha/websites).
+### GitHub
+The main scripts are available in a [GitHub repository](https://github.com/shbhrsaha/websites).
 
 [ March 2013 ]
 

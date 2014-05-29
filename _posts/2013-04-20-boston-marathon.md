@@ -135,8 +135,8 @@ for line in matchFile.readlines():
     f.write(output)
 {% endhighlight %}
 
-### Github
+### GitHub
 
-You can find the source code for this project on [Github](https://github.com/shbhrsaha/boston-marathon).
+You can find the source code for this project on [GitHub](https://github.com/shbhrsaha/boston-marathon).
 
 [ April 2013 ]
