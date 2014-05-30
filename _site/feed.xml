@@ -16,20 +16,20 @@
 
 &lt;p&gt;It’s time to set up your development environment. This process is one of the most overlooked and oftentimes frustrating part of learning to program, but it’s easier with the right preparation.&lt;/p&gt;
 
-&lt;p&gt;In this article, I’ll begin by explaining what a development environment is and why it’s oftentimes hard to set up. I’ll then offer some advice to keep in mind as you actually set up your development environment. Finally, I’ll conclude by recommending some tutorials that will instruct you how to set up a development environment in the language/platform of your choice.&lt;/p&gt;
+&lt;p&gt;In this article, I’ll begin by explaining what a development environment is and why it’s sometimes hard to set up. I’ll then offer some advice to keep in mind as you actually set up your development environment. Finally, I’ll conclude by recommending some tutorials that will instruct you how to set up a development environment in the language/platform of your choice.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-a-development-environment&quot;&gt;What is a Development Environment&lt;/h3&gt;
 
 &lt;p&gt;Codecademy is an amazing tool. It’s great for getting “the feel” for programming and the syntax of a particular language with clear guidance each step of the way. But at some point, you’ll want to start writing programs of your own. To do so, you must first set up a development environment on your computer.&lt;/p&gt;
 
-&lt;p&gt;A development environment is a set of software that enables you to write programs for a particular language or platform. This software oftentimes includes a text editor, shell, and an SDK.&lt;/p&gt;
+&lt;p&gt;A development environment is a set of software that enables you to write programs for a particular language or platform. This software oftentimes includes a text editor, shell, and a compiler/interpreter.&lt;/p&gt;
 
 &lt;p&gt;A text editor is simply a program in which you’ll type your code. Examples include &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;, &lt;a href=&quot;http://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt;, and &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt;. You’re probably familiar with the Codecademy text editor:&lt;/p&gt;
 
 &lt;p&gt;
     &lt;div class=&quot;image-figure&quot;&gt;
         &lt;img src=&quot;/static/development-environment/codecademy.png&quot; /&gt;&lt;br /&gt;
-    &lt;center&gt;&lt;span&gt;Codecademy&#39;s text editor and development environment&lt;/span&gt;&lt;/center&gt;
+    &lt;center&gt;&lt;div&gt;Codecademy&#39;s text editor and development environment&lt;/div&gt;&lt;/center&gt;
     &lt;br /&gt;&lt;br /&gt;
     &lt;/div&gt;
 &lt;/p&gt;
@@ -41,14 +41,14 @@
 &lt;p&gt;
     &lt;div class=&quot;image-figure&quot;&gt;
         &lt;img src=&quot;/static/development-environment/shell.png&quot; /&gt;&lt;br /&gt;
-    &lt;center&gt;&lt;span&gt;What a shell looks like&lt;/span&gt;&lt;/center&gt;
+    &lt;center&gt;&lt;div&gt;What a shell looks like&lt;/div&gt;&lt;/center&gt;
     &lt;br /&gt;&lt;br /&gt;
     &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;One Windows, the default shell is called Command Prompt. On OS X, the shell is called Terminal. I highly recommend that beginners with Windows computers use a program called Cygwin instead of Command Prompt. This is because Cygwin lets you use a shell environment called “bash”– which is the same environment in OS X Terminal and most Linux systems. In addition, most shell commands you encounter on the web will probably be for the bash environment, so it’s best that you set up your development environment accordingly. More details can be found in the Windows-related tutorials at the links below.&lt;/p&gt;
+&lt;p&gt;On Windows, the default shell is called Command Prompt. On OS X, the shell is called Terminal. I highly recommend that beginners with Windows computers use a program called &lt;a href=&quot;http://www.cygwin.com/&quot;&gt;Cygwin&lt;/a&gt; instead of Command Prompt. This is because Cygwin lets you use a shell environment called “bash”–which is the same environment in OS X Terminal and most Linux systems. In addition, most shell commands you encounter on the web will probably be for the bash environment, so it’s best that you set up your development environment accordingly. More details can be found in the Windows-related tutorials at the links below.&lt;/p&gt;
 
-&lt;p&gt;Everything else in the development environment I’ll bundle up into the “Software Development Kit” (SDK). This is a broad term and represents any language/platform-specific software necessary to write a particular type of program. For example, the Apple  SDK comes bundled with a tool called XCode, which enables you to write iOS and OS X applications. As another example, you might consider the Python interpreter as being part of the Python “SDK”.&lt;/p&gt;
+&lt;p&gt;Finally, a key part of your development environment is a compiler or interpreter. Understanding the mechanics here is not too important. In essence, the compiler/interpreter is software that will take the code you write and convert it into a form that the computer can understand.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-setting-up-a-development-environment-can-be-hard&quot;&gt;Why Setting Up a Development Environment Can Be Hard&lt;/h3&gt;
 
@@ -62,13 +62,9 @@
 
 &lt;p&gt;First, you should decide for what language/platform you want to write software. Decide whether you want to make Python programs, Android apps, HTML web sites, or something else.&lt;/p&gt;
 
-&lt;p&gt;Once you’ve decided on a language/platform, find a good tutorial to guide you through the process. You can ask an experienced friend for a recommendation or search on Google. An experienced friend can discern for you whether a tutorial is clear, up-to-date, and worth your time. On the other hand, searching on Google is not too difficult– as the best tutorials usually rise to the top.&lt;/p&gt;
+&lt;p&gt;Once you’ve decided on a language/platform, find a good tutorial to guide you through the process. You can ask an experienced friend for a recommendation or search on Google. An experienced friend can discern for you whether a tutorial is clear, up-to-date, and worth your time. On the other hand, searching on Google is not too difficult–as the best tutorials usually rise to the top.&lt;/p&gt;
 
-&lt;p&gt;An underappreciated, yet important, part of being a good programmer is the ability to google effectively. Consider the following query for finding a Python development environment: “how to set up python development environment on windows.”&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;An underappreciated, yet important, part of being a good programmer is the ability to google effectively.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;An absolutely crucial skill you need to learn is the ability to google effectively. Consider the following query for finding a Python development environment: “how to set up python development environment on windows.”&lt;/p&gt;
 
 &lt;p&gt;Including a phrase like “how to” or “getting started” will help to locate tutorials. Then, you should include the language/platform you want and the words “development environment”. Finally, it’s important to mention the operating system (Windows, in this example) you use because the instructions for setting up the development environment will vary.&lt;/p&gt;
 
@@ -78,7 +74,7 @@
 
 &lt;p&gt;Once again, you should turn to Google as your primary source for help. It’s even more critical here to use good search techniques. I suggest that you copy-paste as succinct and representative excerpt of the error as possible. The more succinct the better, and by “representative” I mean you should google excerpts that are unique to the situation.&lt;/p&gt;
 
-&lt;p&gt;For example, perhaps the error you encounter is “TypeError: unsupported operand type(s) for +: ‘int’ and ‘str’”. If you only google “TypeError”, you will receive too broad a set of search results because there are many instances in which a TypeError will be thrown. Including the entire line excerpted above will be more effective because it is unique to your particular situation. Be careful– though– you don’t want to include information that is unique to you and only &lt;em&gt;you&lt;/em&gt;. For example, you should exclude parts of the error that include your computer login name and directories specific to your personal project. You need to use your judgment and have some sense of the underlying problem. It’s not obvious initially, but you will quickly develop intuition.&lt;/p&gt;
+&lt;p&gt;For example, perhaps the error you encounter is “TypeError: unsupported operand type(s) for +: ‘int’ and ‘str’”. If you google only “TypeError”, you will receive too broad a set of search results because there are many instances in which a TypeError will be thrown. Including the entire line excerpted above will be more effective because it is unique to your particular situation. Be careful, though, you don’t want to include information that is unique to you and only &lt;em&gt;you&lt;/em&gt;. For example, you should exclude parts of the error that include your computer login name and directories specific to your personal project. You need to use your judgment and have some sense of the underlying problem. It’s not obvious initially, but you will quickly develop intuition.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
