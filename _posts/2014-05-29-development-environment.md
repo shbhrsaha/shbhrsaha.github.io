@@ -31,7 +31,7 @@ The shell is the second component of a development environment. Simply put, the 
 
 On Windows, the default shell is called Command Prompt. On OS X, the shell is called Terminal. I highly recommend that beginners with Windows computers use a program called [Cygwin](http://www.cygwin.com/) instead of Command Prompt. This is because Cygwin lets you use a shell environment called "bash"--which is the same environment in OS X Terminal and most Linux systems. In addition, most shell commands you encounter on the web will probably be for the bash environment, so it's best that you set up your development environment accordingly. More details can be found in the Windows-related tutorials at the links below.
 
-Finally, a key part of your development environment is a compiler or interpreter. Understanding the mechanics here is not too important. In essence, the compiler/interpreter is software that will take the code you write and convert it into a form that the computer can understand.
+Finally, a key part of your development environment is a compiler or interpreter. The details here are not too important. In essence, the compiler/interpreter is software that will take the code you write and convert it into a form that the computer can understand.
 
 ### Why Setting Up a Development Environment Can Be Hard
 
