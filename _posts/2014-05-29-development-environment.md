@@ -77,7 +77,7 @@ In closing, I'd like to recommend a few tools and tutorials that might help you 
 - Android
     - Windows & OS X: [Android SDK](http://developer.android.com/sdk/index.html)
 - iOS
-    - OS X: [XCode](https://developer.apple.com/xcode/)
+    - OS X: [First XCode Project](http://codewithchris.com/first-xcode-project/)
 
 If you're doing Java development, I recommend [Eclipse](http://www.eclipse.org/) or [NetBeans](https://netbeans.org/) for project management. For general-purpose text editing and programming in most other languages, I recommend [Sublime Text](http://www.sublimetext.com/).
 
