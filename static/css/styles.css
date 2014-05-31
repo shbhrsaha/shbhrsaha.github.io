@@ -74,12 +74,14 @@ h3 {
     line-height:1.5em;
     list-style-type:circle;
     margin-bottom:25px;
+    font-family:'Open Sans',sans-serif;
 }
 
 .posts-list p {
     line-height: 1.5em;
     text-align: justify;
     margin-top:8px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .image-figure div {
@@ -87,6 +89,25 @@ h3 {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     padding: 10px;
+}
+
+ol, ul {
+    font-weight:300;
+    font-size:16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+ol li {
+    line-height:1.6em;
+} 
+
+ul li {
+    line-height:1.6em;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 4px;
 }
 
 
