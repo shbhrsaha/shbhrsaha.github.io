@@ -18,7 +18,7 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 
 ### DevOps
 
-- [Why I left Heroku, and notes on my new AWS setup](http://www.holovaty.com/writing/aws-notes/) -- Neither platform is the best option for everything, but this is one view neatly presented.
+- [Why I left Heroku, and notes on my new AWS setup](http://www.holovaty.com/writing/aws-notes/) -- Neither platform is a panacea, but this is one view neatly presented.
 
 ### Raspberry Pi
 
