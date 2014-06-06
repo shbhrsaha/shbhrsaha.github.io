@@ -3,7 +3,7 @@ layout: post
 title: Links
 ---
 
-Here are some links I recommend.
+Here are some articles and tutorials I recommend. While I don't necessarily agree with every view at the links below, I think they're worth reading.
 
 ### Python
 
@@ -11,10 +11,15 @@ Here are some links I recommend.
 - [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html) -- A straightforward guide to creating and submitting a package to PyPI.
 
 ### D3
+
 - [Scott Murray's D3 Tutorials](http://alignedleft.com/tutorials/d3/) -- Just about the best introductory D3 tutorials out there.
 - [Scott Murray's Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html) -- Also by Scott Murray, but a more thorough treatment.
 - [Over 1000 D3.js Examples and Demos](http://techslides.com/over-1000-d3-js-examples-and-demos/) -- Amazing list for learning and exploring D3's capabilities.
 
+### DevOps
+
+- [Why I left Heroku, and notes on my new AWS setup](http://www.holovaty.com/writing/aws-notes/) -- Neither platform is the best option for everything, but this is one view neatly presented.
 
 ### Raspberry Pi
+
 - [Airplay Speakers with Raspberry Pi](http://www.instructables.com/id/raspbAIRy-the-RaspberryPi-based-Airplay-speaker/?ALLSTEPS) -- Connect any speakers to the Internet with your Raspberry Pi.
