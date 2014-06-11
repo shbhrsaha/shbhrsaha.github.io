@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Who at Princeton has a web site? | Shubhro Saha</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/css/styles.css" rel="stylesheet">
+        <link href="/static/css/syntax.css" rel="stylesheet">
+        <script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-3539301-14']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+            
+        </script>
+    </head>
+    <body>
+        <a href="/"><div class="logo"></div></a>
+        <div class="runner">&nbsp;</div>
+            <br /><br />
+    <br /><br />
+    <br />
+    <h2>Who at Princeton has a web site?</h2>
+    <blockquote>
+  <p>I was curious how many students at Princeton had posted a web site and, if so, what those sites were about. Check out the <a href="/static/princeton-web-sites/explorer.html">Princeton Undergraduate Personal Web Site Surfer</a> to stumble upon some cool pages.</p>
+</blockquote>
+
+<p><img src="/static/princeton-web-sites/graph1.png" alt="" /></p>
+
+<h3 id="student-web-sites-are-interesting">Student Web Sites Are Interesting</h3>
+<p>Every student at Princeton University has the opportunity to set up a static web site at the www.princeton.edu/~netid/, where “netid” is their student computer username. In fact, the page you’re reading is hosted on one such site (my netid is saha).</p>
+
+<p>A few weeks ago in February 2013, I found myself with a file containing College Facebook data for every undergraduate currently attending the university. With this large list of NetIDs, I was curious how many students at Princeton had posted a web site and, if so, what those sites were about. Visiting student web sites are a cool way to learn about myriad student activities and interests across academic departments.</p>
+
+<h3 id="the-scripts">The Scripts</h3>
+<p>I wrote a few Python scripts to ping every netid-based url at princeton.edu, record the HTTP response status, and for those returning a response code of 200, ensure that the content was more than just the default directory listing.</p>
+
+<h3 id="the-fun-stuff">The Fun Stuff</h3>
+<p>The final list contained 383 netids whose web sites seemed to contain interesting information. I then wrote <a href="/static/princeton-web-sites/explorer.html">Princeton Undergraduate Personal Web Site Surfer</a> to randomly present only those webpages that were detected to contain interesting content as of March 2013.</p>
+
+<p>I wondered about the breakdown of web sites posted by class:</p>
+
+<p><img src="/static/princeton-web-sites/graph3.png" alt="" /></p>
+
+<p>And here’s the number of web sites by major:</p>
+
+<p><img src="/static/princeton-web-sites/graph2.png" alt="" /></p>
+
+<p>It’s expected that Computer Science is near the top of the list, but I was surprised to see Politics, History, and English close behind. In the coming years I bet we’ll see more students setting up web sites.</p>
+
+<h3 id="github">GitHub</h3>
+<p>The main scripts are available in a <a href="https://github.com/shbhrsaha/websites">GitHub repository</a>.</p>
+
+<p>[ March 2013 ]</p>
+
+<h3 id="notes">Notes</h3>
+
+<p>Thanks to everyone who wrote in:</p>
+
+<ol>
+  <li>Margaret Fortney ‘13 and Peter Johnsen ‘15 add that COS 109 – “Computers in Our World” – would explain the prevalence of web sites among non-COS students. The course is commonly taken to fulfill the quantitative reasoning distribution requirement and features a project where students build personal web sites.</li>
+  <li>Margaret recommends <a href="http://helpdesk.princeton.edu/kb/display.plx?ID=9847">this article</a> for students looking to set up their own ~netid web site.</li>
+</ol>
+
+        <br /><br />
+        <hr />
+        <center>
+            &copy; 2014 Shubhro Saha
+            &sdot;
+            <a target="_blank" href="/">Home</a>
+            &sdot;
+            <a target="_blank" href="mailto:saha@princeton.edu">Email</a>
+            &sdot;
+            <a target="_blank" href="http://www.facebook.com/shubhro">Facebook</a>
+            &sdot;
+            <a target="_blank" href="https://twitter.com/shubroski">Twitter</a>
+            &sdot;
+            <a target="_blank" href="http://www.github.com/shbhrsaha">GitHub</a>
+            &sdot;
+            <a href="/links">Links</a>
+        </center>
+    </body>
+</html>
