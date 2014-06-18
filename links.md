@@ -10,6 +10,10 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 - [A non-magical introduction to Pip and Virtualenv for Python beginners](http://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/) -- A great, plain-language introduction to pip and virtualenv.
 - [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html) -- A straightforward guide to creating and submitting a package to PyPI.
 
+### SQL
+
+- [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) -- SQL Joins explained with a venn diagram analogy
+
 ### D3
 
 - [Scott Murray's D3 Tutorials](http://alignedleft.com/tutorials/d3/) -- Just about the best introductory D3 tutorials out there.
