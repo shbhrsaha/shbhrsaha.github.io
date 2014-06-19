@@ -9,6 +9,7 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 
 - [A non-magical introduction to Pip and Virtualenv for Python beginners](http://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/) -- A great, plain-language introduction to pip and virtualenv.
 - [How to submit a package to PyPI](http://peterdowns.com/posts/first-time-with-pypi.html) -- A straightforward guide to creating and submitting a package to PyPI.
+- [Celery - Best Practices](https://denibertovic.com/posts/celery-best-practices/) -- Good practices to follow when working with the Celery task queue.
 
 ### SQL
 
