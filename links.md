@@ -15,8 +15,9 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 
 - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) -- SQL Joins explained with a venn diagram analogy
 
-### D3
+### Javascript
 
+- [The Node Beginner Book](http://www.nodebeginner.org/) -- A very graspable introduction to server-side Javascript.
 - [Scott Murray's D3 Tutorials](http://alignedleft.com/tutorials/d3/) -- Just about the best introductory D3 tutorials out there.
 - [Scott Murray's Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html) -- Also by Scott Murray, but a more thorough treatment.
 - [Over 1000 D3.js Examples and Demos](http://techslides.com/over-1000-d3-js-examples-and-demos/) -- Amazing list for learning and exploring D3's capabilities.
