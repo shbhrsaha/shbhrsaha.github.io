@@ -17,6 +17,7 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 
 ### Javascript
 
+- [Understanding node.js](http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb) -- All the questions you might've had about node, answered.
 - [The Node Beginner Book](http://www.nodebeginner.org/) -- A very graspable introduction to server-side Javascript.
 - [Scott Murray's D3 Tutorials](http://alignedleft.com/tutorials/d3/) -- Just about the best introductory D3 tutorials out there.
 - [Scott Murray's Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html) -- Also by Scott Murray, but a more thorough treatment.
