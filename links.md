@@ -14,6 +14,7 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 ### SQL
 
 - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/) -- SQL Joins explained with a venn diagram analogy
+- [How to select the first/least/max row per group in SQL](http://www.xaprb.com/blog/2006/12/07/how-to-select-the-firstleastmax-row-per-group-in-sql/) -- How to limit SELECT to a certain number per category
 
 ### Javascript
 
