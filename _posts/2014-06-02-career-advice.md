@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Career advice people give
+title: On value-driven career advice
 ---
 
 ![](/static/career-advice/cartoon.png)
 
-> Too often, the discussion centers around simple tradeoffs like compensation (_where can I earn more?_), the size of the company (_startup or big company?_), and degrees (_do I need to go to grad school?_). [...] Consider a value-driven approach.
+> Too often, the discussion centers around simple tradeoffs like compensation (_where can I earn more?_), the size of the company (_startup or big company?_), and degrees (_do I need to go to grad school?_). [...] Consider a value-driven approach instead.
 
-A question I tend to ask people is how they planned their careers. Asking this sometimes helps me to plan my own career, whether it be to weigh the benefits of grad school or maintain a work-family balance down the road. 
+I frequently ask older people how they planned their careers. Asking this helps me to plan my own career, whether it be to weigh the benefits of grad school or maintain a work-family balance down the road. 
 
-I'm grateful for the opportunity to have gone on [TigerTrek](http://princetoneclub.com/collection/silicon-valley-tigertrek) 2013. If you're a Princeton undergraduate, apply! We received a variety of career advice on the trip, but they all seemed to have a unifying theme. Career choices tied back to one's "values".
+I'm grateful for the opportunity to have gone on [TigerTrek](http://www.princetontigertrek.com/) 2013. If you're a Princeton undergraduate, apply! We received a variety of career advice on the trip, but they all seemed to have a unifying theme. Career choices tied back to one's "values".
 
 A concept so simple might seem obvious, but values don't get enough attention in the career choice conversation. Too often, the discussion centers around simple tradeoffs like compensation (_where can I earn more?_), the size of the company (_startup or big company?_), and degrees (_do I need to go to grad school?_).
 
-There's nothing wrong with asking these other questions; in fact, they should to be asked. To find the answer, though, consider a _value-driven_ approach. First decide what you value and then make the choices that uphold those values throughout your career.
+There's nothing wrong with asking these other questions; they should to be asked. To find the answer, though, consider a _value-driven_ approach instead. First decide what you value and then make the choices that uphold those values throughout your career.
 
 ### How to decide what you value
 
@@ -37,9 +37,9 @@ Values don't have to be set it stone; they can change over the course of your ca
 | Enjoyment    |                 |                  | Y             |
 
 <br />
-Early in life you value the experiences you gain, the things you learn. As you settle down to grow a family, compensation becomes more important. Finally, by the end of your career, you seek some personal fulfilment by doing work that's truly enjoyable. This evolution can all take place in the same job throughout your life. Alternatively, you might consider changing jobs to keep up with your values as they evolve.
+Early in life you value the experiences you gain and the things you learn. As you settle down to grow a family, compensation becomes more important. Finally, by the end of your career, you seek some personal fulfilment by doing work that's truly enjoyable. This evolution can all take place in the same job throughout your life. Alternatively, you might consider changing jobs to keep up with your values as they evolve.
 
-I want to touch on one more example of values that people hold. Work-family balance is a topic that's often discussed under career values. How much should you value career development? How much should you value time with your family? 
+I want to touch on one more example of values that people hold. Work-family balance is often discussed under career values. How much should you value career development? How much should you value time with your family? 
 
 I think Vic Gundotra, former VP of Social at Google, offered an interesting perspective. The way Vic sees it: instead of trying to "balance" work and family, first decide what you _cannot_ sacrifice. Whether it's attending each of your daughter's soccer games or having dinner with your family every night, decide what are those things you _have_ to do. Then, avoid sacrificing those few things at all cost.
 
@@ -59,6 +59,6 @@ Missionary companies, on the other hand, are driven by passion. They're still co
 
 ### Conclusion
 
-This collection of value-driven career advice is by no means the definite answer; it's just a few of the perspectives we encountered on TigerTrek 2013. Despite all the career planning anyone can do, we have to acknowledge that life is chaotic. For every planned career we heard about on TigerTrek, we heard of two careers shaped by curiously random events. Though it's important to seek opportunities and be open to change, values can certainly serve as a reassuring guideline.
+This collection of value-driven career advice is by no means the definite answer; it's just a few of the perspectives we encountered on TigerTrek 2013. Despite all the career planning anyone can do, we have to acknowledge that life is chaotic. For every planned career we heard about on TigerTrek, we heard of two careers shaped by curiously random events. Though it's important to seek opportunities and be open to change, values can certainly serve as a foundational guideline.
 
 [ June 2014 ]
