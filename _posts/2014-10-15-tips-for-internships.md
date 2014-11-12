@@ -51,7 +51,7 @@ I'm fortunate to have had great managers through all of my internships. This dai
 
 The return offer, yes-- it's so nice to have and yet sometimes seems so elusive. The temptation from both the intern and company side is to treat the internship as a "12 week interview". Don't take that phrase too seriously. Sure, the company wants to gain a sense of what you might be like as a full-time hire, but it's more important that you focus on doing good work, learning new things, and meeting great people. The rest will fall into place. So much of a return offer is beyond your control like the whim of the hiring committee or any quotas on how many interns are eligible for a return offer.
 
-As an aside: some interns psych themselves out by looking around at other engineers to find that few of them joined the company straight after college. Most of the time, that says nothing about your chances or receiving a return offer. Many companies--especially mid-sized startups-- are just getting started in the college recruiting game. If you're part of a relatively new intern program, of course: you could be among the first incoming class of new grad hires!
+As an aside: some interns psych themselves out by looking around at other engineers to find that few of them joined the company straight after college. Most of the time, that says nothing about your chances or receiving a return offer. Many companies--especially mid-sized startups-- are just getting started in the college recruiting game. If you're part of a new intern program, you could be among the first incoming class of new grad hires!
 
 ### Don't count your lines of code
 
