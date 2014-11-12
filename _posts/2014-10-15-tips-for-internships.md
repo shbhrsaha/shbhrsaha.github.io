@@ -81,4 +81,4 @@ Ask your manager for worthwhile sessions. Oftentimes intern bootcamps are insuff
 
 I hope that something in the above list gave you an idea about how to make the most of your internship. This list is by no means exhaustive, so if you think I've missed something, drop me a note!
 
-[October 2014]
+[ October 2014 ]
