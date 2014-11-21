@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shubhro Saha</title>
+    <description>Personal web site of Shubhro Saha</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>How a course in operating systems changed me</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/low-level.png&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+There are few classes at Princeton that changed me like COS 318 (Operating Systems). It was challenging, time-munching, and exhausting, but looking back: I’m glad I took the course.&lt;/p&gt;
+
+&lt;p&gt;I had hesitation going into the class because of common wisdom surrounding Operating Systems courses:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“OS sounds really hard” &lt;br /&gt;
+“OS is only for people interested in low-level stuff” &lt;br /&gt;
+“OS is a waste of time… when are you going to use that material?” &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s a difficult class, for sure, but consider momentarily suspending anything you’ve previously heard about the course. Not taking OS isn’t going to ruin your software engineering career, but taking it could change you in astounding ways. As a student admittedly lousy at low-level programming, I had my fears going into the course. Now on the other side, I feel that taking OS was the best course selection decision I ever made. Here are some of the ways I changed as a student, software engineer, and problem-solver.&lt;/p&gt;
+
+&lt;p&gt;My experience is based on Princeton’s COS 318 in Fall 2013, but the impact is generalizable to many other undergraduate OS courses.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-me-better-at-debugging&quot;&gt;(1) OS made me better at debugging&lt;/h2&gt;
+&lt;p&gt;There is no doubt that writing an operating system requires a &lt;em&gt;lot&lt;/em&gt; of debugging. If you thought debugging in your algorithms course was hard, try debugging a program where running it two different times yields two completely different results.&lt;/p&gt;
+
+&lt;p&gt;When programs become as intricate as they do in OS, you’re forced to learn about the right tools (debuggers are you friend) and develop a disciplined approach to debugging. &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/rubber-chicken.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before taking the class, debugging was a wandering process in which I frantically tried to brainstorm things I could have messed up. It’s a hopeless and exhausting process that I call “rubber chicken debugging”. After OS, debugging suddenly turned from an art into a science. I recognized that, in most cases, there is an optimal set of things I can log to locate the problem and quickly discern what solution needs to be implemented.&lt;/p&gt;
+
+&lt;p&gt;This approach has proved valuable in other courses and beyond. For example, during my internship at Facebook, I fully embraced the engineering culture of “getting your hands dirty” in the code. If something doesn’t work, start logging… immediately. Keep logging until reality disagrees with your expectation. That’s the way of thinking that an intensive programming course like OS requires.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-my-code-more-efficient&quot;&gt;(2) OS made my code more efficient&lt;/h2&gt;
+&lt;p&gt;OS suddenly made me more conscious of my code’s performance. If a program took a long time to run, I would pause to think: what is the limiting factor? CPU? Memory? Disk I/O? Understanding the fundamentals helped me to make my higher-level code faster and leaner.&lt;/p&gt;
+
+&lt;p&gt;This fact flies in the face of common wisdom that knowing about operating systems is useful only if you enter a career in low-level programming. Nothing could be further from the truth. It’s only by writing OS code in C and Assembly that I appreciated the building blocks of higher level programming languages.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-me-a-better-collaborator&quot;&gt;(3) OS made me a better collaborator&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/pair.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our OS class had a few partner projects, in which groups of two students pair-program the assignment. I was incredibly fortunate to be with two of my best friends through the projects. The shared experience of daunting challenges made partners better friends and the whole class a more bonded group.&lt;/p&gt;
+
+&lt;p&gt;As collaborators, we became better at pair programming. At first, the temptation with pair programming is for one person to type the code and the other to sit back and watch. In OS, we strived to check each other’s code as we went and split up the implementation when it made sense to do so. Collaboration required that we get smarter about version control, so it was also a great opportunity to get better at Git.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-me-a-more-disciplined-problem-solver&quot;&gt;(4) OS made me a more disciplined problem solver&lt;/h2&gt;
+&lt;p&gt;This is biggest change of all. As a young programmer, I usually turned to the &lt;a href=&quot;http://c2.com/cgi/wiki?FeynmanAlgorithm&quot;&gt;Feynman Algorithm&lt;/a&gt; when faced with any problem:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write down the problem&lt;/li&gt;
+  &lt;li&gt;Think really hard&lt;/li&gt;
+  &lt;li&gt;Write down the solution&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Adopting this approach made the first few projects in OS absolutely miserable. The class demanded that I develop a more disciplined approach to problem-solving. I ended up creating a method for doing programming assignments that I began applied to other CS classes as well. It involves three sheets of paper for tracking:&lt;/p&gt;
+
+&lt;p&gt;(1) &lt;strong&gt;Tasks&lt;/strong&gt;: What needs to get done to finish this assignment? I’m &lt;a href=&quot;/2013/09/01/organize-projects/&quot;&gt;very task-oriented&lt;/a&gt; in project management, so having a list of small tasks comforted me by organizing my work. Start by writing down the big tasks and breaking things down from there. As an analogy, consider the project of baking a cake:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Procure ingredients
+    &lt;ul&gt;
+      &lt;li&gt;Buy eggs&lt;/li&gt;
+      &lt;li&gt;Buy milk&lt;/li&gt;
+      &lt;li&gt;Buy flour&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prepare kitchen
+    &lt;ul&gt;
+      &lt;li&gt;Wash bowl&lt;/li&gt;
+      &lt;li&gt;Wash pan&lt;/li&gt;
+      &lt;li&gt;Wash scooper&lt;/li&gt;
+      &lt;li&gt;Pre-heat oven&lt;/li&gt;
+      &lt;li&gt;Grease pan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Execute assembly
+    &lt;ul&gt;
+      &lt;li&gt;Mix eggs, milk, and flour to make batter&lt;/li&gt;
+      &lt;li&gt;Spread batter across pan&lt;/li&gt;
+      &lt;li&gt;Insert pan into oven&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are more steps than that, but a list like this sets you up for a feeling of accomplishment after finishing each task. The key is to make these tasks really small so that you’re always making progress.&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;strong&gt;Bugs&lt;/strong&gt;: What bugs do I know about in the code? On this sheet I track open bugs and things I’ve tried to fix them. In earlier projects I wasted time repeating possible solutions and running into the same bug multiple times. Diligently tracking my bugs and their fixes in later assignments saved me a great deal of time.&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;strong&gt;Questions&lt;/strong&gt;: What questions do I have? Here I  jot down literally any question I have as soon as I get it. As I learn the answers over time by reading documentation and asking classmates, the knowledge is recorded here.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/motion-progress.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having these sheets of paper largely gave me confidence that progress was being made. Without it, I was putting in long hours in the computer lab– making motion– but not actually accomplishing much by the end of the day. &lt;/p&gt;
+
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h2&gt;
+&lt;p&gt;OS is certainly a challenging course, but consider giving it a shot. It’s the class that improved me most as a software engineer. And even if you don’t ever remember what a hypervisor is, I think you’ll truly appreciate all of the other skills you gain.&lt;/p&gt;
+
+&lt;p&gt;Some other perspectives on these topics if you want to read more:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.regehr.org/archives/164&quot;&gt;John Regehr: Why Take an Operating Systems Course?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.seancassidy.me/sherlock-holmes-debugging.html&quot;&gt;Sean Cassidy: Sherlock Holmes Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://dskang.com/&quot;&gt;Dan Kang&lt;/a&gt; for reviewing this post.&lt;/p&gt;
+
+&lt;p&gt;[ November 2014 ]&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Nov 2014 00:00:00 -0500</pubDate>
+        <link>/2014/11/21/operating-systems/</link>
+        <guid isPermaLink="true">/2014/11/21/operating-systems/</guid>
+      </item>
+    
+      <item>
+        <title>Tips for software engineering internships</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/tips-for-internships/cartoon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;There are a &lt;a href=&quot;http://alexeymk.com/a-brief-guide-to-tech-internships/&quot;&gt;lot&lt;/a&gt; &lt;a href=&quot;http://programmers.stackexchange.com/questions/46685/tips-for-a-first-year-cs-student-looking-for-a-summer-internship-to-gain-experie&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;http://www.quora.com/What-is-the-best-advice-for-an-engineering-internship-interview-at-Google-or-Facebook&quot;&gt;articles&lt;/a&gt; written about how to &lt;em&gt;get&lt;/em&gt; a software engineering internship, but not many about how to make the most of one once you already have it. In an effort to fill that gap, here are some tips drawn from my experiences interning at Facebook and AppNexus. These tips are generally organized into advice about effectiveness and execution first, followed by some points about learning and self-improvement.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-manager-is-your-mentor&quot;&gt;Your manager is your mentor&lt;/h3&gt;
+
+&lt;p&gt;This point is clear to some, but it might not be obvious to first-time interns. See them as more of a “teacher” than a “boss”. The point of an internship is to learn, so ask them questions about your work, the company, their career, or really anything. Some companies call their intern managers “mentors”– there really is no difference.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-manager-isnt-your-only-mentor&quot;&gt;Your manager isn’t your only mentor&lt;/h3&gt;
+
+&lt;p&gt;Don’t direct &lt;em&gt;all&lt;/em&gt; questions to your manager. Learn from other people too. Most companies love interns, so take advantage of the opportunity to chat up other software engineers to understand how they work, how they planned their careers, and what it’s like to work full-time at the company. If you’re stumped about a piece of code, look at the blame revision (if it’s available) to find who wrote it. They can help you understand the code if you just ask. Interns have a tendency to to hang around other interns. Do that, for sure, but also spend time with full-time folks.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-manager-isnt-the-only-person-you-report-to&quot;&gt;Your manager isn’t the only person you report to&lt;/h3&gt;
+
+&lt;p&gt;You’re accountable to your manager, but also to other team members. At many companies, there’s also a product manager working with the engineers. Get a sense early on of what everyone’s expectations and responsibilities are. Update your product manager and other software engineers in addition to your manager if it makes sense to do so.&lt;/p&gt;
+
+&lt;h3 id=&quot;err-on-the-side-of-overcommunicating&quot;&gt;Err on the side of overcommunicating&lt;/h3&gt;
+
+&lt;p&gt;Get a sense for how your team communicates progress. Is there an internal collaboration platform? Does your team do daily standups? Even if your intern project is relatively “carved out” from the rest of the software, it’s important to update other engineers so they can notice opportunities to help you. Many times, you’ll also find opportunities to help them!&lt;/p&gt;
+
+&lt;p&gt;You should communicate frequently with your manager. Get a sense of what their schedule is like and what type of communciation would make both parties comfortable. If you’re sitting next to each other, great! If you’re not, that’s totally fine.&lt;/p&gt;
+
+&lt;p&gt;Many managers prefer to have a weekly 1:1 update with their interns. This can be a casual half hour where you just talk about the week’s progress and generally anything about the internship.&lt;/p&gt;
+
+&lt;p&gt;In my experiene, I’ve found daily email updates to work really well. In this email, I quickly bullet the day’s progress in three categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What I did today&lt;/li&gt;
+  &lt;li&gt;What I’ll do tomorrow&lt;/li&gt;
+  &lt;li&gt;Barriers blocking me from getting work done&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That last category is key and something unfamiliar to most new interns. A barrier is essentially something for which you need help from your manager. It’s the technical problems that you’ve thought hard about but still haven’t made progress on, it’s the approval you need from another team in the company, it’s the mockup you’re waiting on from the team designer. All of these things are barriers holding you back from getting the job done.&lt;/p&gt;
+
+&lt;p&gt;I’m fortunate to have had great managers through all of my internships. This daily digest helped them to keep up with how best to help me. Whenever you have a blocker, your manager can then follow up with a message about getting your diff submitted, technical problem discussed, or designer checked on. As an extra bonus, overcommunicating makes the good work you’re doing really visible to your manager.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-be-nervous-about-asking-for-help&quot;&gt;Don’t be nervous about asking for help&lt;/h3&gt;
+
+&lt;p&gt;It’s natural to feel shy and nervous when getting started in a software engineering internship. You might be afraid your work is not up to par, that your code is non-idiomatic, or that people find your questions annoying. Don’t worry about it! Yes, people are busy, but effective team members will help you because they care about the overall success of the team. Consider using the following order of asking for help: search the internal docs, search online, ask an intern, ask a teammate/manager. In the end, you’ll save yourself valuable time and might also realize that documentation you referenced as a source of truth is actually outdated.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-be-afraid-to-ask-for-more-tasks&quot;&gt;Don’t be afraid to ask for more tasks&lt;/h3&gt;
+
+&lt;p&gt;Ask for more work if you want it! Most teams have tasks small and large lying around that they’d be happy to send your way. Having multiple projects to work on keeps things fresh and gives you something to work on when one of the projects hits a barrier. Good software engineers are usually juggling several tasks at a time. You’ll become very good at version control. Not to mention, you’ll be getting more stuff done, which is awesome for the team! Work won’t come your way unless you ask for it.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-your-time-wisely&quot;&gt;Use your time wisely&lt;/h3&gt;
+
+&lt;p&gt;Of course you should use your time wisely. But if you’re waiting for a barrier to be removed, consider looking ahead to the next steps in the project. Many times, you can work ahead on other components and plug things back into place later.&lt;/p&gt;
+
+&lt;h3 id=&quot;journal-your-progress&quot;&gt;Journal your progress&lt;/h3&gt;
+
+&lt;p&gt;It’s nice to see what you did over a day, week, and month. Consider writing down progress on the tasks you’re working on. It could be &lt;a href=&quot;/2013/09/01/organize-projects/&quot;&gt;as simple as a spreadsheet&lt;/a&gt;. It’s also useful for when your manager asks about progress over the past week. You’ll have a convenient reference.&lt;/p&gt;
+
+&lt;h3 id=&quot;take-breaks&quot;&gt;Take breaks&lt;/h3&gt;
+
+&lt;p&gt;Take breaks. It’s really easy to burn out. You’ll get a dreadful feeling. Your eyes are going to hurt. Your back is going to ache. Don’t get to that point. I have a tendency to also do recreational programming when I get home, but you should be careful not to burn out if you do that. Too much programming is bad.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-count-your-lines-of-code&quot;&gt;Don’t count your lines of code&lt;/h3&gt;
+
+&lt;p&gt;This is obvious to many, but some interns just don’t get it, so it’s worth mentioning: &lt;a href=&quot;http://www.folklore.org/StoryView.py?story=Negative_2000_Lines_Of_Code.txt&quot;&gt;don’t measure your progress in lines of code&lt;/a&gt;. The number of lines you write is completely non-representative of your progress. UI code tends to take up a lot of space, while some languages have more brackets. It’s nonsense.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-outside-of-your-comfort-zone&quot;&gt;Go outside of your comfort zone&lt;/h3&gt;
+
+&lt;p&gt;It’s tempting to fall into the comfort zone of knowing a few languages and doing things the way you’re comfortable doing them. Don’t fall into this trap! Strive to learn new languages, patterns, and technologies in your internship. Software engineering is both a fascinating boon and a tiring curse because there’s always more that can be learned. It’s particularly important to quickly pick up new languages. Good tech companies will generally value your ability to learn things quickly over your experience in one particular language.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-to-bootcamp-even-after-bootcamp-is-over&quot;&gt;Go to bootcamp even after bootcamp is over&lt;/h3&gt;
+
+&lt;p&gt;If your company has a training bootcamp, consider checking out classes even after your onboarding period is finished. Oftentimes intern bootcamps are insufficient by themselves, so ask your manager for worthwhile sessions. You’ll continue to learn a lot from what they teach full-time hires. The skills picked up will probably help you beyond your current internship as well!&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-fret-about-the-return-offer&quot;&gt;Don’t fret about the return offer&lt;/h3&gt;
+
+&lt;p&gt;The return offer, yes– it’s so nice to have and yet sometimes seems so elusive. The temptation from both the intern and company side is to treat the internship as a “12 week interview”. Don’t take that phrase too seriously. Sure, the company wants to gain a sense of what you might be like as a full-time hire, but it’s more important that you focus on doing good work, learning new things, and meeting great people. The rest will fall into place. So much of a return offer is beyond your control like the whim of the hiring committee or any quotas on how many interns are eligible for a return offer.&lt;/p&gt;
+
+&lt;p&gt;As an aside: some interns psych themselves out by looking around at other engineers to find that few of them joined the company straight after college. Most of the time, that says nothing about your chances or receiving a return offer. Many companies–especially mid-sized startups– are just getting started in the college recruiting game. If you’re part of a new intern program, you could be among the first incoming class of new grad hires!&lt;/p&gt;
+
+&lt;h3 id=&quot;in-summary&quot;&gt;In Summary&lt;/h3&gt;
+
+&lt;p&gt;I hope that something in the above list gave you an idea about how to make the most of your internship. This list is by no means exhaustive, so if you think I’ve missed something, drop me a note!&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://ddohan.com/&quot;&gt;David Dohan&lt;/a&gt;, &lt;a href=&quot;http://www.princeton.edu/~crmarsh/&quot;&gt;Charlie Marsh&lt;/a&gt;, and &lt;a href=&quot;http://dskang.com/&quot;&gt;Dan Kang&lt;/a&gt; for reviewing this post.&lt;/p&gt;
+
+&lt;p&gt;[ October 2014 ]&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Oct 2014 00:00:00 -0400</pubDate>
+        <link>/2014/10/15/tips-for-internships/</link>
+        <guid isPermaLink="true">/2014/10/15/tips-for-internships/</guid>
+      </item>
+    
+      <item>
+        <title>On value-driven career advice</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/career-advice/cartoon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Too often, the discussion centers around simple tradeoffs like compensation (&lt;em&gt;where can I earn more?&lt;/em&gt;), the size of the company (&lt;em&gt;startup or big company?&lt;/em&gt;), and degrees (&lt;em&gt;do I need to go to grad school?&lt;/em&gt;). […] Consider a value-driven approach instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I frequently ask older people how they planned their careers. Asking this helps me to plan my own career, whether it be to weigh the benefits of grad school or maintain a work-family balance down the road. &lt;/p&gt;
+
+&lt;p&gt;I’m grateful for the opportunity to have gone on &lt;a href=&quot;http://www.princetontigertrek.com/&quot;&gt;TigerTrek&lt;/a&gt; 2013. If you’re a Princeton undergraduate, apply! We received a variety of career advice on the trip, but they all seemed to have a unifying theme. Career choices tied back to one’s “values”.&lt;/p&gt;
+
+&lt;p&gt;A concept so simple might seem obvious, but values don’t get enough attention in the career choice conversation. Too often, the discussion centers around simple tradeoffs like compensation (&lt;em&gt;where can I earn more?&lt;/em&gt;), the size of the company (&lt;em&gt;startup or big company?&lt;/em&gt;), and degrees (&lt;em&gt;do I need to go to grad school?&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;There’s nothing wrong with asking these other questions; they should to be asked. To find the answer, though, consider a &lt;em&gt;value-driven&lt;/em&gt; approach instead. First decide what you value and then make the choices that uphold those values throughout your career.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-decide-what-you-value&quot;&gt;How to decide what you value&lt;/h3&gt;
+
+&lt;p&gt;What do you value? Is it the opportunity to solve technically interesting problems? Or the chance to build something that has impact? Maybe it’s simply to work with fun, genuine people.&lt;/p&gt;
+
+&lt;p&gt;It’s not easy to decide what you value, but it might help to ask other people their values. Consider the values we heard on TigerTrek from DJ Patil, Chief Data Scientist at Greylock Partners:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Have fun and learn a lot&lt;/li&gt;
+  &lt;li&gt;Make lots of money. It gives you the opportunity to do other things&lt;/li&gt;
+  &lt;li&gt;Grow teams and grow people. Help them buy their first homes, for example, and have the opportunity to do other things&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it. It’s the things he ultimately cares about in a career that drive his career choices. The last point struck me as meaningful. The opportunity to build teams and grow people is not obvious early in a career, but the impact can be powerful.&lt;/p&gt;
+
+&lt;p&gt;Values don’t have to be set it stone; they can change over the course of your career. Clay Bavor, a Product VP at Google, illustrated how his values changed over time:
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Start of Career&lt;/th&gt;
+      &lt;th&gt;Middle of Career&lt;/th&gt;
+      &lt;th&gt;End of Career&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Learning&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Compensation&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Enjoyment&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Early in life you value the experiences you gain and the things you learn. As you settle down to grow a family, compensation becomes more important. Finally, by the end of your career, you seek some personal fulfilment by doing work that’s truly enjoyable. This evolution can all take place in the same job throughout your life. Alternatively, you might consider changing jobs to keep up with your values as they evolve.&lt;/p&gt;
+
+&lt;p&gt;I want to touch on one more example of values that people hold. Work-family balance is often discussed under career values. How much should you value career development? How much should you value time with your family? &lt;/p&gt;
+
+&lt;p&gt;I think Vic Gundotra, former VP of Social at Google, offered an interesting perspective. The way Vic sees it: instead of trying to “balance” work and family, first decide what you &lt;em&gt;cannot&lt;/em&gt; sacrifice. Whether it’s attending each of your daughter’s soccer games or having dinner with your family every night, decide what are those things you &lt;em&gt;have&lt;/em&gt; to do. Then, avoid sacrificing those few things at all cost.&lt;/p&gt;
+
+&lt;p&gt;It takes time to decide values, but once you do, making many important career choices can boil down to a clearer pick between what maintains your values the most.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-uphold-your-values-through-career-choices&quot;&gt;How to uphold your values through career choices&lt;/h3&gt;
+
+&lt;p&gt;Once you’ve decided on a few values, consider paying attention to how career choices impact those values. Interestingly on TigerTrek, we received a great amount of advice on how to make career choices that uphold our values, particularly as they relate to the companies we choose to work for.&lt;/p&gt;
+
+&lt;p&gt;When considering a company, Bill Campbell suggests you start by asking just two important questions: (1) Who am I going to work for? (2) What are they going to teach me?&lt;/p&gt;
+
+&lt;p&gt;While it came at a completely different meeting, Paul Graham’s advice is a perfect complement to Campbell’s. Graham suggests you work for the people you aspire to be like. You will spend so many hours around these people that you’ll inevitably pick up their values, mannerisms, and ways of thinking.&lt;/p&gt;
+
+&lt;p&gt;To cap it off, I want to present one final framework you might use to find a company-value match. Venture capitalist John Doerr cites a pattern first noted in a book called &lt;a href=&quot;http://www.amazon.com/The-Monk-Riddle-Creating-Making/dp/1578516447&quot;&gt;The Monk and the Riddle&lt;/a&gt; by Randy Komisar: Mercenaries vs. Missionaries. Companies fall into one category or the other. Mercenary companies are driven by fear. They execute with force. They seek to “crush” the competition. &lt;/p&gt;
+
+&lt;p&gt;Missionary companies, on the other hand, are driven by passion. They’re still competitive, but they’re driven by a meaningful, unifying mission. It’s an interesting scale to weigh companies on, and ultimately reveals what a company values at its core.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;This collection of value-driven career advice is by no means the definite answer; it’s just a few of the perspectives we encountered on TigerTrek 2013. Despite all the career planning anyone can do, we have to acknowledge that life is chaotic. For every planned career we heard about on TigerTrek, we heard of two careers shaped by curiously random events. Though it’s important to seek opportunities and be open to change, values can certainly serve as a foundational guideline.&lt;/p&gt;
+
+&lt;p&gt;[ June 2014 ]&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jun 2014 00:00:00 -0400</pubDate>
+        <link>/2014/06/02/career-advice/</link>
+        <guid isPermaLink="true">/2014/06/02/career-advice/</guid>
+      </item>
+    
+      <item>
+        <title>Life after Codecademy: setting up your&lt;br /&gt; development environment</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/development-environment/angrylaptop.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;So, you’ve finished a tutorial on Codecademy. Now what?&lt;/p&gt;
+
+&lt;p&gt;It’s time to set up your development environment. This process is one of the most overlooked and oftentimes frustrating part of learning to program, but it’s easier with the right preparation.&lt;/p&gt;
+
+&lt;p&gt;In this article, I’ll begin by explaining what a development environment is and why it’s sometimes hard to set up. I’ll then offer some advice to keep in mind as you actually set up your development environment. Finally, I’ll conclude by recommending some tutorials that will instruct you how to set up a development environment in the language/platform of your choice.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-a-development-environment&quot;&gt;What is a Development Environment&lt;/h3&gt;
+
+&lt;p&gt;Codecademy is an amazing tool. It’s great for getting “the feel” for programming and the syntax of a particular language with clear guidance each step of the way. But at some point, you’ll want to start writing programs of your own. To do so, you must first set up a development environment on your computer.&lt;/p&gt;
+
+&lt;p&gt;A development environment is a set of software that enables you to write programs for a particular language or platform. This software oftentimes includes a text editor, shell, and a compiler/interpreter.&lt;/p&gt;
+
+&lt;p&gt;A text editor is simply a program in which you’ll type your code. Examples include &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;, &lt;a href=&quot;http://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt;, and &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt;. You’re probably familiar with the Codecademy text editor:&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;div class=&quot;image-figure&quot;&gt;
+        &lt;img src=&quot;/static/development-environment/codecademy.png&quot; /&gt;&lt;br /&gt;
+    &lt;center&gt;&lt;div&gt;Codecademy&#39;s text editor and development environment&lt;/div&gt;&lt;/center&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;A text editor on your computer is similar, but offers a number of extras like file saving, autocomplete, and debugging tools.&lt;/p&gt;
+
+&lt;p&gt;The shell is the second component of a development environment. Simply put, the shell is a program in which you give commands to the computer, and the computer returns its response. Though bewildering at first, the shell will very quickly become an indispensable part of your software development toolkit.&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;div class=&quot;image-figure&quot;&gt;
+        &lt;img src=&quot;/static/development-environment/shell.png&quot; /&gt;&lt;br /&gt;
+    &lt;center&gt;&lt;div&gt;What a shell looks like&lt;/div&gt;&lt;/center&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;On Windows, the default shell is called Command Prompt. On OS X, the shell is called Terminal. I highly recommend that beginners with Windows computers use a program called &lt;a href=&quot;http://www.cygwin.com/&quot;&gt;Cygwin&lt;/a&gt; instead of Command Prompt. This is because Cygwin lets you use a shell environment called “bash”–which is the same environment in OS X Terminal and most Linux systems. In addition, most shell commands you encounter on the web will probably be for the bash environment, so it’s best that you set up your development environment accordingly. More details can be found in the Windows-related tutorials at the links below.&lt;/p&gt;
+
+&lt;p&gt;Finally, a key part of your development environment is a compiler or interpreter. The details here are not too important to worry about, at the moment. In essence, the compiler/interpreter is software that will take the code you write and convert it into a form that the computer can understand.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-setting-up-a-development-environment-can-be-hard&quot;&gt;Why Setting Up a Development Environment Can Be Hard&lt;/h3&gt;
+
+&lt;p&gt;Development environment setup is oftentimes overlooked because developers don’t &lt;em&gt;really&lt;/em&gt; want to think about it. In truth, setting up a development environment can be a frustrating process because everyone’s computer is slightly different. As a result, the same setup tutorial may work for one developer and not another.&lt;/p&gt;
+
+&lt;p&gt;From a beginner’s standpoint, the challenges of setting up a development environment flies in the face of the mainstream belief that programming is “easy”. It’s at this stage that many beginners are suddenly forced to think in a programmer’s mindset. Creativity, logical reasoning, and adaptability are all important skills to kick in at this stage.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-set-up-a-development-environment&quot;&gt;How to Set Up a Development Environment&lt;/h3&gt;
+
+&lt;p&gt;I don’t want to explain the exact links and clicks required to set up a development environment. There’s plenty of good tutorials for that, which I’ll recommend at the end. Instead, I want to offer some general advice for setting up a development environment that will ultimately guide you through the process.&lt;/p&gt;
+
+&lt;p&gt;First, you should decide for what language/platform you want to write software. Decide whether you want to make Python programs, Android apps, HTML web sites, or something else.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve decided on a language/platform, find a good tutorial to guide you through the process. You can ask an experienced friend for a recommendation or search on Google. An experienced friend can discern for you whether a tutorial is clear, up-to-date, and worth your time. On the other hand, searching on Google is not too difficult–as the best tutorials usually rise to the top.&lt;/p&gt;
+
+&lt;p&gt;An absolutely crucial skill you need to learn is the ability to google effectively. Consider the following query for finding a Python development environment: “how to set up python development environment on windows.”&lt;/p&gt;
+
+&lt;p&gt;Including a phrase like “how to” or “getting started” will help to locate tutorials. Then, you should include the language/platform you want and the words “development environment”. Finally, it’s important to mention the operating system (Windows, in this example) you use because the instructions for setting up the development environment will vary.&lt;/p&gt;
+
+&lt;p&gt;From there, you should pick a tutorial that you like and follow the instructions!&lt;/p&gt;
+
+&lt;p&gt;What if you get stuck? That’s perfectly fine. In programming, few things ever go as planned the first time. Perhaps some command you type throws an error or an installation doesn’t go as planned.&lt;/p&gt;
+
+&lt;p&gt;Once again, you should turn to Google as your primary source for help. It’s even more critical here to use good search techniques. I suggest that you copy-paste as succinct and representative excerpt of the error as possible. The more succinct the better, and by “representative” I mean you should google excerpts that are unique to the situation.&lt;/p&gt;
+
+&lt;p&gt;For example, perhaps the error you encounter is “TypeError: unsupported operand type(s) for +: ‘int’ and ‘str’”. If you google only “TypeError”, you will receive too broad a set of search results because there are many instances in which a TypeError will be thrown. Including the entire line excerpted above will be more effective because it is unique to your particular situation. Be careful, though, you don’t want to include information that is unique to you and only &lt;em&gt;you&lt;/em&gt;. For example, you should exclude parts of the error that include your computer login name and directories specific to your personal project. You need to use your judgment and have some sense of the underlying problem. It’s not obvious initially, but you will quickly develop intuition.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;As frustrating as it may sometimes be, setting up a development environment is perfectly doable! If you get stuck, troubleshooting help is abundant on the web. Most experienced developers are also happy to help.&lt;/p&gt;
+
+&lt;p&gt;Having your development environment also just feels great. You’ll feel like a carpenter geared up with a hammer and nail. You’ll have everything you need to build the software you want.&lt;/p&gt;
+
+&lt;p&gt;In closing, I’d like to recommend a few tools and tutorials that might help you get started.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Python
+    &lt;ul&gt;
+      &lt;li&gt;Windows: &lt;a href=&quot;http://www.davidbaumgold.com/tutorials/set-up-python-windows/&quot;&gt;How to Set Up a Python Development Environment on Windows&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;OS X: Macs already have Python installed. Just run &lt;code&gt;python&lt;/code&gt; from Terminal.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Java
+    &lt;ul&gt;
+      &lt;li&gt;Windows &amp;amp; OS X: &lt;a href=&quot;http://www.ics.uci.edu/~thornton/ics22/LabManual/SettingUpJava.html&quot;&gt;UC Irvine&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;HTML/CSS/Javascript
+    &lt;ul&gt;
+      &lt;li&gt;Windows &amp;amp; OS X: You just need a web browser and text editor! (See below for recommendations.)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Android
+    &lt;ul&gt;
+      &lt;li&gt;Windows &amp;amp; OS X: &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;Android SDK&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;iOS
+    &lt;ul&gt;
+      &lt;li&gt;OS X: &lt;a href=&quot;http://codewithchris.com/first-xcode-project/&quot;&gt;First XCode Project&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re doing Java development, I recommend &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt; or &lt;a href=&quot;https://netbeans.org/&quot;&gt;NetBeans&lt;/a&gt; for project management. For general-purpose text editing and programming in most other languages, I recommend &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[ May 2014 ]&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 May 2014 00:00:00 -0400</pubDate>
+        <link>/2014/05/29/development-environment/</link>
+        <guid isPermaLink="true">/2014/05/29/development-environment/</guid>
+      </item>
+    
+      <item>
+        <title>PHONY: The Humans of New York Post Generator</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe style=&quot;margin-left:-15px;&quot; frameborder=&quot;0&quot; src=&quot;http://phonyapp.herokuapp.com/&quot; width=&quot;700px&quot; height=&quot;770px&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;I was inspired by &lt;a href=&quot;http://what-would-i-say.com/&quot;&gt;what-would-i-say&lt;/a&gt; to create a text generator for the popular Facebook page, &lt;a href=&quot;https://www.facebook.com/humansofnewyork&quot;&gt;Humans of New York&lt;/a&gt;. I love HONY. Each day, Brandon Stanton photographs interesting individuals and writes captions about them.&lt;/p&gt;
+
+&lt;p&gt;I figured: why not let a computer give his project a try? The program above assembles captions for stock photographs from Google Images. Captions are a sequence of alternating questions and answers. Each question and answer is randomly selected from a large pool of dialogue from the actual HONY Facebook page. When put together, the stock photographs and randomly selected text sometimes create amusing results.&lt;/p&gt;
+
+&lt;p&gt;This generator is NOT a &lt;a href=&quot;http://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators&quot;&gt;Markov chain generator&lt;/a&gt; because it only randomly selects lines from a database. The results were simply more meaningful with this alternative implementation because many of the captions in HONY are Q&amp;amp;A conversations.&lt;/p&gt;
+
+&lt;p&gt;Some posts on Humans of New York cover deeply emotional topics. Please understand that post generation is completely random, and any semblance of real meaning is purely coincidental.&lt;/p&gt;
+
+&lt;p&gt;[ November 2013 ]&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgments&quot;&gt;Acknowledgments&lt;/h3&gt;
+
+&lt;p&gt;Thanks to Nihar Madhavan ‘15 for some Facebook scraping scripts. You should check out &lt;a href=&quot;http://www.princeton.edu/~madhavan/&quot;&gt;his awesome site&lt;/a&gt; too.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Nov 2013 00:00:00 -0400</pubDate>
+        <link>/2013/11/01/phony/</link>
+        <guid isPermaLink="true">/2013/11/01/phony/</guid>
+      </item>
+    
+      <item>
+        <title>How I organize projects</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;A dead-simple spreadsheet that organizes tasks and shares knowledge for small teams and projects&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;it-needs-to-be-simple&quot;&gt;It needs to be simple&lt;/h3&gt;
+&lt;p&gt;Throughout my life I’ve needed project management tools, whether it be for a side project, group assignment, or hackathon app. I’ve considered tools like &lt;a href=&quot;https://basecamp.com/&quot;&gt;Basecamp&lt;/a&gt; and &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt;. They’re phenomenal. But where they fall short is when I have to get new teammates to use the platform. No one uses it. It’s not because the products’ features are insufficient, but rather fostering adoption of any new platform requires relentless dedication.&lt;/p&gt;
+
+&lt;p&gt;I needed a project planning tool that was simple. No registration. No bells and whistles. Just a place where teammates and I can break down a project into tasks, assign the tasks, and share knowledge. &lt;/p&gt;
+
+&lt;p&gt;It may not be sexy, but the solution I made was a Google Spreadsheet “dashboard” that my group bookmarks and keeps open whenever working on the project. Most people have Google Drive open anyway, so keeping the dashboard open is usually not much extra work.&lt;/p&gt;
+
+&lt;p&gt;There’s two sheets in the dashboard. In the first, shown below, we see the project broken down into smaller tasks that can be assigned to teammates. It doesn’t matter who does the assigning, but that everyone has something to work on. As tasks are completed, the status column updates from blank, to “In Progress”, to “Done”. Conditional formatting along the way makes knocking down tasks a pure joy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/organize-projects/screenshot1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The goal of the second sheet is to share knowledge that may be needed by other people later in the project. Commands, links, addresses, passwords all go here. The key here is to keep the sections meaningfully organized. Think of it like a “corporate knowledge-sharing wiki” for small projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/organize-projects/screenshot2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
+&lt;p&gt;It’s surprisingly refreshing to use a tool so simple for project management. The dashboard works best for small, task-oriented projects. You might need a more full-fledged solution to manage processes, CRM, etc. If you’re working by yourself, the dashboard is excellent to keep you on track and saving key findings in the knowledge base. &lt;/p&gt;
+
+&lt;p&gt;If you’re interested in using it yourself, just copy the spreadsheet from the link below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0AiCh1N3Pov8tdElid0htN1h1LWc5M0RMTFZfLV9Nemc&amp;amp;usp=sharing&quot;&gt;Link to Project Management Dashboard Template&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[ September 2013 ]&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Sep 2013 00:00:00 -0400</pubDate>
+        <link>/2013/09/01/organize-projects/</link>
+        <guid isPermaLink="true">/2013/09/01/organize-projects/</guid>
+      </item>
+    
+      <item>
+        <title>Tale of a $1000 Facebook Bug Bounty</title>
+        <description>&lt;p&gt;For some time a few months ago, I became obsessed with &lt;a href=&quot;http://en.wikipedia.org/wiki/Packet_analyzer&quot;&gt;wireless sniffing&lt;/a&gt;. I didn’t want to sniff others’ wireless traffic so much as be able to detect smartphones by their wireless probes. There is incredible potential in this area– a startup called &lt;a href=&quot;http://euclidanalytics.com/&quot;&gt;Euclid Analytics&lt;/a&gt; is tracking smartphone probes inside stores to provide retail customer analytics.&lt;/p&gt;
+
+&lt;p&gt;In my reading, I was surprised to find that until 2010, many major web sites sent sensitive user data over HTTP. That’s when a clever Firefox plugin called &lt;a href=&quot;http://en.wikipedia.org/wiki/Firesheep&quot;&gt;Firesheep&lt;/a&gt; popularized the risks associated with transferring sensitive data over unencrypted connections.&lt;/p&gt;
+
+&lt;p&gt;On a whim, I opened my iPhone to check whether the mobile versions of today’s major web sites used HTTPS to transmit sensitive data. Sure enough, the subtle lock symbol over sensitive pages assured me of HTTPS on Google’s sign-in page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/facebook-bug-bounty/google.png&quot; alt=&quot;Google mobile sign-in page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What caught my eye was that on the Facebook Mobile landing page, the page loaded over HTTP. Notice the lack of a lock.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/facebook-bug-bounty/facebook.png&quot; alt=&quot;Facebook mobile sign-in page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Usually, this is not a problem even for an authentication page, as long as the endpoint receiving the sensitive data (in this case: username and password) is on HTTPS. Many services do this to cut down on the load time of the authentication page. After poking around, I noticed that the password reset page also lacked an SSL certificate on page load.&lt;/p&gt;
+
+&lt;p&gt;I wondered: are the endpoints receiving this authentication data secured with an SSL certificate?&lt;/p&gt;
+
+&lt;p&gt;As it turned out, the password reset data did not communicate with a secure endpoint. This is troubling because, though rare, anyone with a packet-sniffing program would be able to sniff my new password if I’m resetting the account from a mobile device on an unsecured network. Using a packet-sniffing tool called &lt;a href=&quot;http://www.wireshark.org/&quot;&gt;Wireshark&lt;/a&gt;, I pinpointed the exact HTTP request that exposed my new password.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/facebook-bug-bounty/wireshark.png&quot; alt=&quot;Wireshark displays the password in plaintext&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I reported the vulnerability to &lt;a href=&quot;https://www.facebook.com/whitehat&quot;&gt;Facebook’s Bug Bounty&lt;/a&gt; program in late May 2013. Facebook confirmed the bug two weeks later and pushed a patch shortly afterwards. All in all, learning about network security has made this discovery worthwhile, and the $1000 bounty makes it all the nicer. I hardly feel like a security researcher, but I suppose curiosity and dumb luck can be worth something.&lt;/p&gt;
+
+&lt;p&gt;[ July 2013 ]&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+        <link>/2013/07/01/facebook-bug-bounty/</link>
+        <guid isPermaLink="true">/2013/07/01/facebook-bug-bounty/</guid>
+      </item>
+    
+      <item>
+        <title>Clarifications and advice for first-time programmers</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/first-time-programmers/mac.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of first-time programmers ask me for “getting started” advice.&lt;/p&gt;
+
+&lt;p&gt;The need for advice is perfectly reasonable. Though resources like &lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Codeacademy&lt;/a&gt; are fantastic, learning to program can be a daunting task.&lt;/p&gt;
+
+&lt;p&gt;The goal of this post is not to &lt;a href=&quot;http://www.youtube.com/watch?v=nKIu9yen5nc&quot;&gt;convince you of the importance of programming&lt;/a&gt;. Instead, I want to clarify some context and offer a few points of advice to first-time programmers. Think of it as a perspective that I wish someone had shared with me when I first started to code.&lt;/p&gt;
+
+&lt;h3 id=&quot;clarifying-the-context&quot;&gt;Clarifying the context&lt;/h3&gt;
+
+&lt;p&gt;I sometimes refer to computer science, programming, and hacking interchangably, but I want to briefly note the difference among the three. Computer science is the most fundamental. It is the study of machines that perform computations– rooted in mathematics and electrical engineering, but drawing from the methods of the natural sciences. Programming is the craft of writing software. Good programmers are often good computer scientists; they keep memory, complexity, and other important considerations in mind when writing code. Hacking is the ability to write code quickly and resourcefully to solve a problem. You may not have to be good at computer science to be a hacker if you leverage a lot of libraries and search Stack Overflow. But, the greatest hackers are those who can write code quickly and truly understand computer science.&lt;/p&gt;
+
+&lt;p&gt;Entrepreneurship and startups have become lumped together with hackathons and programming in popular discussion, so here is my perspective on the differences. Entrepreneurship is not programming; it is the practice of bringing resources together to add value to society. There are some cool things to note about this definition. First, it includes social entrepreneurship, which also adds value to society. It includes non-profits, because it doesn’t explicitly mention profits as a primary goal. I do see non-profits as entrepreneurial, in many ways. It does not limit entreprenuership to technology. It doesn’t include the word “startup”.&lt;/p&gt;
+
+&lt;p&gt;For the definition of a startup, I like to refer people to Eric Ries’s definition: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A startup is a human institution designed to deliver a new product or service under conditions of extreme uncertainty.” – Eric Ries&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Startups and entrepreneurship don’t have to involve programming. Consider &lt;a href=&quot;http://wevorce.com/&quot;&gt;Wevorce&lt;/a&gt; and &lt;a href=&quot;http://hamptoncreekfoods.com/home/index.php&quot;&gt;Hampton Creek Foods&lt;/a&gt; as examples.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-few-points-of-advice&quot;&gt;A few points of advice&lt;/h3&gt;
+
+&lt;p&gt;Now that I’ve clarified the context, here’s the “getting started” advice you might be looking for. &lt;/p&gt;
+
+&lt;p&gt;Start with a goal to build something. It’s not the same if you’re planning on chugging through Codeacademy tutorials.  This is what happens to most of my friends who start Codeacademy:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;They go to Codeacademy.com&lt;/li&gt;
+  &lt;li&gt;They do a few tutorials&lt;/li&gt;
+  &lt;li&gt;They tell me they love it&lt;/li&gt;
+  &lt;li&gt;They stop doing Codeacademy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;They don’t stop because it’s too hard; Codeacademy makes learning to code super-engaging, almost as good as having a teacher guide you from over your shoulder. People give up because other commitments catch up to them. They have to attend classes, they have to cook, they have to go to practice. Learning to program falls to the background behind day-to-day happenings.&lt;/p&gt;
+
+&lt;p&gt;The way to avoid this is to start with a dream of building something cool. Make it something you care about, something that maybe solves a problem for you. Dreaming of that cool app will help you muster that motivation you need to complete programming tutorials. Don’t stop until you’ve built that app.&lt;/p&gt;
+
+&lt;p&gt;If you’re at a high school or  college that offers it, take the introductory computer science course. The earlier you start, the better. After &lt;a href=&quot;http://www.dailyprincetonian.com/2013/04/30/33464/&quot;&gt;Princeton University made introductory computer science courses no-PDF&lt;/a&gt;, many of my friends decided not to take it, lest it hurt their GPA. This is a grave mistake. There’s two reasons: (1) Introductory CS is hard if you don’t ask for help. Help is everywhere. Many of your friends have taken computer science, so they’ll know at least the basic concepts. Most TAs are extremely willing to help. There is no shortage of tutorials online. (Though there may be too many!) (2) You should take introductory computer science because it will change your life. People finish the course empowered.&lt;/p&gt;
+
+&lt;p&gt;Don’t tell people you’re “learning to program” for very long. After you’ve made your first (somewhat useful) program, just call yourself a programmer. It’s part of the definition that you don’t know everything there is to know about programming. Programmers learn from each other.&lt;/p&gt;
+
+&lt;p&gt;If you really want to be a good programmer, don’t take shortcuts. Learn all the techniques. Know the basics, even bitwise operations. You won’t think it’s useful now, but trust me, it’ll come up when you least expect it and then you’ll have to BS your way through a lot of things.&lt;/p&gt;
+
+&lt;p&gt;Google is your friend. When you have a question, google it. You’ll probably end up on &lt;a href=&quot;http://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;. When first learning, don’t copy-paste code you find online. Rewrite it yourself. It will help you to understand how the code works.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-to-go-from-here&quot;&gt;Where to go from here&lt;/h3&gt;
+
+&lt;p&gt;What’s next? There are many places to begin, but here is my recommendation.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Commit yourself to learn programming, with the goal of building a cool app.&lt;/li&gt;
+  &lt;li&gt;Decide which language you will start with. I recommend Python because it is simple for first-time programmers, and yet it is the language of choice for veterans because of the large body of third-party libraries and documentation.&lt;/li&gt;
+  &lt;li&gt;Depending on how you learn best, start with &lt;a href=&quot;http://www.codecademy.com/&quot;&gt;Codeacademy&lt;/a&gt; or &lt;a href=&quot;http://www.greenteapress.com/thinkpython/thinkpython.pdf&quot;&gt;Think Python&lt;/a&gt;. Just do it– start to finish.&lt;/li&gt;
+  &lt;li&gt;Keep asking questions from there. Ask Google, StackOverflow, and friends who are programmers. There is a tutorial for (nearly) everything.&lt;/li&gt;
+  &lt;li&gt;Don’t stop until you’ve built your cool app.&lt;/li&gt;
+  &lt;li&gt;Keep programming and building awesome things!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These are just a few points of advice to get you started. If you’ve commited yourself to learn programming, stick with it. It will change your life. If you ever feel stuck, &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#097;&amp;#104;&amp;#097;&amp;#064;&amp;#112;&amp;#114;&amp;#105;&amp;#110;&amp;#099;&amp;#101;&amp;#116;&amp;#111;&amp;#110;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;send me an email&lt;/a&gt;. Know me, don’t know me– it doesn’t matter. I love email.&lt;/p&gt;
+
+&lt;p&gt;Onward and upward.&lt;/p&gt;
+
+&lt;p&gt;[ June 2013 ]&lt;/p&gt;
+
+&lt;h3 id=&quot;acknowledgments&quot;&gt;Acknowledgments&lt;/h3&gt;
+
+&lt;p&gt;Thanks to Sneha Saha, David Dohan &amp;amp; Charlie Marsh for their help in proofreading this article.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jun 2013 00:00:00 -0400</pubDate>
+        <link>/2013/06/01/first-time-programmers/</link>
+        <guid isPermaLink="true">/2013/06/01/first-time-programmers/</guid>
+      </item>
+    
+      <item>
+        <title>High-volume search of 2013 Boston Marathon&lt;br /&gt; runners to rapidly identify community members</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/boston-marathon/marathon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For the full list of Boston Marathon runners produced by the first script, &lt;a href=&quot;/static/boston-marathon/runners.txt&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;In the hours following the 2013 Boston Marathon tragedy, a friend from my school paper–the Daily Princetonian– asked if I could compile a list of any Princeton students who might have run in the race. I admired the paper’s effort to confirm the safety of community members: as of Tuesday morning, &lt;a href=&quot;http://www.dailyprincetonian.com/2013/04/16/33108/&quot;&gt;all known university affiliates are confirmed safe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The news of the Boston Marathon tragedy shocked me as much as other members of the Princeton University community, and my thoughts go out to the city of Boston and anyone affected by the events. Here, I’ve documented how to rapidly search for a large number of names in the participants list with hopes that it might help other communities confirm the safety of their members.&lt;/p&gt;
+
+&lt;h3 id=&quot;scraping-marathon-runners&quot;&gt;Scraping Marathon Runners&lt;/h3&gt;
+
+&lt;p&gt;The first task was to compile a complete list of marathon runners from the &lt;a href=&quot;http://www.baa.org/individual.html&quot;&gt;Boston Marathon database&lt;/a&gt;. It seemed that one could list 1000 runners at a time, so scraper.py fetches data across 27 results pages and stores it in a file, runners.txt, including the runner details URL in the final field for looking up age in the final step below&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;codecs&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;START&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;END&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;END&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Getting URL #&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;http://boston-iframe.r.mikatiming.de/2013/?page=&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;amp;event=R&amp;amp;num_results=1000&amp;amp;pid=search&amp;amp;search[club]=%25&amp;amp;search[age_class]=%25&amp;amp;search[sex]=%25&amp;amp;search[nation]=%25&amp;amp;search[state]=%25&amp;amp;search_sort=name&amp;quot;&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;tr_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;tr&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tr_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        
+        &lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tr_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;td&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;td&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+ 
+        &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;href&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;codecs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;runners.txt&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;matching-students&quot;&gt;Matching Students&lt;/h3&gt;
+
+&lt;p&gt;The second task was to prepare the list of Princeton University undergraduates for easy matching with the Boston Marathon name format (“Last Name, First Name”). This is performed by names.py to produce a file called names.txt.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;csv&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;rU&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;reader&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;names&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;, &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;names&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+ 
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, grep.py runs ‘grep’ regular expression matching to print those lines in runners.txt that contain any name in names.txt.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;namesFile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;names.txt&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;r&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;namesFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stderr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;grep &amp;quot;&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;&amp;quot; runners.txt&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;consolidation&quot;&gt;Consolidation&lt;/h3&gt;
+
+&lt;p&gt;Because there were several common names in the grep output, one final script called consolidate.py fetches the ages of the matched runners. This proved useful when searching for undergraduates because most students were in the 18-22 age range.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;codecs&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;matchFile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;matches.txt&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;r&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;matchFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readlines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;lineSplit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;http://boston-iframe.r.mikatiming.de/2013/&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lineSplit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;gender&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;td&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;f-age_class&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;td&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;f-age&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;td&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;f-state&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ 
+    &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lineSplit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gender&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;codecs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;consolidated.txt&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;github&quot;&gt;GitHub&lt;/h3&gt;
+
+&lt;p&gt;You can find the source code for this project on &lt;a href=&quot;https://github.com/shbhrsaha/boston-marathon&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[ April 2013 ]&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Apr 2013 00:00:00 -0400</pubDate>
+        <link>/2013/04/20/boston-marathon/</link>
+        <guid isPermaLink="true">/2013/04/20/boston-marathon/</guid>
+      </item>
+    
+      <item>
+        <title>Visualizing printer activity at Princeton University</title>
+        <description>&lt;h3 id=&quot;why-printers&quot;&gt;Why Printers&lt;/h3&gt;
+&lt;p&gt;Data are everywhere at universities. Interestingly, Princeton University’s Office of Information Technology publishes the &lt;a href=&quot;http://clusters-lamp.princeton.edu/cgi-bin/clusterinfo.pl&quot;&gt;status of every networked printer&lt;/a&gt; on campus. Though these data might strike some as uninteresting, I was absolutely fascinated the first time I came across that webpage. Watching printer activity is akin to measuring the average student’s workload. In general, printers are more likely to be active when students have a lot of work, with readings and essays needing to be printed.&lt;/p&gt;
+
+&lt;p&gt;The first week of Spring semester, I wrote a Python script to record the status of every printer on Princeton’s campus at 10-minute intervals. The findings are pretty amazing. Check out the below graphs, which give an idea of which printers are most likely to be available.&lt;/p&gt;
+
+&lt;p&gt;A big thanks to Nihar Madhavan ‘15 for discovering some interesting patterns and reviewing this post.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-collection-and-analysis-tools&quot;&gt;Data Collection and Analysis Tools&lt;/h3&gt;
+&lt;p&gt;The scraping script ran for the week of February 3, 2013, with a short period of downtime the night of February 6. I used Python to move the collected data around alongside &lt;a href=&quot;http://matplotlib.org/&quot;&gt;Matplotlib&lt;/a&gt; and &lt;a href=&quot;http://nodebox.net/&quot;&gt;Nodebox 3&lt;/a&gt; to render the visualizations.&lt;/p&gt;
+
+&lt;p&gt;Here’s a plot of the number of printers reported to be “Up and Running” across campus over that week.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/visualizing-printer-activity/graph1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;observations&quot;&gt;Observations&lt;/h3&gt;
+&lt;p&gt;Nihar noticed a few things right off the bat. The printers at &lt;a href=&quot;http://www.princeton.edu/us/housing/housingplan/plan_components/hibben_and_magie_apartmen/&quot;&gt;Hibben Apartments&lt;/a&gt; never returned any data. Considering the buildings’ distance from main campus and old construction, we understood the possible break in connection from that area. Nihar also noted that over this first week of February, only one printer was ever found to report “Consumable Missing”. What exactly is a consumable, we’re not really sure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/visualizing-printer-activity/graph2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above graph shows the ranking of campus printers based on the percentage of observations in which they reported to be “Up and Running”. It shouldn’t come as a surprise that the popular Wilcox printers rank low on the list. However, it seems the printer in the nearby Wu library was just third on the list.&lt;/p&gt;
+
+&lt;p&gt;The earlier time-series chart seems to show spikes in printer availability during the late-night, early-morning. This is understandable because most students are usually asleep at that hour. It’s unclear whether the global maximum around Thursday night is generally significant for some reason. If anything, we would’ve expected Thursday night to be a busy night with students printing Friday’s problem sets. In any case, it would be worth recording printer data for a few more weeks to observe any weekly patterns.&lt;/p&gt;
+
+&lt;h3 id=&quot;github&quot;&gt;GitHub&lt;/h3&gt;
+&lt;p&gt;The main Python scripts for this project are available in this &lt;a href=&quot;https://github.com/shbhrsaha/printers&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[ March 2013 ]&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Mar 2013 00:00:00 -0500</pubDate>
+        <link>/2013/03/01/visualizing-printer-activity/</link>
+        <guid isPermaLink="true">/2013/03/01/visualizing-printer-activity/</guid>
+      </item>
+    
+  </channel>
+</rss>
