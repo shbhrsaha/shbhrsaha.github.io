@@ -7,7 +7,7 @@ title: Tips for software engineering internships
 
 ### Introduction
 
-There are a [lot](http://alexeymk.com/a-brief-guide-to-tech-internships/) [of](http://programmers.stackexchange.com/questions/46685/tips-for-a-first-year-cs-student-looking-for-a-summer-internship-to-gain-experie) [articles](http://www.quora.com/What-is-the-best-advice-for-an-engineering-internship-interview-at-Google-or-Facebook) written about how to _get_ a software engineering internship, but not many about how to make the most of one once you already have it. In an effort to fill that gap, here are some tips drawn from my experiences interning at Facebook and AppNexus. These tips are generally organized into advice about effectiveness and execution first, followed by some points about learning and self-improvement.
+There are a [lot](http://alexeymk.com/a-brief-guide-to-tech-internships/) [of](http://programmers.stackexchange.com/questions/46685/tips-for-a-first-year-cs-student-looking-for-a-summer-internship-to-gain-experie) [articles](http://www.quora.com/What-is-the-best-advice-for-an-engineering-internship-interview-at-Google-or-Facebook) written about how to _get_ a software engineering internship, but not many about how to make the most of one you already have. In an effort to fill that gap, here are some tips drawn from my experiences interning at Facebook and AppNexus. These tips are generally organized into advice about effectiveness and execution first, followed by some points about learning and self-improvement.
 
 ### Your manager is your mentor
 
