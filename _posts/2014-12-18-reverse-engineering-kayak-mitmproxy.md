@@ -7,7 +7,7 @@ title: Reverse-engineering the Kayak app with mitmproxy
 
 ### Introduction
 
-[Kayak](http://www.kayak.com/)-- the popular fare comparison web site-- recently [discontinued](https://www.kayak.com/labs/api/search/) their API service. Fare comparison APIs frequently [come and go](http://stackoverflow.com/questions/10680408/is-there-any-api-for-getting-flight-fare) to the disappointment of travel hackers. But that doesn't mean we can't hack together our own API!
+[Kayak](http://www.kayak.com/)-- the popular fare comparison web site-- recently [discontinued](https://www.kayak.com/labs/api/search/) their API service. Fare comparison APIs frequently [come and go](http://stackoverflow.com/questions/10680408/is-there-any-api-for-getting-flight-fare) to the disappointment of travel hackers. But that doesn't mean we can't hack together our own API.
 
 The most common solution is web scraping, but that approach is vulnerable to small changes in the UI. On the other hand, _mobile_ is an area where UI changes are often independent of the supporting server API. It's for this reason that reverse-engineering mobile applications is a good way to expose APIs that we can exploit.
 
