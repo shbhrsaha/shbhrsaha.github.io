@@ -3,13 +3,15 @@ layout: post
 title: Links
 ---
 
-Here are some articles and tutorials I recommend. While I don't necessarily agree with every view at the links below, I think they're worth reading.
+Here are some articles and tutorials by other people that I recommend. I don't necessarily agree with every view in the links below, but I think they're worth reading.
 
 ### Essays
 
 - [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
-- [The Opposite of Loneliness](http://yaledailynews.com/crosscampus/2012/05/27/keegan-the-opposite-of-loneliness/)
 - [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
+- [Engineering Management](http://algeri-wong.com/yishan/engineering-management.html)
+- [The Opposite of Loneliness](http://yaledailynews.com/crosscampus/2012/05/27/keegan-the-opposite-of-loneliness/)
+- [Are you a satisficer or a maximizer?](http://www.gretchenrubin.com/happiness_project/2006/06/are_you_a_satis/)
 - [How to Be an Expert in a Changing World](http://www.paulgraham.com/ecw.html)
 
 ### Python
