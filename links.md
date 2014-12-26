@@ -5,6 +5,13 @@ title: Links
 
 Here are some articles and tutorials I recommend. While I don't necessarily agree with every view at the links below, I think they're worth reading.
 
+### Essays
+
+- [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
+- [The Opposite of Loneliness](http://yaledailynews.com/crosscampus/2012/05/27/keegan-the-opposite-of-loneliness/)
+- [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
+- [How to Be an Expert in a Changing World](http://www.paulgraham.com/ecw.html)
+
 ### Python
 
 - [A non-magical introduction to Pip and Virtualenv for Python beginners](http://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/) -- A great, plain-language introduction to pip and virtualenv.
@@ -36,3 +43,5 @@ Here are some articles and tutorials I recommend. While I don't necessarily agre
 ### Raspberry Pi
 
 - [Airplay Speakers with Raspberry Pi](http://www.instructables.com/id/raspbAIRy-the-RaspberryPi-based-Airplay-speaker/?ALLSTEPS) -- Connect any speakers to the Internet with your Raspberry Pi.
+
+
