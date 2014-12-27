@@ -2,6 +2,8 @@
 layout: post
 title: Software engineers should write
 ---
+<br />
+![](/static/software-engineers-should-write/illustration.png)
 
 In elementary school, there were "math kids" and there were "English kids". You were classified by the other kids' impression of your prowess in each subject.
 
