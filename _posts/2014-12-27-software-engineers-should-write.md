@@ -7,7 +7,7 @@ In elementary school, there were "math kids" and there were "English kids". You 
 
 I was a math kid. So I majored in computer science and set off to be a software engineer. Along the way, though, the "math kid"/"English kid" designation never really wore off. If anything, it got stronger. The engineers I meet today cringe at the thought of writing an essay. And the writers I meet cringe at the thought of writing code.
 
-What a shame! Every engineer who writes code should also write essays.
+What a shame! An engineer who writes code should also write essays.
 
 Software engineers should write because it promotes many of the same skills required in programming. A core skill in both disciplines is an ability to _think clearly_. The best software engineers are great writers because their prose is as logical and elegant as their code.
 
