@@ -29,6 +29,6 @@ In the same way, writing is a powerful vehicle for impact. The blog post on mana
 
 Even if nobody reads your essay, writing it will make an impact on _you_. It will clarify your opinion on a topic and strengthen-- or even weaken-- your beliefs. The process alone of putting jumbled thoughts into concrete words is valuable.
 
-Writing offers the same sense of impact that motivates an engineer to write software. Combine this with how it promotes skills useful in software engineering and facilitates collaboration, then writing suddenly appears to be a worthwhile activity.
+Writing offers the same sense of impact that motivates an engineer to write software. Combine this with how it promotes skills useful in software engineering and facilitates collaboration, then suddenly writing appears to be a worthwhile activity.
 
 Even for the "math kids".
