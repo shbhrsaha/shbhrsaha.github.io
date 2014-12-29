@@ -33,4 +33,4 @@ Writing offers the same sense of impact that motivates an engineer to write soft
 
 Even for the "math kids".
 
-Continue the discussion on [Hacker News](https://news.ycombinator.com/item?id=8810382).
+_Continue the discussion on [Hacker News](https://news.ycombinator.com/item?id=8810382)_
