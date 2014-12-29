@@ -2,6 +2,7 @@
 title: Shubhro Saha
 email: saha@princeton.edu
 description: "Personal web site of Shubhro Saha"
+url:          http://www.shubhro.com
 
 # Build settings
 highlighter: pygments
