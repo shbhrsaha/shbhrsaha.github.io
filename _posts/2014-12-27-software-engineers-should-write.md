@@ -32,3 +32,5 @@ Even if nobody reads your essay, writing it will make an impact on _you_. It wil
 Writing offers the same sense of impact that motivates an engineer to write software. Combine this with how it promotes skills useful in software engineering and facilitates collaboration, then suddenly writing appears to be a worthwhile activity.
 
 Even for the "math kids".
+
+Continue the discussion on [Hacker News](https://news.ycombinator.com/item?id=8810382).
