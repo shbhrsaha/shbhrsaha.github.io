@@ -10,6 +10,7 @@ Here are some articles and tutorials by other people that I recommend. I don't n
 - [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
 - [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
 - [Engineering Management](http://algeri-wong.com/yishan/engineering-management.html)
+- [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf)
 - [You Should Write Blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 - [Why I Won't Sign Your NDA](http://blog.jpl-consulting.com/2012/04/why-i-wont-sign-your-nda/)
 - [The Opposite of Loneliness](http://yaledailynews.com/crosscampus/2012/05/27/keegan-the-opposite-of-loneliness/)
