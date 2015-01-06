@@ -13,7 +13,7 @@ What a shame! An engineer who writes code should also write essays.
 
 Software engineers should write because it promotes many of the same skills required in programming. A core skill in both disciplines is an ability to _think clearly_. The best software engineers are great writers because their prose is as logical and elegant as their code.
 
-Code and essays have a lot more in common. Both begin as a blank slate and an idea, then end as a discrete product for an intended audience. The product is a sequence of logical statements, bundled into modular units-- whether it be functions or paragraphs. Like good prose, good code is [concise](http://www.folklore.org/StoryView.py?story=Negative_2000_Lines_Of_Code.txt) (think "[expressive](https://robinwinslow.co.uk/2013/11/22/expressive-coding/)"). Bad code wastes CPU cycles; bad essays waste brain cycles. The writer's draft is the engineer's prototype.
+Code and essays have a lot more in common. Both begin as a blank slate and an idea, then end as a discrete product for an intended audience. The product is a sequence of logical statements, bundled into modular units-- whether it be functions or paragraphs. Like good prose, good code is [concise](http://www.folklore.org/StoryView.py?story=Negative_2000_Lines_Of_Code.txt) (think "[expressive](https://robinwinslow.co.uk/2013/11/22/expressive-coding/)"). Bad code wastes CPU cycles; bad essays waste brain cycles.
 
 When closing in on a finished product, the engineer feels the same uneasiness as the weary writer. As with essays, software never quite feels "done". It nudges for more of the engineer's time: another feature to be built, another module that needs refactoring. He/she's afraid it won't be the best representation of his/her work. Oh well. Ship it.
 

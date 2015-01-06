@@ -10,10 +10,12 @@ Here are some articles and tutorials by other people that I recommend. I don't n
 - [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
 - [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
 - [Engineering Management](http://algeri-wong.com/yishan/engineering-management.html)
+- [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf)
 - [You Should Write Blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
+- [Why I Won't Sign Your NDA](http://blog.jpl-consulting.com/2012/04/why-i-wont-sign-your-nda/)
 - [The Opposite of Loneliness](http://yaledailynews.com/crosscampus/2012/05/27/keegan-the-opposite-of-loneliness/)
 - [Are you a satisficer or a maximizer?](http://www.gretchenrubin.com/happiness_project/2006/06/are_you_a_satis/)
-- [How to Be an Expert in a Changing World](http://www.paulgraham.com/ecw.html)
+- [The Age of the Essay](http://www.paulgraham.com/essay.html)
 - [Writing, Briefly](http://www.paulgraham.com/writing44.html)
 
 ### Python
