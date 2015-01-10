@@ -17,6 +17,7 @@ Here are some articles and tutorials by other people that I recommend. I don't n
 - [Are you a satisficer or a maximizer?](http://www.gretchenrubin.com/happiness_project/2006/06/are_you_a_satis/)
 - [The Age of the Essay](http://www.paulgraham.com/essay.html)
 - [Writing, Briefly](http://www.paulgraham.com/writing44.html)
+- [Someone else had your idea first](http://www.aaronkharris.com/someone-else-had-your-idea-first)
 
 ### Python
 
