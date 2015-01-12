@@ -27,3 +27,4 @@ I reported the vulnerability to [Facebook's Bug Bounty](https://www.facebook.com
 
 [ July 2013 ]
 
+[Hacker News](https://news.ycombinator.com/item?id=6084312)

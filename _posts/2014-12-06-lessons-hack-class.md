@@ -15,7 +15,7 @@ In this post, I share some of the lessons we learned along the way. I hope this 
 
 ### 1. Hack classes work
 
-I'm enthusiastic about hack classes. They _share interesting topics_ in a _flexible format_ with _genuinely passionate students_. 
+I'm enthusiastic about hack classes. They _share interesting topics_ in a _flexible format_ with _genuinely passionate students_.
 
 Each hack class is motivated by an interesting topic-- one that the university does not address, is difficult to learn alone, or both. When Stanford University began to offer an [iOS programming class](http://cs193p.stanford.edu/), the iOS hack class brought the same content to a physical classroom at Princeton. Unlike the iOS hack class, _Introduction to Hacking_ was not motivated by a single topic, but rather a grab-bag of topics with technical buzz ("machine learning!") or usefulness across many different career paths. In both classes, the hack class shared interesting knowledge that was not available in the university curriculum.
 
@@ -72,4 +72,3 @@ A few months after _Introduction to Hacking_ ran, I was chatting with a friend w
 Across our projects, Charlie and I are most motivated by the potential for _impact_. It's our answer to the 'why' question I mentioned earlier: we want our work to matter. My politics friend is just one instance of how hack classes are an incredible vehicle for impact. I believe that, in many cases, students learn more effectively when they're taught by other students. And I'm grateful for the opportunity to have been a part of that.
 
 [ December 2014 ]
-

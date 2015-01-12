@@ -84,3 +84,7 @@ I hope that something in the above list gave you an idea about how to make the m
 Thanks to [David Dohan](http://ddohan.com/), [Charlie Marsh](http://www.princeton.edu/~crmarsh/), and [Dan Kang](http://dskang.com/) for reviewing this post.
 
 [ October 2014 ]
+
+[Hacker News](https://news.ycombinator.com/item?id=8603341)
+&sdot;
+[Reddit](http://www.reddit.com/r/programming/comments/2m7fqe/tips_for_software_engineering_internships/)

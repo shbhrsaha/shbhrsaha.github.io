@@ -11,7 +11,7 @@ I had hesitation going into the class because of common wisdom surrounding Opera
 
 > "OS sounds really hard" <br />
 > "OS is only for people interested in low-level stuff" <br />
-> "OS is a waste of time... when are you going to use that material?" 
+> "OS is a waste of time... when are you going to use that material?"
 
 It's a difficult class, for sure, but consider momentarily suspending anything you've previously heard about the course. Not taking OS isn't going to ruin your software engineering career, but taking it could change you in astounding ways. As a student admittedly lousy at low-level programming, I had my fears going into the course. Now on the other side, I feel that taking OS was the best course selection decision I ever made. Here are some of the ways I changed as a student, software engineer, and problem-solver.
 
@@ -21,7 +21,7 @@ My experience is based on Princeton's COS 318 in Fall 2013, but the impact is ge
 ---
 There is no doubt that writing an operating system requires a *lot* of debugging. If you thought debugging in your algorithms course was hard, try debugging a program where running it two different times yields two completely different results.
 
-When programs become as intricate as they do in OS, you're forced to learn about the right tools (debuggers are you friend) and develop a disciplined approach to debugging. 
+When programs become as intricate as they do in OS, you're forced to learn about the right tools (debuggers are you friend) and develop a disciplined approach to debugging.
 
 <br />
 ![](/static/operating-systems/rubber-chicken.png)
@@ -81,7 +81,7 @@ There are more steps than that, but a list like this sets you up for a feeling o
 <br />
 ![](/static/operating-systems/motion-progress.png)
 
-Having these sheets of paper largely gave me confidence that progress was being made. Without it, I was putting in long hours in the computer lab-- making motion-- but not actually accomplishing much by the end of the day. 
+Having these sheets of paper largely gave me confidence that progress was being made. Without it, I was putting in long hours in the computer lab-- making motion-- but not actually accomplishing much by the end of the day.
 
 Closing Thoughts
 ---
@@ -95,3 +95,7 @@ Some other perspectives on these topics if you want to read more:
 Thanks to [Dan Kang](http://dskang.com/) for reviewing this post.
 
 [ November 2014 ]
+
+[Hacker News](http://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/)
+&sdot;
+[Reddit](http://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/)

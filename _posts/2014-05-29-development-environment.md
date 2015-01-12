@@ -82,3 +82,5 @@ In closing, I'd like to recommend a few tools and tutorials that might help you 
 If you're doing Java development, I recommend [Eclipse](http://www.eclipse.org/) or [NetBeans](https://netbeans.org/) for project management. For general-purpose text editing and programming in most other languages, I recommend [Sublime Text](http://www.sublimetext.com/).
 
 [ May 2014 ]
+
+[Reddit](http://www.reddit.com/r/programming/comments/26z9lk/life_after_codecademy_setting_up_your_development/)

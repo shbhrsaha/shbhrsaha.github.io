@@ -99,7 +99,7 @@ ol, ul {
 
 ol li {
     line-height:1.6em;
-} 
+}
 
 ul li {
     line-height:1.6em;
@@ -112,6 +112,10 @@ td, th {
 
 hr {
     border-top: 1px solid #BBB;
+}
+
+.social-links {
+    font-size:13px;
 }
 
 

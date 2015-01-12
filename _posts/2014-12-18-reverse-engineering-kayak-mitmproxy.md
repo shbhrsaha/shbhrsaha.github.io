@@ -78,4 +78,10 @@ The results presented here are far from a complete API, but I hope this tutorial
 
 To read more about researching mobile apps with proxies, check out [Extracting My Data from the Microsoft Band](http://jeffhuang.com/extracting_my_data_from_the_microsoft_band.html), [Yik Hak](http://silverskylabs.github.io/yakhak/), and [What They Know Mobile](http://blogs.wsj.com/wtk-mobile/).
 
-Join the discussion on [Hacker News](https://news.ycombinator.com/item?id=8778003).
+[ December 2014 ]
+
+[Hacker News](https://news.ycombinator.com/item?id=8778003)
+&sdot;
+[Reddit](http://www.reddit.com/r/programming/comments/2px1mv/reverseengineering_the_kayak_app_with_mitmproxy/)
+&sdot;
+[Hackaday](http://hackaday.com/2015/01/03/reverse-engineering-the-kayak-mobile-api/)

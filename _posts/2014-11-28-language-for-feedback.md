@@ -139,3 +139,7 @@ If you liked this post, I suggest checking out the following books:
 
 Thanks to Sneha Saha for reviewing an earlier draft of this post and drawing the "feedback sandwich".
 
+[ November 2014 ]
+
+[Reddit](http://www.reddit.com/r/socialskills/comments/2np58d/language_tricks_to_make_feedback_conversations/)
+

@@ -33,4 +33,10 @@ Writing offers the same sense of impact that motivates an engineer to write soft
 
 Even for the "math kids".
 
-_Continue the discussion on [Hacker News](https://news.ycombinator.com/item?id=8810382)_
+[ December 2014 ]
+
+[Hacker News](https://news.ycombinator.com/item?id=8810382)
+&sdot;
+[Reddit](http://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/)
+&sdot;
+[Portuguese](http://andersonnnunes.org/?p=338)

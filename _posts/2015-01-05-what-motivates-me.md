@@ -29,3 +29,5 @@ It's helpful to think about sources of motivation because they often define what
 Now if only I can find the motivation to finish my homework, I'll feel just a little better.
 <br /><br /><br />
 _Thanks to [Charlie Marsh](http://www.crmarsh.com) for reading an earlier draft of this post and Hannah Park for asking the "motivating question"._
+
+[ January 2015 ]

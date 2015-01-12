@@ -8,7 +8,7 @@ title: How I organize projects
 ### It needs to be simple
 Throughout my life I've needed project management tools, whether it be for a side project, group assignment, or hackathon app. I've considered tools like [Basecamp](https://basecamp.com/) and [Trello](https://trello.com/). They're phenomenal. But where they fall short is when I have to get new teammates to use the platform. No one uses it. It's not because the products' features are insufficient, but rather fostering adoption of any new platform requires relentless dedication.
 
-I needed a project planning tool that was simple. No registration. No bells and whistles. Just a place where teammates and I can break down a project into tasks, assign the tasks, and share knowledge. 
+I needed a project planning tool that was simple. No registration. No bells and whistles. Just a place where teammates and I can break down a project into tasks, assign the tasks, and share knowledge.
 
 It may not be sexy, but the solution I made was a Google Spreadsheet "dashboard" that my group bookmarks and keeps open whenever working on the project. Most people have Google Drive open anyway, so keeping the dashboard open is usually not much extra work.
 
@@ -21,7 +21,7 @@ The goal of the second sheet is to share knowledge that may be needed by other p
 ![](/static/organize-projects/screenshot2.png)
 
 ### Closing Thoughts
-It's surprisingly refreshing to use a tool so simple for project management. The dashboard works best for small, task-oriented projects. You might need a more full-fledged solution to manage processes, CRM, etc. If you're working by yourself, the dashboard is excellent to keep you on track and saving key findings in the knowledge base. 
+It's surprisingly refreshing to use a tool so simple for project management. The dashboard works best for small, task-oriented projects. You might need a more full-fledged solution to manage processes, CRM, etc. If you're working by yourself, the dashboard is excellent to keep you on track and saving key findings in the knowledge base.
 
 If you're interested in using it yourself, just copy the spreadsheet from the link below.
 
