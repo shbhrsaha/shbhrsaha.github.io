@@ -27,7 +27,7 @@ I mentioned "people's lives" and want to emphasize that point. To me, technology
 It's helpful to think about sources of motivation because they often define what makes us happy. Only by being aware of our underlying goals can we be satisfied with what we do. At the moment, this explanation approximates the motivation for most of my work. Through my future jobs, responsibilities, and side projects, I think this will last for some time.
 
 Now if only I can find the motivation to finish my homework, I'll feel just a little better.
-<br /><br /><br />
-_Thanks to [Charlie Marsh](http://www.crmarsh.com) for reading an earlier draft of this post and Hannah Park for asking the "motivating question"._
 
 [ January 2015 ]
+
+_Thanks to [Charlie Marsh](http://www.crmarsh.com) for reading an earlier draft of this post and Hannah Park for asking the "motivating question"._
