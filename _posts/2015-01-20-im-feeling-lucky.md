@@ -13,7 +13,7 @@ To my surprise, I love it. Searching 'Princeton map' takes me straight to the [o
 
 Occassionally I use the 'g' keyword in my omnibar to do a normal Google search. The results page is still useful for doing research on a topic, for example. With most searches, though, I'm pretty happy with the first result.
 
-It's all still [anecdata](http://www.urbandictionary.com/define.php?term=anecdata), but I think the productivity improvement is noticeable. 'I'm Feeling Lucky' has long existed as a fun feature, but Google's ranking algorithm might now be smart enough to take it seriously. After all, web searches should be about _answers_, not _search results_.
+It's all still [anecdata](http://www.urbandictionary.com/define.php?term=anecdata), but I think the productivity improvement is noticeable. 'I'm Feeling Lucky' has long existed as a fun feature. Now, Google's ranking algorithm might be smart enough for us to take it seriously. After all, web searches should be about _answers_, not _search results_.
 
 Sometimes it screws up: 'obama birthday' takes me [The Washington Times](http://www.washingtontimes.com/news/2014/aug/7/russians-mock-obama-with-racist-birthday-message-p/). To easily return to search results, I created a Chrome extension called [Lucky Strike](https://github.com/shbhrsaha/lucky-strike). You can install it for yourself on the [Chrome Web Store](https://chrome.google.com/webstore/detail/lucky-strike/heijciabceepcblmjfndmmkmacnfniom?hl=en). If you don't mind retyping queries, you can add 'I'm Feeling Lucky' to your omnibox the [plain vanilla way](https://coderwall.com/p/062lng/make-i-m-feeling-lucky-your-default-chrome-search).
 
