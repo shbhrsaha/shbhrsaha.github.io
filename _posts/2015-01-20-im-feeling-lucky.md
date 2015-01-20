@@ -24,3 +24,5 @@ Give it a shot.
 [ January 2015 ]
 
 [GitHub](https://github.com/shbhrsaha/lucky-strike)
+&sdot;
+[Chrome Web Store](https://chrome.google.com/webstore/detail/lucky-strike/heijciabceepcblmjfndmmkmacnfniom?hl=en)
