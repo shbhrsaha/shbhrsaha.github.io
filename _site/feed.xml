@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shubhro Saha</title>
+    <description>Personal web site of Shubhro Saha</description>
+    <link>http://www.shubhro.com/</link>
+    <atom:link href="http://www.shubhro.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Distraction-free writing on the Amazon Kindle</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/writing-amazon-kindle/photo.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love the Amazon Kindle’s E-Ink screen.&lt;/p&gt;
+
+&lt;p&gt;It’s gentle on the eyes, reads easily in sunlight, and creates a distraction-free environment for reading. I wondered, then: how can I use the E-Ink screen for &lt;em&gt;writing&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;There are some existing solutions. &lt;a href=&quot;http://blog.the-ebook-reader.com/2015/01/15/paperlike-13-3-e-ink-monitor-by-dasung-tech-videos/&quot;&gt;E-Ink monitors&lt;/a&gt; are now available, but expensive. Alternatively, Max Ogden has a &lt;a href=&quot;http://maxogden.com/kindleberry-wireless.html&quot;&gt;great tutorial&lt;/a&gt; on how to jailbreak the Kindle to SSH into the Raspberry Pi. His hack provides a portable setup for focused coding and writing.&lt;/p&gt;
+
+&lt;p&gt;Jailbreaking felt tedious, though, because of sparse and outdated documentation. I wondered if I could instead use the Javascript-enabled Kindle web browser to display what’s typed on another machine in real-time (a la &lt;a href=&quot;http://collabedit.com/&quot;&gt;Collabedit&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The result was &lt;a href=&quot;https://github.com/shbhrsaha/typewriter&quot;&gt;&lt;em&gt;Typewriter&lt;/em&gt;&lt;/a&gt;, a Meteor app that brings distraction-free writing to the Kindle. After firing it up on your computer, point the Kindle’s web browser to the Meteor app’s IP and port. Because Meteor synchronizes data across clients, what you type in the computer’s browser instantly appears on the Kindle. The screen is surprisingly responsive to keystrokes, considering network and E-Ink refresh latencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;video width=&quot;600&quot; autoplay=&quot;autoplay&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;/static/writing-amazon-kindle/clip.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Typewriter periodically saves drafts in a backup folder in case I accidentally delete my work. I couldn’t figure out a clever way to display the cursor position, but Typewriter generally works well for writing first drafts. In the future it would be nice to run Typewriter on a Raspberry Pi so I won’t have to keep a Macbook running on the side.&lt;/p&gt;
+
+&lt;p&gt;At a broader level, this hack illustrates the power of Kindle’s Javascript engine. The browser can be a foundation for presenting applications in E-Ink, stretching what’s possible in an otherwise locked-down operating system.&lt;/p&gt;
+
+&lt;p&gt;[ January 2015 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/shbhrsaha/typewriter&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to &lt;a href=&quot;http://www.crmarsh.com/&quot;&gt;Charlie Marsh&lt;/a&gt; for reading an earlier draft of this post.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2015/01/30/writing-amazon-kindle/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2015/01/30/writing-amazon-kindle/</guid>
+      </item>
+    
+      <item>
+        <title>Why I use &#39;I&#39;m Feeling Lucky&#39; for every search</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/im-feeling-lucky/screenshot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A week ago, I tried a fun experiment.&lt;/p&gt;
+
+&lt;p&gt;I configured my Chrome browser to send search queries to Google’s ‘I’m Feeling Lucky’. The feature skips the search results page and automatically navigates to the first result.&lt;/p&gt;
+
+&lt;p&gt;To my surprise, I love it. Searching ‘Princeton map’ takes me to the &lt;a href=&quot;http://m.princeton.edu/map/campus&quot;&gt;official map&lt;/a&gt;, ‘python import syntax’ to the &lt;a href=&quot;https://docs.python.org/2/tutorial/modules.html&quot;&gt;modules docs&lt;/a&gt;, and ‘bent spoon hours’ to the &lt;a href=&quot;http://www.thebentspoon.net/BENTSPOON/hours.html&quot;&gt;hours page&lt;/a&gt; of my favorite ice cream shop. When the algorithm is not confident about the first result, it gracefully sends me to the usual search results page.&lt;/p&gt;
+
+&lt;p&gt;Occassionally I use the ‘g’ keyword in my search bar to do a normal Google search. The results page is useful for doing research on a topic, for example. With most searches, though, I’m pretty happy with the first result.&lt;/p&gt;
+
+&lt;p&gt;It’s &lt;a href=&quot;http://www.urbandictionary.com/define.php?term=anecdata&quot;&gt;anecdata&lt;/a&gt;, but I think the productivity improvement is noticeable. ‘I’m Feeling Lucky’ has long existed as a fun feature. Now, Google’s ranking algorithm might be smart enough for us to take it seriously. Web searches should be about &lt;em&gt;answers&lt;/em&gt;, not &lt;em&gt;search results&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it screws up: ‘obama birthday’ takes me to &lt;a href=&quot;http://www.washingtontimes.com/news/2014/aug/7/russians-mock-obama-with-racist-birthday-message-p/&quot;&gt;The Washington Times&lt;/a&gt;. To easily return to search results, I created a Chrome extension called &lt;a href=&quot;https://github.com/shbhrsaha/lucky-strike&quot;&gt;Lucky Strike&lt;/a&gt;. The extension installs a button to pull up the search results page for your most recent query. You can install it for yourself on the &lt;a href=&quot;https://chrome.google.com/webstore/detail/lucky-strike/heijciabceepcblmjfndmmkmacnfniom?hl=en&quot;&gt;Chrome Web Store&lt;/a&gt;. If you don’t mind retyping queries, you can add ‘I’m Feeling Lucky’ to your search bar the &lt;a href=&quot;https://coderwall.com/p/062lng/make-i-m-feeling-lucky-your-default-chrome-search&quot;&gt;plain vanilla way&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;‘I’m Feeling Lucky’ doesn’t always work. But when it does, it’s insanely good.&lt;/p&gt;
+
+&lt;p&gt;Give it a shot.&lt;/p&gt;
+
+&lt;p&gt;[ January 2015 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/shbhrsaha/lucky-strike&quot;&gt;GitHub&lt;/a&gt;
+⋅
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/lucky-strike/heijciabceepcblmjfndmmkmacnfniom?hl=en&quot;&gt;Chrome Web Store&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2015/01/20/im-feeling-lucky/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2015/01/20/im-feeling-lucky/</guid>
+      </item>
+    
+      <item>
+        <title>What motivates me</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/what-motivates-me/illustration.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“What motivates you?”&lt;/p&gt;
+
+&lt;p&gt;My friend Hannah asked me this question recently. I frequently refer to “impact” as my motivation, but I hadn’t thought more deeply about it until she asked for an explanation.&lt;/p&gt;
+
+&lt;p&gt;So here’s a longer answer: &lt;em&gt;I’m motivated by technology that makes a meaningful impact in people’s lives.&lt;/em&gt; Let me explain some of these terms in more detail.&lt;/p&gt;
+
+&lt;p&gt;While my work has mostly been in software engineering, I get excited by all kinds of “technology”. Software, hardware, web, or mobile. Dishwashers, lawnmowers, trucks, or airplanes. It’s all technology to me.&lt;/p&gt;
+
+&lt;p&gt;“Impact” is a change in the way people see or do things. It makes a difference by changing the course of a person’s life in some way. It makes a person more productive or transforms what they thought was possible.&lt;/p&gt;
+
+&lt;p&gt;Impact has breadth and depth. Breadth represents the &lt;em&gt;number&lt;/em&gt; of people impacted, while depth captures &lt;em&gt;to what extent&lt;/em&gt;. I’m motivated by a wide region in that “breadth x depth” coordinate space– affecting one hundred people 1% is up there with affecting one person 100%. If some technology affects one hundred people 100%, then that’s even more exciting.&lt;/p&gt;
+
+&lt;p&gt;Impact is often measurable. For software, it might be the volume of sales, number of GitHub stars, or quality of user testimonials. For one’s writing, it might be the number of readers or reactions expressed in readers’ comments. While these indicators reflect impact, they don’t necessarily define it. In many instances, people feel impact but don’t express it in a visible way.&lt;/p&gt;
+
+&lt;p&gt;“Meaningful” is harder to define. Yes, something meaningful is “positive”, “does good”, and concerns issues that people “care about”. But beyond that, I’ll defer to Hannah, who says: “It’s like a unicorn”. (I too was puzzled, at first.) Even if you’ve never seen it before, you would know it’s a unicorn. You’re absolutely sure it’s not a rhino– you can &lt;em&gt;feel&lt;/em&gt; it.&lt;/p&gt;
+
+&lt;p&gt;Meaningful is distinct from depth of impact. The latter can be made in a positive or negative way. It can also be made in an area that people don’t care about. On the other hand, qualifying impact with “meaningful” captures things that are positive and people care about.&lt;/p&gt;
+
+&lt;p&gt;I mentioned “people’s lives” and want to emphasize that point. To me, technology is always about people because they’re the ultimate beneficiary of whatever we develop.&lt;/p&gt;
+
+&lt;p&gt;It’s helpful to think about sources of motivation because they often define what makes us happy. Only by being aware of our underlying goals can we be satisfied with what we do. At the moment, this explanation approximates the motivation for most of my work. Through my future jobs, responsibilities, and side projects, I think this will last for some time.&lt;/p&gt;
+
+&lt;p&gt;Now if only I can find the motivation to finish my homework, I’ll feel just a little better.&lt;/p&gt;
+
+&lt;p&gt;[ January 2015 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to &lt;a href=&quot;http://www.crmarsh.com&quot;&gt;Charlie Marsh&lt;/a&gt; for reading an earlier draft of this post and Hannah Park for asking the “motivating question”.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2015/01/05/what-motivates-me/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2015/01/05/what-motivates-me/</guid>
+      </item>
+    
+      <item>
+        <title>Software engineers should write</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/software-engineers-should-write/illustration.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In elementary school, there were “math kids” and there were “English kids”. You were classified by the other kids’ impression of your prowess in each subject.&lt;/p&gt;
+
+&lt;p&gt;I was a math kid. So I majored in computer science and set off to be a software engineer. Along the way, though, the “math kid”/”English kid” designation never really wore off. If anything, it got stronger. The engineers I meet today cringe at the thought of writing an essay. And the writers I meet cringe at the thought of writing code.&lt;/p&gt;
+
+&lt;p&gt;What a shame! An engineer who writes code should also write essays.&lt;/p&gt;
+
+&lt;p&gt;Software engineers should write because it promotes many of the same skills required in programming. A core skill in both disciplines is an ability to &lt;em&gt;think clearly&lt;/em&gt;. The best software engineers are great writers because their prose is as logical and elegant as their code.&lt;/p&gt;
+
+&lt;p&gt;Code and essays have a lot more in common. Both begin as a blank slate and an idea, then end as a discrete product for an intended audience. The product is a sequence of logical statements, bundled into modular units– whether it be functions or paragraphs. Like good prose, good code is &lt;a href=&quot;http://www.folklore.org/StoryView.py?story=Negative_2000_Lines_Of_Code.txt&quot;&gt;concise&lt;/a&gt; (think “&lt;a href=&quot;https://robinwinslow.co.uk/2013/11/22/expressive-coding/&quot;&gt;expressive&lt;/a&gt;”). Bad code wastes CPU cycles; bad essays waste brain cycles.&lt;/p&gt;
+
+&lt;p&gt;When closing in on a finished product, the engineer feels the same uneasiness as the weary writer. As with essays, software never quite feels “done”. It nudges for more of the engineer’s time: another feature to be built, another module that needs refactoring. He/she’s afraid it won’t be the best representation of his/her work. Oh well. Ship it.&lt;/p&gt;
+
+&lt;p&gt;Software engineers should write because our craft is increasingly collaborative. Open source projects invite worldwide participation, while industry products often require an army of engineers. (Google Maps has &lt;a href=&quot;http://www.businessinsider.com/to-do-what-google-does-in-maps-apple-would-have-to-hire-7000-people-2012-6&quot;&gt;1100 full-time employees&lt;/a&gt;!) Good writing– whether it be in a GitHub comment, code review, or technical documentation– facilitates clear, concise communication for projects like these to move forward.&lt;/p&gt;
+
+&lt;p&gt;Even if a project doesn’t require communication, writing about software in general promotes learning and important discussions. We don’t have to learn from RFC specs and technical manuals, thanks to tutorials written by other engineers. In technical discussions, only so much opinion can be stuffed into a Hacker News comment or a tweet. The rest begs to be channeled into a blog post.&lt;/p&gt;
+
+&lt;p&gt;On the topic of blog posts, put some time into them. Good writing &lt;a href=&quot;http://goinswriter.com/the-difference-between-good-writers-and-bad-writers/&quot;&gt;takes time&lt;/a&gt;. It’s natural to write a “sloppy copy” off the bat, then improve the quality over &lt;a href=&quot;http://www.paulgraham.com/writing44.html&quot;&gt;several revisions&lt;/a&gt;. If you feel too busy to blog, at a loss for topics, or worried about your opinion being on the public record, give Steve Yegge’s &lt;a href=&quot;https://sites.google.com/site/steveyegge2/you-should-write-blogs&quot;&gt;&lt;em&gt;You Should Write Blogs&lt;/em&gt;&lt;/a&gt; ten minutes of your time. Even if it doesn’t convince you, I think you’ll enjoy the read.&lt;/p&gt;
+
+&lt;p&gt;Software engineers should write because they might actually &lt;em&gt;enjoy&lt;/em&gt; writing. Many of us are motivated by the potential for our software to have “impact”, to make a difference in people’s lives.&lt;/p&gt;
+
+&lt;p&gt;In the same way, writing is a powerful vehicle for impact. The blog post on management helps a manager invigorate his team with motivation. The tutorial on programming sparks a student’s interest in computer science. The essay on career advice inspires a graduate to pursue a new career path.&lt;/p&gt;
+
+&lt;p&gt;Even if nobody reads your essay, writing it will make an impact on &lt;em&gt;you&lt;/em&gt;. It will clarify your opinion on a topic and strengthen– or even weaken– your beliefs. The process alone of putting jumbled thoughts into concrete words is valuable.&lt;/p&gt;
+
+&lt;p&gt;Writing offers the same sense of impact that motivates an engineer to write software. Combine this with how it promotes skills useful in software engineering and facilitates collaboration, then suddenly writing appears to be a worthwhile activity.&lt;/p&gt;
+
+&lt;p&gt;Even for the “math kids”.&lt;/p&gt;
+
+&lt;p&gt;[ December 2014 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=8810382&quot;&gt;Hacker News&lt;/a&gt;
+⋅
+&lt;a href=&quot;http://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/&quot;&gt;Reddit&lt;/a&gt;
+⋅
+&lt;a href=&quot;http://andersonnnunes.org/?p=338&quot;&gt;Portuguese&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2014/12/27/software-engineers-should-write/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/12/27/software-engineers-should-write/</guid>
+      </item>
+    
+      <item>
+        <title>Reverse-engineering the Kayak app with mitmproxy</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/kayak-mitmproxy/kayakapp.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.kayak.com/&quot;&gt;Kayak&lt;/a&gt;– the popular fare comparison web site– recently &lt;a href=&quot;https://www.kayak.com/labs/api/search/&quot;&gt;discontinued&lt;/a&gt; their API service. To the dismay of travel hackers, fare comparison APIs frequently &lt;a href=&quot;http://stackoverflow.com/questions/10680408/is-there-any-api-for-getting-flight-fare&quot;&gt;come and go&lt;/a&gt;. But that doesn’t mean we can’t hack together our own Kayak API.&lt;/p&gt;
+
+&lt;p&gt;Web scraping is the most common way to imitiate an API, but it’s vulnerable to small changes in the UI. On the other hand, &lt;em&gt;mobile&lt;/em&gt; is an area where UI changes are often independent of the supporting server API. Developers often change the “look and feel” of the mobile app, but seldom swap out the server &lt;em&gt;endpoints&lt;/em&gt; from which data are obtained. For this reason, reverse-engineering mobile applications is a good way to expose APIs that we can exploit.&lt;/p&gt;
+
+&lt;p&gt;In this post, I’ll explain how I used &lt;a href=&quot;http://mitmproxy.org/&quot;&gt;mitmproxy&lt;/a&gt;– a popular network analysis tool– to reverse-engineer the Kayak mobile app. The result is an understanding of important server endpoints that can be accessed programmatically for personal use.&lt;/p&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;p&gt;My tool of choice for reverse-engineering mobile apps is mitmproxy because it presents network activity in a clean, hackable interface. I used Wireshark for a long time, but I actually couldn’t get the TLS decryption working and the X-Window interface was a little clunky. Mitmproxy functions as a proxy between the mobile device and the rest of the Internet. Any traffic targeting the phone must travel through mitmproxy, allowing us to analyze it.&lt;/p&gt;
+
+&lt;p&gt;Getting started with mitmproxy is straightforward:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip install mitmproxy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run &lt;code&gt;mitmproxy&lt;/code&gt; to generate certificate files in &lt;code&gt;~/.mitmproxy&lt;/code&gt;. From that folder, get the &lt;code&gt;mitmproxy-ca-cert.pem&lt;/code&gt; file onto your mobile device by emailing it to yourself, for example. Then follow certificate installation steps for &lt;a href=&quot;http://mitmproxy.org/doc/certinstall/ios.html&quot;&gt;iOS&lt;/a&gt; or &lt;a href=&quot;http://mitmproxy.org/doc/certinstall/android.html&quot;&gt;Android&lt;/a&gt;. Because I used the Kayak iPhone app, I’ll continue this tutorial with iOS.&lt;/p&gt;
+
+&lt;p&gt;Mobile apps often encrypt traffic to protect data integrity and confidentiality. Transport Layer Security (TLS) is a popular protocol for implementing this encryption. By installing the certificate on a mobile device, we’re enabling mitmproxy to decrypt its TLS traffic, which includes HTTPS requests and responses. &lt;/p&gt;
+
+&lt;p&gt;We need to configure the mobile device to use our computer’s IP address as the proxy. On a Mac, we can find the IP address my opening up System Preferences &amp;gt; Network:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/kayak-mitmproxy/ipaddress.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I configured my iPhone to use my Mac as the proxy by tapping Settings &amp;gt; Wi-Fi &amp;gt; [Network Name], and set HTTP PROXY to ‘Manual’. Then I set the computer’s IP address as the server and 8080 as the port.&lt;/p&gt;
+
+&lt;h3 id=&quot;recording-kayak-network-activity&quot;&gt;Recording Kayak network activity&lt;/h3&gt;
+
+&lt;p&gt;We’re now able to observe and save all of the iPhone’s network activity, including those occuring over HTTPS. Let’s record activity for the Kayak iPhone app by running &lt;code&gt;mitmdump -w kayak_flows.out&lt;/code&gt; and tapping through the Kayak app as usual. In particular, navigate to Flights &amp;gt; From &amp;gt; Current location &amp;gt; Find Flights. After getting to the search results page, close the Kayak app and exit mitmdump by pressing &lt;code&gt;q&lt;/code&gt;. We know that, during this usage, the Kayak app must have communicated with the server to learn airports and prices.&lt;/p&gt;
+
+&lt;h3 id=&quot;browsing-saved-network-activity&quot;&gt;Browsing saved network activity&lt;/h3&gt;
+
+&lt;p&gt;Having saved the network activity to a file, we can browse the results in a beautiful &lt;a href=&quot;http://en.wikipedia.org/wiki/Curses_%28programming_library%29&quot;&gt;curses&lt;/a&gt; interface with &lt;code&gt;mitmproxy -r kayak_flows.out&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/kayak-mitmproxy/mitmproxybasic.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we flip through the requests with the arrow keys, the first to jump out is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GET https://www.kayak.com/k/authajax/?action=registermobile&amp;amp;uuid=[UNIQUE IDENTIFIER]&amp;amp;hash=[A HASH]&amp;amp;model=iPhone4,1&amp;amp;appid=kayakfree&amp;amp;os=8.1.1&amp;amp;msgApiVersion=1&amp;amp;as=0&amp;amp;appdist=adhoc&amp;amp;prefix=`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I hit &amp;lt;Enter&amp;gt; then &amp;lt;Tab&amp;gt; to view the server response. We discover fields for &lt;code&gt;status&lt;/code&gt;, &lt;code&gt;uid&lt;/code&gt;, &lt;code&gt;token&lt;/code&gt;, &lt;code&gt;sid&lt;/code&gt;, and &lt;code&gt;bogus&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Great! Let’s make a note of the &lt;code&gt;uid&lt;/code&gt;, &lt;code&gt;token&lt;/code&gt;, and &lt;code&gt;sid&lt;/code&gt; fields because they might be used in later requests. Back in the request list, we continue to look for interesting URLs. Here’s one: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GET https://www.kayak.com/api/search/V8/flight/start?cabin=e&amp;amp;travelers=1&amp;amp;origin1=BDL&amp;amp;nearbyO1=false&amp;amp;destination1=LAX&amp;amp;nearbyD1=false&amp;amp;depart_date1=12/18/2014&amp;amp;depart_time1=a&amp;amp;depart_date_flex1=exact&amp;amp;_sid_=[SID VALUE]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/kayak-mitmproxy/mitmproxyresponse.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This request generates a &lt;code&gt;searchid&lt;/code&gt; that will probably be used shortly to uniquely identify our choice of airports, dates, and other preferences.&lt;/p&gt;
+
+&lt;p&gt;Indeed, that’s the case! Our attention is drawn to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;GET https://www.kayak.com/api/search/V8/flight/poll?currency=USD&amp;amp;searchid=[SEARCH ID]&amp;amp;c=2000&amp;amp;providerData=true&amp;amp;nc=40&amp;amp;includeopaques=true&amp;amp;showAirlineLogos=true&amp;amp;_sid_=[SID VALUE]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This request includes our &lt;code&gt;searchid&lt;/code&gt; and &lt;code&gt;sid&lt;/code&gt; from earlier, and the response is a large JSON object that includes airline names, prices, contact, booking URLs, and more. This is exactly the data we’re looking for.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/kayak-mitmproxy/mitmproxyprices.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;/h3&gt;
+
+&lt;p&gt;Let’s put these observations together to discern a basic API:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Think of the &lt;code&gt;uuid=[UNIQUE IDENTIFIER]&amp;amp;hash=[A HASH]&lt;/code&gt; fields to be like an API key and secret generated when running the mobile app.&lt;/li&gt;
+  &lt;li&gt;Generate an &lt;code&gt;sid&lt;/code&gt; at: &lt;code&gt;https://www.kayak.com/k/authajax/&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Generate a &lt;code&gt;searchid&lt;/code&gt; at: &lt;code&gt;https://www.kayak.com/api/search/V8/flight/start&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Retrieve prices at: &lt;code&gt;https://www.kayak.com/api/search/V8/flight/poll&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can check out a complete basic client on &lt;a href=&quot;https://github.com/shbhrsaha/kayak-mobile-client&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The results presented here are far from a complete API, but I hope this tutorial demonstrates the power of reverse-engineering mobile apps. Tools like mitmproxy helps us obtain a level of understanding previously prohibited by the locked-down nature of mobile operating systems. Given how young the mobile space is, there’s never been a better time to do some exploring.&lt;/p&gt;
+
+&lt;p&gt;To read more about researching mobile apps with proxies, check out &lt;a href=&quot;http://jeffhuang.com/extracting_my_data_from_the_microsoft_band.html&quot;&gt;Extracting My Data from the Microsoft Band&lt;/a&gt;, &lt;a href=&quot;http://silverskylabs.github.io/yakhak/&quot;&gt;Yik Hak&lt;/a&gt;, and &lt;a href=&quot;http://blogs.wsj.com/wtk-mobile/&quot;&gt;What They Know Mobile&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[ December 2014 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=8778003&quot;&gt;Hacker News&lt;/a&gt;
+⋅
+&lt;a href=&quot;http://www.reddit.com/r/programming/comments/2px1mv/reverseengineering_the_kayak_app_with_mitmproxy/&quot;&gt;Reddit&lt;/a&gt;
+⋅
+&lt;a href=&quot;http://hackaday.com/2015/01/03/reverse-engineering-the-kayak-mobile-api/&quot;&gt;Hackaday&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2014/12/18/reverse-engineering-kayak-mitmproxy/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/12/18/reverse-engineering-kayak-mitmproxy/</guid>
+      </item>
+    
+      <item>
+        <title>Lessons from teaching a hack class</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/lessons-intro-to-hacking/teaching.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;As a college student, I spend most of my (sleep-deprived) days attending class. Rarely do I get the opportunity I had last Spring: to actually &lt;em&gt;teach&lt;/em&gt; a class with one of my best friends, &lt;a href=&quot;http://www.princeton.edu/~crmarsh/&quot;&gt;Charlie Marsh&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Before you get any ideas about my joining the faculty, I should provide some context. The class, titled &lt;a href=&quot;http://introtohacking.github.io/&quot;&gt;‘Introduction to Hacking’&lt;/a&gt;, was one of several student-run “hack classes” offered by the &lt;a href=&quot;http://www.princetoneclub.com/&quot;&gt;Princeton Entrepreneurship Club&lt;/a&gt;. We taught fellow students how to solve practical problems with programming, covering topics like data analysis with Python, web scraping, machine learning, and more. At a high level, we simply wanted to expose students to topics in programming that are typically absent from a course catalog. Around 20-30 students consistently attended the 7-week class, a good turnout given that the course was not offered for credit and wouldn’t be listed on any résumés.&lt;/p&gt;
+
+&lt;p&gt;In this post, I share some of the lessons we learned along the way. I hope this information helps future hack class instructors– and teachers anywhere– make the most of their classes.&lt;/p&gt;
+
+&lt;h3 id=&quot;hack-classes-work&quot;&gt;1. Hack classes work&lt;/h3&gt;
+
+&lt;p&gt;I’m enthusiastic about hack classes. They &lt;em&gt;share interesting topics&lt;/em&gt; in a &lt;em&gt;flexible format&lt;/em&gt; with &lt;em&gt;genuinely passionate students&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Each hack class is motivated by an interesting topic– one that the university does not address, is difficult to learn alone, or both. When Stanford University began to offer an &lt;a href=&quot;http://cs193p.stanford.edu/&quot;&gt;iOS programming class&lt;/a&gt;, the iOS hack class brought the same content to a physical classroom at Princeton. Unlike the iOS hack class, &lt;em&gt;Introduction to Hacking&lt;/em&gt; was not motivated by a single topic, but rather a grab-bag of topics with technical buzz (“machine learning!”) or usefulness across many different career paths. In both classes, the hack class shared interesting knowledge that was not available in the university curriculum.&lt;/p&gt;
+
+&lt;p&gt;Flexibility is a key strength of hack classes. As an instructor, I can create a class or adjust the syllabus without the bureaucracy of a registrar. Students benefit from the freedom to attend whichever lectures they wish. Historically, student retention was a problem in hack classes where material was cumulative from week-to-week. Even if students missed just one lecture, they’d be unable to follow along when future material built on the previous weeks’. To reverse this trend, we designed the lectures in &lt;em&gt;Introduction to Hacking&lt;/em&gt; to be modular– each session stood by itself and did not require students to attend previous lectures. This afforded students the flexibility to attend only the sessions they found interesting.&lt;/p&gt;
+
+&lt;p&gt;By their “optional” nature, hack classes attract only genuinely passionate students. This is an amazing benefit because a lecture hall of passionate students leads to rich discussions, which leads to better learning for everyone. Instructors also have an additional incentive to teach well. If Charlie and I didn’t make the material engaging, students would’ve simply stopped coming. When things are going poorly, this realization can be disheartening. But when things are going well, it’s enriching and motivating for students and instructors alike.&lt;/p&gt;
+
+&lt;p&gt;Hack classes aren’t perfect, but I believe they effectively fill a gap in the university curriculum. They’re flexible initiatives that invite students to teach interesting material to other passionate students. And they work.&lt;/p&gt;
+
+&lt;h3 id=&quot;students-take-hack-classes-for-different-reasons&quot;&gt;2. Students take hack classes for different reasons&lt;/h3&gt;
+
+&lt;p&gt;Charlie and I ask the ‘why’ question often. Before even deciding to teach &lt;em&gt;Introduction to Hacking&lt;/em&gt;, we thought about why exactly we were going to do it. (More on this at the end.)&lt;/p&gt;
+
+&lt;p&gt;We realized that students too– often subconsciously– think about why they should participate in a hack class. Reasons vary from “I want to learn the material” to “the instructors are my friends”. As instructors, we tried to tease out these reasons early with a short survey.&lt;/p&gt;
+
+&lt;p&gt;To our surprise, we received over 50 responses! Either students were passionate about communicating their motivations or they loved taking surveys. Responses varied widely, but the two key takeaways were that: (1) students had diverse levels of experience, and (2) some students wanted to learn just one or two of the topics on the syllabus. We structured the course with these two considerations in mind.&lt;/p&gt;
+
+&lt;p&gt;Most students had taken two or three programming courses (COS 126/217/226), but some were beginners and others, experts. Because of the diverse levels of experience, we emphasized “survey over deep dive”. We used lecture to introduce “what’s out there”, and concluded with three slides listing next-steps for novice, intermediate, and advanced programmers. For example, in the data analysis lecture, we suggested that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Novice students&lt;/strong&gt; set up their development environment and learn Python on Codecademy&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Intermediate students&lt;/strong&gt; explore iPython Notebook &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Advanced students&lt;/strong&gt; analyze large datasets and check out D3.js, NodeBox&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Conveniently, the nature of the topics in &lt;em&gt;Introduction to Hacking&lt;/em&gt; made the class’s survey nature easy to implement. Many advanced programmers just hadn’t gotten around to checking out some of the topics like web scraping, and novices didn’t require special knowledge to understand how the tools and libraries were used. By explicitly communicating the survey nature of the course, we maintained focus while accommodating the students’ diverse levels of experience.&lt;/p&gt;
+
+&lt;p&gt;It’s perfectly fine for some students to attend one or two sessions. As I mentioned, we designed each lecture to stand on its own. In addition, we distributed lecture slides and example code in advance of the session day as often as possible. This enabled students to attend the lectures that mattered most to them. It also gave us feedback on which topics sounded interesting to students. “Git, Bash Tricks” was our least-attended, while “Computer Security: Passwords, Web, Wireshark” our most-attended.&lt;/p&gt;
+
+&lt;p&gt;Understanding students’ motivations helped us to structure the class most effectively.&lt;/p&gt;
+
+&lt;h3 id=&quot;teaching-is-hard&quot;&gt;3. Teaching is hard&lt;/h3&gt;
+
+&lt;p&gt;Coming out of the class, Charlie and I have a greater appreciation for our teachers. Teaching is challenging for a number of reasons.&lt;/p&gt;
+
+&lt;p&gt;Teaching requires significant empathy for students. While we were comfortable with the content, we had to take a step back to identify how a beginner might understand the topic. Adequate preparation was key to answering this question effectively. One instance of this was in the security lecture, where I wanted to introduce packet sniffing tools to students who’d never heard of a network “packet”. I had to clear my mind of anything I knew about networks to realize all that mattered was an awareness for “hosts”, “routers”, and “packets” flowing between them. The result was a &lt;a href=&quot;https://www.dropbox.com/s/9rqa913ewc6luek/7_Computer_Security.pdf&quot;&gt;single slide&lt;/a&gt; demonstrating their relationship. Striving for simplicity over complexity, I realized: choosing what &lt;em&gt;not&lt;/em&gt; to include was just as important as what to include.&lt;/p&gt;
+
+&lt;p&gt;Teaching requires significant preparation time. Each week, Charlie and I spent 3-5 hours writing the lecture slides. We then met for an hour to provide each other feedback and divvy up the task of writing the live demo, which usually required another 1-2 hours.&lt;/p&gt;
+
+&lt;p&gt;As much as teaching demands empathy and time, it is also incredibly rewarding. A well-prepared lecture feels like it just falls into place, and the joy of students’ understanding makes it worthwhile.&lt;/p&gt;
+
+&lt;h3 id=&quot;communication-is-crucial&quot;&gt;4. Communication is crucial&lt;/h3&gt;
+
+&lt;p&gt;The quality of communication can make or break a hack class. Communication spans messaging, questions, and feedback.&lt;/p&gt;
+
+&lt;p&gt;Messaging promotes awareness for the class and maintains student interest from week-to-week. To our amazement, &lt;em&gt;Introduction to Hacking&lt;/em&gt; attracted over 200 students to its signup list. I think some of this success can be attributed to “grassroots” methods– months in advance, we started adding individual friends to the list of participating students. During the class, we emailed the “what” and “why” of each lecture a few days in advance. Towards the end, we also promoted individual lecture topics to mass email lists around the school. That way, students who hadn’t signed up for the course attended a lecture just because they were interested in the topic. It’s amazing that a lot of people came to just the &lt;em&gt;final&lt;/em&gt; lecture and got a lot out of it.&lt;/p&gt;
+
+&lt;p&gt;In the lectures themselves, we promoted communication by constantly encouraging questions. A trick I learned is to ask “What questions do you have?” instead of “Do you have any questions?”. Doing this communicates that questions are &lt;em&gt;expected&lt;/em&gt; and are not a barrier to the class’s progress. We tried a “Hack Hour” following the lecture with an online form submission for questions, but this method quickly fell apart. We realized that the informal, one-on-one Q&amp;amp;As that naturally arise after lecture were more effective. (The majority of the help provided during that time was for development environment setup.)&lt;/p&gt;
+
+&lt;p&gt;Charlie and I were eager to hear feedback. Students preferred writing their feedback to saying it in-person. To facilitate that communication, we created an anonymous online form for anyone to send feedback just by clicking a link on the web site. While we received around five responses from that form over that the semester, the majority of feedback came by email from friends.&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
+
+&lt;p&gt;A few months after &lt;em&gt;Introduction to Hacking&lt;/em&gt; ran, I was chatting with a friend who had taken the course. A politics major, he was actually now studying for a software engineering interview. I was surprised. He explained that, over the past year, he realized software engineering was his true calling, and &lt;em&gt;Introduction to Hacking&lt;/em&gt; was an influential reason for that change.&lt;/p&gt;
+
+&lt;p&gt;Across our projects, Charlie and I are most motivated by the potential for &lt;em&gt;impact&lt;/em&gt;. It’s our answer to the ‘why’ question I mentioned earlier: we want our work to matter. My politics friend is just one instance of how hack classes are an incredible vehicle for impact. I believe that, in many cases, students learn more effectively when they’re taught by other students. And I’m grateful for the opportunity to have been a part of that.&lt;/p&gt;
+
+&lt;p&gt;[ December 2014 ]&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2014/12/06/lessons-hack-class/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/12/06/lessons-hack-class/</guid>
+      </item>
+    
+      <item>
+        <title>Language for giving and receiving effective feedback</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/language-for-feedback/feedbackwave.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We can all remember to “ask for feedback” and “end on a positive note”, but most of us are at a loss for how to translate broad advice into specific, thoughtful words.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;Feedback is a crucial element of learning. Yet, just the word “feedback” is enough to trigger anxiety in many people.&lt;/p&gt;
+
+&lt;p&gt;For most of my life, I too was anxious about both giving and receiving feedback. On the giving side, I was afraid of being too critical and demotivating the recipient. On the receiving side, I was afraid of being vulnerable or the focus of the feedback giver’s attention.&lt;/p&gt;
+
+&lt;p&gt;Most guidance on how to give and receive feedback centers around “things to do and things not to do”. While crucial points are highlighted, I think the existing guidance muddles the key to reducing feedback anxiety: &lt;em&gt;language&lt;/em&gt;. We can all remember to “ask for feedback” and “end on a positive note”, but most of us are at a loss for how to translate broad advice into specific, thoughtful words.&lt;/p&gt;
+
+&lt;p&gt;In this post, I want to run through some specific phrasings that can be helpful when giving and receiving feedback. As a toy example, I’ll use feedback on &lt;a href=&quot;http://en.wikipedia.org/wiki/Squat_%28exercise%29&quot;&gt;squats&lt;/a&gt; to frame the discussion. (For those unfamiliar with the squat: it’s a popular exercise that requires careful attention to form for both beginners and advanced weightlifters. Because squat form is difficult to improve without external feedback, the exercise is representative of many types of feedback discussions.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/language-for-feedback/squatguy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll start by introducing TACOISL, a framework for giving feedback. Then, 
+I’ll conclude with some tips for receiving feedback.&lt;/p&gt;
+
+&lt;h3 id=&quot;tacoisl&quot;&gt;TACOISL&lt;/h3&gt;
+
+&lt;p&gt;Let’s imagine that a friend just finished performing a squat in the gym, and we notice an opportunity to provide feedback. I propose the TACOISL model for organizing your next steps:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;T&lt;/strong&gt; hink
+&lt;br /&gt; &lt;strong&gt;A&lt;/strong&gt; sk
+&lt;br /&gt; &lt;strong&gt;C&lt;/strong&gt; ommunicate:
+&lt;br /&gt;       &lt;strong&gt;O&lt;/strong&gt; bservations
+&lt;br /&gt;       &lt;strong&gt;I&lt;/strong&gt; mpact
+&lt;br /&gt;       &lt;strong&gt;S&lt;/strong&gt; uggestions
+&lt;br /&gt; &lt;strong&gt;L&lt;/strong&gt; isten&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I made up this (admittedly meaningless) acronym because I didn’t find existing models very actionable. Most famous among these: &lt;a href=&quot;http://thebraincraftcompany.com/giving-feedback-the-b-o-o-s-t-model/&quot;&gt;BOOST&lt;/a&gt; (Balanced, Observed, Objective, Specific, Timely), &lt;a href=&quot;http://www.ryerson.ca/hr/yourHR/oee/effective_feedback.html&quot;&gt;STAR&lt;/a&gt; (Situation, Task, Action, Result), and &lt;a href=&quot;http://dougbelshaw.com/blog/2009/07/21/how-to-spin-your-way-to-giving-more-constructive-negative-feedback/&quot;&gt;SPIN&lt;/a&gt; (Situation Specifics, Personal Impact, Insight &amp;amp; Interpretation, Next Steps). Don’t get me wrong– they’re all thoughtful and worth reading. I just put up with a less clever acronym to capture a more &lt;em&gt;actionable&lt;/em&gt; way to remember things.&lt;/p&gt;
+
+&lt;h3 id=&quot;think&quot;&gt;Think&lt;/h3&gt;
+
+&lt;p&gt;Before saying anything, think for a moment about what you want to communicate. You want to figure out what you saw (observations), why it matters (impact), and how it can be improved (suggestions). We’ll dive into the language for communicating these thoughts in a minute, but first we want to have it organized in our heads.&lt;/p&gt;
+
+&lt;p&gt;Our friend doing the squat generally did a solid job. We observe that his back was curved slightly inward, but his knees buckled in on the way up. The consequences are that his back is probably feeling good, but his knees might suffer down the road if that element of his form is not fixed. Our suggestion will be that he focus on keeping his knees pointed out throughout the entire squat, while also squatting a lighter weight.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/language-for-feedback/feedbacksandwich.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice how I didn’t really create a target number of “positive” and “negative” observations. A popular technique for reducing feedback anxiety is to create a “feedback sandwich”, in which critical feedback is couched between two compliments. I don’t advocate this approach because it often distorts the recipient’s sense of how things are going. Later, we’ll show how the inclusion of suggestions for improvement and specific phrases reduces feedback anxiety without requiring that we artificially couch our messages. At this stage, it is simply important to be genuine in what we choose to communicate.&lt;/p&gt;
+
+&lt;p&gt;That said, don’t focus all of your thought on where things could’ve gone better. It is important to also communicate what went well in our feedback so that the recipient knows what &lt;em&gt;not&lt;/em&gt; to change or even enhance.&lt;/p&gt;
+
+&lt;h3 id=&quot;ask&quot;&gt;Ask&lt;/h3&gt;
+
+&lt;p&gt;Now we start the conversation by &lt;em&gt;asking&lt;/em&gt; the recipient if they want to receive feedback. It’s important to ask because the recipient might not want it (for reasons we cannot control) or simply doesn’t have the time right now (in which case they’ll postpone). Good feedback conversations require at least a few minutes of one-on-one time.&lt;/p&gt;
+
+&lt;p&gt;The language we use to “ask” is important because it frames the rest of the discussion. We want to minimize anxiety while also taking some time out to communicate honestly in a safe environment. The appropriate language can vary, but because we’re usually on a friendly basis with the recipient, we can be more or less casual about it. In the case of our squatting friend, we can ask him one of the following after he catches his breath: &lt;/p&gt;
+
+&lt;p&gt;“Hey, are you interested in some feedback?” &lt;br /&gt;
+“Are you looking for pointers on your squats?” &lt;br /&gt;
+“Do you want some quick suggestions to improve?” &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;These may seem like simple questions. But notice how they emphasize asking about the recipient’s willingness to receive feedback. It creates a safer environment than saying “Hey, I have some feedback to share” or “I had some thoughts about your squats”. The recipient should say “yes” because they want to improve, not because they feel obligated to hear our opinion. If they say “no” or postpone, that’s totally fine!&lt;/p&gt;
+
+&lt;p&gt;Also, consider using “pointers” or “suggestions” instead of the word “feedback” to reduce the recipient’s anxiety. Many people respond warmly to these alternatives, whereas “feedback” makes them anxious.&lt;/p&gt;
+
+&lt;h3 id=&quot;communicate-observations&quot;&gt;Communicate Observations&lt;/h3&gt;
+
+&lt;p&gt;Good feedback begins with observations. These points can be complimentary or critical, but it’s crucial that we refrain from drawing inferences about &lt;em&gt;why&lt;/em&gt; they happened. We can speak only from where we stand, so we have to be careful not to jump to conclusions about the recipient’s perspective. Let’s return to the squat example. The observations we communicate are: &lt;/p&gt;
+
+&lt;p&gt;“Your back looked great on the way down– really straight, with a slight arch inwards. On the way up, I think your knees buckled in a little bit.”&lt;/p&gt;
+
+&lt;p&gt;Notice the dedication to facts over inferences. It would be less effective to say “Your knees buckled because you probably couldn’t handle this amount of weight.” Even though the knees most likely buckled because of the weight, saying it &lt;em&gt;at this stage&lt;/em&gt; doesn’t really advance the feedback conversation. In addition, we use language like “looked” and “I think” to emphasize that we’re just one perspective for the recipient to consider.&lt;/p&gt;
+
+&lt;p&gt;The observations suggested above mentioned what went well (straight back, slight arch). It’s good to do this to reinforce the recipients’ confidence in what they’re doing right. On the off-chance they did it by accident, at least now they’re aware it’s a good thing!&lt;/p&gt;
+
+&lt;p&gt;As I mentioned earlier in the &lt;em&gt;Think&lt;/em&gt; section, the most important consideration here is that we’re honest and straightforward. If you do end up presenting the observations in “feedback sandwich” order, there are some things you can do to maximize the chances your words come across as genuine. First, refrain from using “but” to segue from the complimentary to the critical feedback. The word is almost like a harbinger of demotivating sentences. Instead, use “and” or simply continue communicating observations, as in the squatting example above. Second, try “physically” counting off your observations on your fingers. Somehow in my personal experience I find that people respond warmly to this because it indicates that the observations were genuinely thoughtful, and that the compliments weren’t just drawn off-the-cuff to couch the critical feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/language-for-feedback/countingpoints.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;communicate-impact&quot;&gt;Communicate Impact&lt;/h3&gt;
+
+&lt;p&gt;Oftentimes overlooked, discussing impact is a useful way to make your suggestions persuasive and more likely to be adopted by the recipient. The goal here is to explain the consequences of the observations we made in the previous section. To our squatting friend we might say:&lt;/p&gt;
+
+&lt;p&gt;“I used to do that a lot when getting started. Then, Lindsay told me that buckling the knees creates instability and can also lead to knee problems down the road.”&lt;/p&gt;
+
+&lt;p&gt;With regards to language, these few sentences are effective for a number of reasons. First, we empathize with the recipient by revealing that we used to have the same problem. Because we opened up and made ourselves vulnerable, the recipient feels less anxious because he realizes that he’s not alone. Second, the knowledge about impact is communicated along with &lt;em&gt;how&lt;/em&gt; that knowledge was acquired (learned from Lindsay). Doing so sets the tone that both the feedback giver and recipient are just two people who are constantly learning and improving.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Impact&lt;/em&gt; section is also where you should mention impact on &lt;em&gt;other people&lt;/em&gt;, if relevant. It’s not so relevant with squatting, but imagine an example where a colleague speaks out too frequently at meetings. The impact there is that other team members don’t have an opportunity to communicate their opinion. You might also mention your own perspective, if relevant, with phrases like:&lt;/p&gt;
+
+&lt;p&gt;“I’m worried that this will lead you to…” &lt;br /&gt;
+“From my perspective what will happen is…” &lt;br /&gt;
+“I think there’s a chance that…” &lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;communicate-suggestions&quot;&gt;Communicate Suggestions&lt;/h3&gt;
+
+&lt;p&gt;Finally, we want to end by communicating suggestions for how to improve on the critical observations made previously. To our squatting friend, we might say:&lt;/p&gt;
+
+&lt;p&gt;“Why don’t you try squatting a lighter weight until your knees don’t need to buckle on the way up? I also find that focusing on one element of form at a time helps me to gradually improve my squat.”&lt;/p&gt;
+
+&lt;p&gt;In communicating our suggestions, we prefer to make &lt;em&gt;suggestions&lt;/em&gt; over &lt;em&gt;commands&lt;/em&gt;. Whether the suggestions are acted on is completely up to the recipient, and we shouldn’t be offended if they aren’t. A good language technique to use here is to phrase the suggestion as a question:&lt;/p&gt;
+
+&lt;p&gt;“Why don’t you try…?” &lt;br /&gt;
+“Have you considered…?” &lt;br /&gt;
+“What do you think about…?” &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s important for the suggestions to also be actionable. They should be specific enough that the course of future action is clear.&lt;/p&gt;
+
+&lt;p&gt;Closing our remarks with suggestions is a more effective alternative to the “feedback sandwich”. We don’t have to make a compliment to end the comments on a positive, forward-looking note. Suggestions also serve to help open up a conversation.&lt;/p&gt;
+
+&lt;h3 id=&quot;listen&quot;&gt;Listen&lt;/h3&gt;
+
+&lt;p&gt;After communicating our part, it’s crucial that we now listen to the recipient. Perhaps we misunderstood their perspective, or maybe they would like to hear more feedback. To open the discussion we might ask: “What are your thoughts?”, “How do you see things?”, or “How do you feel about it?”&lt;/p&gt;
+
+&lt;h3 id=&quot;receiving-feedback&quot;&gt;Receiving Feedback&lt;/h3&gt;
+
+&lt;p&gt;Fortunately, the language on the receiving end is not as complex, but it is certainly worth examining.&lt;/p&gt;
+
+&lt;p&gt;It starts by making others aware that we’re open and looking for feedback. Before the squat, my friend might say:&lt;/p&gt;
+
+&lt;p&gt;“Hey, would you mind checking out my squat form? I’m always looking for ways to improve.”&lt;/p&gt;
+
+&lt;p&gt;It’s as simple as that. If an opportunity to ask does not arise before the event, the recipient can open by saying: “What can I do to make it better?” or “How can I improve?” The &lt;em&gt;crucial&lt;/em&gt; thing to remember here is that we open the discussion effectively. Simply asking “Do you have any feedback?” or “How did I do?” tends to result in “No” or “Great!” as responses. Making the question more specific with the language described above facilitates richer conversations.&lt;/p&gt;
+
+&lt;p&gt;After listening to the giver’s opinion, it’s important to thank them for their feedback:&lt;/p&gt;
+
+&lt;p&gt;“Thanks for sharing your feedback, by the way. I really appreciate your thoughts.”&lt;/p&gt;
+
+&lt;p&gt;Not only does the giver feel good, but also we communicate openness to receiving feedback in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h3&gt;
+
+&lt;p&gt;Giving and receiving feedback is never easy. But good language can help us to communicate feedback in a genuine, effective way. I’ll caveat my post by saying that I’m not a psychologist or MBA professor; the above comments are simply from my personal experiences. As with all suggestions, you should adjust the suggested language to fit your style and the situation. For what it’s worth, I hope this guidance makes feedback conversations just a little easier.&lt;/p&gt;
+
+&lt;h3 id=&quot;recommended-readings&quot;&gt;Recommended Readings&lt;/h3&gt;
+
+&lt;p&gt;If you liked this post, I suggest checking out the following books:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second-ebook/dp/B005K0AYH4/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1417041972&amp;amp;sr=1-1&quot;&gt;Crucial Conversations by Kerry Patterson, et al.&lt;/a&gt; - A great guide on how to handle those important conversations in which the stakes are high and good language matters&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592407331&quot;&gt;Daring Greatly by Brene Brown&lt;/a&gt; - As someone who’s struggled with opening up myself, I recommend this book for anyone interested in the strength of vulnerability as a personality trait&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to Sneha Saha for reviewing an earlier draft of this post and drawing the “feedback sandwich”.&lt;/p&gt;
+
+&lt;p&gt;[ November 2014 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.reddit.com/r/socialskills/comments/2np58d/language_tricks_to_make_feedback_conversations/&quot;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2014/11/28/language-for-feedback/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/11/28/language-for-feedback/</guid>
+      </item>
+    
+      <item>
+        <title>How a course in operating systems changed me</title>
+        <description>&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/low-level.png&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+There are few classes at Princeton that changed me like COS 318 (Operating Systems). It was challenging, time-munching, and exhausting, but looking back: I’m glad I took the course.&lt;/p&gt;
+
+&lt;p&gt;I had hesitation going into the class because of common wisdom surrounding Operating Systems courses:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“OS sounds really hard” &lt;br /&gt;
+“OS is only for people interested in low-level stuff” &lt;br /&gt;
+“OS is a waste of time… when are you going to use that material?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s a difficult class, for sure, but consider momentarily suspending anything you’ve previously heard about the course. Not taking OS isn’t going to ruin your software engineering career, but taking it could change you in astounding ways. As a student admittedly lousy at low-level programming, I had my fears going into the course. Now on the other side, I feel that taking OS was the best course selection decision I ever made. Here are some of the ways I changed as a student, software engineer, and problem-solver.&lt;/p&gt;
+
+&lt;p&gt;My experience is based on Princeton’s COS 318 in Fall 2013, but the impact is generalizable to many other undergraduate OS courses.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-me-better-at-debugging&quot;&gt;(1) OS made me better at debugging&lt;/h2&gt;
+&lt;p&gt;There is no doubt that writing an operating system requires a &lt;em&gt;lot&lt;/em&gt; of debugging. If you thought debugging in your algorithms course was hard, try debugging a program where running it two different times yields two completely different results.&lt;/p&gt;
+
+&lt;p&gt;When programs become as intricate as they do in OS, you’re forced to learn about the right tools (debuggers are you friend) and develop a disciplined approach to debugging.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/rubber-chicken.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before taking the class, debugging was a wandering process in which I frantically tried to brainstorm things I could have messed up. It’s a hopeless and exhausting process that I call “rubber chicken debugging”. After OS, debugging suddenly turned from an art into a science. I recognized that, in most cases, there is an optimal set of things I can log to locate the problem and quickly discern what solution needs to be implemented.&lt;/p&gt;
+
+&lt;p&gt;This approach has proved valuable in other courses and beyond. For example, during my internship at Facebook, I fully embraced the engineering culture of “getting your hands dirty” in the code. If something doesn’t work, start logging… immediately. Keep logging until reality disagrees with your expectation. That’s the way of thinking that an intensive programming course like OS requires.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-my-code-more-efficient&quot;&gt;(2) OS made my code more efficient&lt;/h2&gt;
+&lt;p&gt;OS suddenly made me more conscious of my code’s performance. If a program took a long time to run, I would pause to think: what is the limiting factor? CPU? Memory? Disk I/O? Understanding the fundamentals helped me to make my higher-level code faster and leaner.&lt;/p&gt;
+
+&lt;p&gt;This fact flies in the face of common wisdom that knowing about operating systems is useful only if you enter a career in low-level programming. Nothing could be further from the truth. It’s only by writing OS code in C and Assembly that I appreciated the building blocks of higher level programming languages.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-me-a-better-collaborator&quot;&gt;(3) OS made me a better collaborator&lt;/h2&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/pair.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our OS class had a few partner projects, in which groups of two students pair-program the assignment. I was incredibly fortunate to be with two of my best friends through the projects. The shared experience of daunting challenges made partners better friends and the whole class a more bonded group.&lt;/p&gt;
+
+&lt;p&gt;As collaborators, we became better at pair programming. At first, the temptation with pair programming is for one person to type the code and the other to sit back and watch. In OS, we strived to check each other’s code as we went and split up the implementation when it made sense to do so. Collaboration required that we get smarter about version control, so it was also a great opportunity to get better at Git.&lt;/p&gt;
+
+&lt;h2 id=&quot;os-made-me-a-more-disciplined-problem-solver&quot;&gt;(4) OS made me a more disciplined problem solver&lt;/h2&gt;
+&lt;p&gt;This is biggest change of all. As a young programmer, I usually turned to the &lt;a href=&quot;http://c2.com/cgi/wiki?FeynmanAlgorithm&quot;&gt;Feynman Algorithm&lt;/a&gt; when faced with any problem:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write down the problem&lt;/li&gt;
+  &lt;li&gt;Think really hard&lt;/li&gt;
+  &lt;li&gt;Write down the solution&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Adopting this approach made the first few projects in OS absolutely miserable. The class demanded that I develop a more disciplined approach to problem-solving. I ended up creating a method for doing programming assignments that I began applied to other CS classes as well. It involves three sheets of paper for tracking:&lt;/p&gt;
+
+&lt;p&gt;(1) &lt;strong&gt;Tasks&lt;/strong&gt;: What needs to get done to finish this assignment? I’m &lt;a href=&quot;/2013/09/01/organize-projects/&quot;&gt;very task-oriented&lt;/a&gt; in project management, so having a list of small tasks comforted me by organizing my work. Start by writing down the big tasks and breaking things down from there. As an analogy, consider the project of baking a cake:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Procure ingredients
+    &lt;ul&gt;
+      &lt;li&gt;Buy eggs&lt;/li&gt;
+      &lt;li&gt;Buy milk&lt;/li&gt;
+      &lt;li&gt;Buy flour&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prepare kitchen
+    &lt;ul&gt;
+      &lt;li&gt;Wash bowl&lt;/li&gt;
+      &lt;li&gt;Wash pan&lt;/li&gt;
+      &lt;li&gt;Wash scooper&lt;/li&gt;
+      &lt;li&gt;Pre-heat oven&lt;/li&gt;
+      &lt;li&gt;Grease pan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Execute assembly
+    &lt;ul&gt;
+      &lt;li&gt;Mix eggs, milk, and flour to make batter&lt;/li&gt;
+      &lt;li&gt;Spread batter across pan&lt;/li&gt;
+      &lt;li&gt;Insert pan into oven&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are more steps than that, but a list like this sets you up for a feeling of accomplishment after finishing each task. The key is to make these tasks really small so that you’re always making progress.&lt;/p&gt;
+
+&lt;p&gt;(2) &lt;strong&gt;Bugs&lt;/strong&gt;: What bugs do I know about in the code? On this sheet I track open bugs and things I’ve tried to fix them. In earlier projects I wasted time repeating possible solutions and running into the same bug multiple times. Diligently tracking my bugs and their fixes in later assignments saved me a great deal of time.&lt;/p&gt;
+
+&lt;p&gt;(3) &lt;strong&gt;Questions&lt;/strong&gt;: What questions do I have? Here I  jot down literally any question I have as soon as I get it. As I learn the answers over time by reading documentation and asking classmates, the knowledge is recorded here.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/static/operating-systems/motion-progress.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having these sheets of paper largely gave me confidence that progress was being made. Without it, I was putting in long hours in the computer lab– making motion– but not actually accomplishing much by the end of the day.&lt;/p&gt;
+
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing Thoughts&lt;/h2&gt;
+&lt;p&gt;OS is certainly a challenging course, but consider giving it a shot. It’s the class that improved me most as a software engineer. And even if you don’t ever remember what a hypervisor is, I think you’ll truly appreciate all of the other skills you gain.&lt;/p&gt;
+
+&lt;p&gt;Some other perspectives on these topics if you want to read more:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.regehr.org/archives/164&quot;&gt;John Regehr: Why Take an Operating Systems Course?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.seancassidy.me/sherlock-holmes-debugging.html&quot;&gt;Sean Cassidy: Sherlock Holmes Debugging&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://dskang.com/&quot;&gt;Dan Kang&lt;/a&gt; for reviewing this post.&lt;/p&gt;
+
+&lt;p&gt;[ November 2014 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/&quot;&gt;Hacker News&lt;/a&gt;
+⋅
+&lt;a href=&quot;http://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/&quot;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://www.shubhro.com/2014/11/21/operating-systems/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/11/21/operating-systems/</guid>
+      </item>
+    
+      <item>
+        <title>Tips for software engineering internships</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/tips-for-internships/cartoon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;There are a &lt;a href=&quot;http://alexeymk.com/a-brief-guide-to-tech-internships/&quot;&gt;lot&lt;/a&gt; &lt;a href=&quot;http://programmers.stackexchange.com/questions/46685/tips-for-a-first-year-cs-student-looking-for-a-summer-internship-to-gain-experie&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;http://www.quora.com/What-is-the-best-advice-for-an-engineering-internship-interview-at-Google-or-Facebook&quot;&gt;articles&lt;/a&gt; written about how to &lt;em&gt;get&lt;/em&gt; a software engineering internship, but not many about how to make the most of one you already have. In an effort to fill that gap, here are some tips drawn from my experiences interning at Facebook and AppNexus. These tips are generally organized into advice about effectiveness and execution first, followed by some points about learning and self-improvement.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-manager-is-your-mentor&quot;&gt;Your manager is your mentor&lt;/h3&gt;
+
+&lt;p&gt;This point is clear to some, but it might not be obvious to first-time interns. See them as more of a “teacher” than a “boss”. The point of an internship is to learn, so ask them questions about your work, the company, their career, or really anything. Some companies call their intern managers “mentors”– there really is no difference.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-manager-isnt-your-only-mentor&quot;&gt;Your manager isn’t your only mentor&lt;/h3&gt;
+
+&lt;p&gt;Don’t direct &lt;em&gt;all&lt;/em&gt; questions to your manager. Learn from other people too. Most companies love interns, so take advantage of the opportunity to chat up other software engineers to understand how they work, how they planned their careers, and what it’s like to work full-time at the company. If you’re stumped about a piece of code, look at the blame revision (if it’s available) to find who wrote it. They can help you understand the code if you just ask. Interns have a tendency to to hang around other interns. Do that, for sure, but also spend time with full-time folks.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-manager-isnt-the-only-person-you-report-to&quot;&gt;Your manager isn’t the only person you report to&lt;/h3&gt;
+
+&lt;p&gt;You’re accountable to your manager, but also to other team members. At many companies, there’s also a product manager working with the engineers. Get a sense early on of what everyone’s expectations and responsibilities are. Update your product manager and other software engineers in addition to your manager if it makes sense to do so.&lt;/p&gt;
+
+&lt;h3 id=&quot;err-on-the-side-of-overcommunicating&quot;&gt;Err on the side of overcommunicating&lt;/h3&gt;
+
+&lt;p&gt;Get a sense for how your team communicates progress. Is there an internal collaboration platform? Does your team do daily standups? Even if your intern project is relatively “carved out” from the rest of the software, it’s important to update other engineers so they can notice opportunities to help you. Many times, you’ll also find opportunities to help them!&lt;/p&gt;
+
+&lt;p&gt;You should communicate frequently with your manager. Get a sense of what their schedule is like and what type of communciation would make both parties comfortable. If you’re sitting next to each other, great! If you’re not, that’s totally fine.&lt;/p&gt;
+
+&lt;p&gt;Many managers prefer to have a weekly 1:1 update with their interns. This can be a casual half hour where you just talk about the week’s progress and generally anything about the internship.&lt;/p&gt;
+
+&lt;p&gt;In my experiene, I’ve found daily email updates to work really well. In this email, I quickly bullet the day’s progress in three categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What I did today&lt;/li&gt;
+  &lt;li&gt;What I’ll do tomorrow&lt;/li&gt;
+  &lt;li&gt;Barriers blocking me from getting work done&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That last category is key and something unfamiliar to most new interns. A barrier is essentially something for which you need help from your manager. It’s the technical problems that you’ve thought hard about but still haven’t made progress on, it’s the approval you need from another team in the company, it’s the mockup you’re waiting on from the team designer. All of these things are barriers holding you back from getting the job done.&lt;/p&gt;
+
+&lt;p&gt;I’m fortunate to have had great managers through all of my internships. This daily digest helped them to keep up with how best to help me. Whenever you have a blocker, your manager can then follow up with a message about getting your diff submitted, technical problem discussed, or designer checked on. As an extra bonus, overcommunicating makes the good work you’re doing really visible to your manager.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-be-nervous-about-asking-for-help&quot;&gt;Don’t be nervous about asking for help&lt;/h3&gt;
+
+&lt;p&gt;It’s natural to feel shy and nervous when getting started in a software engineering internship. You might be afraid your work is not up to par, that your code is non-idiomatic, or that people find your questions annoying. Don’t worry about it! Yes, people are busy, but effective team members will help you because they care about the overall success of the team. Consider using the following order of asking for help: search the internal docs, search online, ask an intern, ask a teammate/manager. In the end, you’ll save yourself valuable time and might also realize that documentation you referenced as a source of truth is actually outdated.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-be-afraid-to-ask-for-more-tasks&quot;&gt;Don’t be afraid to ask for more tasks&lt;/h3&gt;
+
+&lt;p&gt;Ask for more work if you want it! Most teams have tasks small and large lying around that they’d be happy to send your way. Having multiple projects to work on keeps things fresh and gives you something to work on when one of the projects hits a barrier. Good software engineers are usually juggling several tasks at a time. You’ll become very good at version control. Not to mention, you’ll be getting more stuff done, which is awesome for the team! Work won’t come your way unless you ask for it.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-your-time-wisely&quot;&gt;Use your time wisely&lt;/h3&gt;
+
+&lt;p&gt;Of course you should use your time wisely. But if you’re waiting for a barrier to be removed, consider looking ahead to the next steps in the project. Many times, you can work ahead on other components and plug things back into place later.&lt;/p&gt;
+
+&lt;h3 id=&quot;journal-your-progress&quot;&gt;Journal your progress&lt;/h3&gt;
+
+&lt;p&gt;It’s nice to see what you did over a day, week, and month. Consider writing down progress on the tasks you’re working on. It could be &lt;a href=&quot;/2013/09/01/organize-projects/&quot;&gt;as simple as a spreadsheet&lt;/a&gt;. It’s also useful for when your manager asks about progress over the past week. You’ll have a convenient reference.&lt;/p&gt;
+
+&lt;h3 id=&quot;take-breaks&quot;&gt;Take breaks&lt;/h3&gt;
+
+&lt;p&gt;Take breaks. It’s really easy to burn out. You’ll get a dreadful feeling. Your eyes are going to hurt. Your back is going to ache. Don’t get to that point. I have a tendency to also do recreational programming when I get home, but you should be careful not to burn out if you do that. Too much programming is bad.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-count-your-lines-of-code&quot;&gt;Don’t count your lines of code&lt;/h3&gt;
+
+&lt;p&gt;This is obvious to many, but some interns just don’t get it, so it’s worth mentioning: &lt;a href=&quot;http://www.folklore.org/StoryView.py?story=Negative_2000_Lines_Of_Code.txt&quot;&gt;don’t measure your progress in lines of code&lt;/a&gt;. The number of lines you write is completely non-representative of your progress. UI code tends to take up a lot of space, while some languages have more brackets. It’s nonsense.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-outside-of-your-comfort-zone&quot;&gt;Go outside of your comfort zone&lt;/h3&gt;
+
+&lt;p&gt;It’s tempting to fall into the comfort zone of knowing a few languages and doing things the way you’re comfortable doing them. Don’t fall into this trap! Strive to learn new languages, patterns, and technologies in your internship. Software engineering is both a fascinating boon and a tiring curse because there’s always more that can be learned. It’s particularly important to quickly pick up new languages. Good tech companies will generally value your ability to learn things quickly over your experience in one particular language.&lt;/p&gt;
+
+&lt;h3 id=&quot;go-to-bootcamp-even-after-bootcamp-is-over&quot;&gt;Go to bootcamp even after bootcamp is over&lt;/h3&gt;
+
+&lt;p&gt;If your company has a training bootcamp, consider checking out classes even after your onboarding period is finished. Oftentimes intern bootcamps are insufficient by themselves, so ask your manager for worthwhile sessions. You’ll continue to learn a lot from what they teach full-time hires. The skills picked up will probably help you beyond your current internship as well!&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-fret-about-the-return-offer&quot;&gt;Don’t fret about the return offer&lt;/h3&gt;
+
+&lt;p&gt;The return offer, yes– it’s so nice to have and yet sometimes seems so elusive. The temptation from both the intern and company side is to treat the internship as a “12 week interview”. Don’t take that phrase too seriously. Sure, the company wants to gain a sense of what you might be like as a full-time hire, but it’s more important that you focus on doing good work, learning new things, and meeting great people. The rest will fall into place. So much of a return offer is beyond your control like the whim of the hiring committee or any quotas on how many interns are eligible for a return offer.&lt;/p&gt;
+
+&lt;p&gt;As an aside: some interns psych themselves out by looking around at other engineers to find that few of them joined the company straight after college. Most of the time, that says nothing about your chances or receiving a return offer. Many companies–especially mid-sized startups– are just getting started in the college recruiting game. If you’re part of a new intern program, you could be among the first incoming class of new grad hires!&lt;/p&gt;
+
+&lt;h3 id=&quot;in-summary&quot;&gt;In Summary&lt;/h3&gt;
+
+&lt;p&gt;I hope that something in the above list gave you an idea about how to make the most of your internship. This list is by no means exhaustive, so if you think I’ve missed something, drop me a note!&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://ddohan.com/&quot;&gt;David Dohan&lt;/a&gt;, &lt;a href=&quot;http://www.princeton.edu/~crmarsh/&quot;&gt;Charlie Marsh&lt;/a&gt;, and &lt;a href=&quot;http://dskang.com/&quot;&gt;Dan Kang&lt;/a&gt; for reviewing this post.&lt;/p&gt;
+
+&lt;p&gt;[ October 2014 ]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=8603341&quot;&gt;Hacker News&lt;/a&gt;
+⋅
+&lt;a href=&quot;http://www.reddit.com/r/programming/comments/2m7fqe/tips_for_software_engineering_internships/&quot;&gt;Reddit&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Oct 2014 00:00:00 -0400</pubDate>
+        <link>http://www.shubhro.com/2014/10/15/tips-for-internships/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/10/15/tips-for-internships/</guid>
+      </item>
+    
+      <item>
+        <title>On value-driven career advice</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/static/career-advice/cartoon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Too often, the discussion centers around simple tradeoffs like compensation (&lt;em&gt;where can I earn more?&lt;/em&gt;), the size of the company (&lt;em&gt;startup or big company?&lt;/em&gt;), and degrees (&lt;em&gt;do I need to go to grad school?&lt;/em&gt;). […] Consider a value-driven approach instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I frequently ask older people how they planned their careers. Asking this helps me to plan my own career, whether it be to weigh the benefits of grad school or maintain a work-family balance down the road. &lt;/p&gt;
+
+&lt;p&gt;I’m grateful for the opportunity to have gone on &lt;a href=&quot;http://www.princetontigertrek.com/&quot;&gt;TigerTrek&lt;/a&gt; 2013. If you’re a Princeton undergraduate, apply! We received a variety of career advice on the trip, but they all seemed to have a unifying theme. Career choices tied back to one’s “values”.&lt;/p&gt;
+
+&lt;p&gt;A concept so simple might seem obvious, but values don’t get enough attention in the career choice conversation. Too often, the discussion centers around simple tradeoffs like compensation (&lt;em&gt;where can I earn more?&lt;/em&gt;), the size of the company (&lt;em&gt;startup or big company?&lt;/em&gt;), and degrees (&lt;em&gt;do I need to go to grad school?&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;There’s nothing wrong with asking these other questions; they should to be asked. To find the answer, though, consider a &lt;em&gt;value-driven&lt;/em&gt; approach instead. First decide what you value and then make the choices that uphold those values throughout your career.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-decide-what-you-value&quot;&gt;How to decide what you value&lt;/h3&gt;
+
+&lt;p&gt;What do you value? Is it the opportunity to solve technically interesting problems? Or the chance to build something that has impact? Maybe it’s simply to work with fun, genuine people.&lt;/p&gt;
+
+&lt;p&gt;It’s not easy to decide what you value, but it might help to ask other people their values. Consider the values we heard on TigerTrek from DJ Patil, Chief Data Scientist at Greylock Partners:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Have fun and learn a lot&lt;/li&gt;
+  &lt;li&gt;Make lots of money. It gives you the opportunity to do other things&lt;/li&gt;
+  &lt;li&gt;Grow teams and grow people. Help them buy their first homes, for example, and have the opportunity to do other things&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it. It’s the things he ultimately cares about in a career that drive his career choices. The last point struck me as meaningful. The opportunity to build teams and grow people is not obvious early in a career, but the impact can be powerful.&lt;/p&gt;
+
+&lt;p&gt;Values don’t have to be set it stone; they can change over the course of your career. Clay Bavor, a Product VP at Google, illustrated how his values changed over time:
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Start of Career&lt;/th&gt;
+      &lt;th&gt;Middle of Career&lt;/th&gt;
+      &lt;th&gt;End of Career&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Learning&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Compensation&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Enjoyment&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Early in life you value the experiences you gain and the things you learn. As you settle down to grow a family, compensation becomes more important. Finally, by the end of your career, you seek some personal fulfilment by doing work that’s truly enjoyable. This evolution can all take place in the same job throughout your life. Alternatively, you might consider changing jobs to keep up with your values as they evolve.&lt;/p&gt;
+
+&lt;p&gt;I want to touch on one more example of values that people hold. Work-family balance is often discussed under career values. How much should you value career development? How much should you value time with your family? &lt;/p&gt;
+
+&lt;p&gt;I think Vic Gundotra, former VP of Social at Google, offered an interesting perspective. The way Vic sees it: instead of trying to “balance” work and family, first decide what you &lt;em&gt;cannot&lt;/em&gt; sacrifice. Whether it’s attending each of your daughter’s soccer games or having dinner with your family every night, decide what are those things you &lt;em&gt;have&lt;/em&gt; to do. Then, avoid sacrificing those few things at all cost.&lt;/p&gt;
+
+&lt;p&gt;It takes time to decide values, but once you do, making many important career choices can boil down to a clearer pick between what maintains your values the most.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-uphold-your-values-through-career-choices&quot;&gt;How to uphold your values through career choices&lt;/h3&gt;
+
+&lt;p&gt;Once you’ve decided on a few values, consider paying attention to how career choices impact those values. Interestingly on TigerTrek, we received a great amount of advice on how to make career choices that uphold our values, particularly as they relate to the companies we choose to work for.&lt;/p&gt;
+
+&lt;p&gt;When considering a company, Bill Campbell suggests you start by asking just two important questions: (1) Who am I going to work for? (2) What are they going to teach me?&lt;/p&gt;
+
+&lt;p&gt;While it came at a completely different meeting, Paul Graham’s advice is a perfect complement to Campbell’s. Graham suggests you work for the people you aspire to be like. You will spend so many hours around these people that you’ll inevitably pick up their values, mannerisms, and ways of thinking.&lt;/p&gt;
+
+&lt;p&gt;To cap it off, I want to present one final framework you might use to find a company-value match. Venture capitalist John Doerr cites a pattern first noted in a book called &lt;a href=&quot;http://www.amazon.com/The-Monk-Riddle-Creating-Making/dp/1578516447&quot;&gt;The Monk and the Riddle&lt;/a&gt; by Randy Komisar: Mercenaries vs. Missionaries. Companies fall into one category or the other. Mercenary companies are driven by fear. They execute with force. They seek to “crush” the competition. &lt;/p&gt;
+
+&lt;p&gt;Missionary companies, on the other hand, are driven by passion. They’re still competitive, but they’re driven by a meaningful, unifying mission. It’s an interesting scale to weigh companies on, and ultimately reveals what a company values at its core.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;This collection of value-driven career advice is by no means the definite answer; it’s just a few of the perspectives we encountered on TigerTrek 2013. Despite all the career planning anyone can do, we have to acknowledge that life is chaotic. For every planned career we heard about on TigerTrek, we heard of two careers shaped by curiously random events. Though it’s important to seek opportunities and be open to change, values can certainly serve as a foundational guideline.&lt;/p&gt;
+
+&lt;p&gt;[ June 2014 ]&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://www.shubhro.com/2014/06/02/career-advice/</link>
+        <guid isPermaLink="true">http://www.shubhro.com/2014/06/02/career-advice/</guid>
+      </item>
+    
+  </channel>
+</rss>
