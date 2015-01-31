@@ -15,7 +15,7 @@ There are some existing solutions. [E-Ink monitors](http://blog.the-ebook-reader
 
 Jailbreaking felt tedious, though, because of sparse and outdated documentation. I wondered if I could instead use the Javascript-enabled Kindle web browser to display what's typed on another machine in real-time (a la [Collabedit](http://collabedit.com/)).
 
-The result was [_Typewriter_](https://github.com/shbhrsaha/typewriter), a Meteor app that brings distraction-free writing to the Kindle. After firing it up on your computer, point the Kindle's web browser to the Meteor app's IP and port. Because Meteor synchronizes data across clients, what you type in the computer's browser instantly appears on the Kindle. The screen is surprisingly responsive to keystrokes, considering network and E-Ink refresh latencies.
+The result was [_Typewriter_](https://github.com/shbhrsaha/typewriter), a Meteor app that brings distraction-free writing to the Kindle. After firing it up on your computer, point the Kindle's web browser to the Meteor app's IP and port. Because Meteor synchronizes data across clients, what you type in the computer's browser instantly appears on the Kindle. It's actually feels a little like magic. The screen is surprisingly responsive to keystrokes, considering network and E-Ink refresh latencies.
 
 <br />
 <video width="600" autoplay="autoplay" loop muted>
