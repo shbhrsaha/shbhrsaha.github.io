@@ -13,11 +13,11 @@ It's gentle on the eyes, reads easily in sunlight, and creates a distraction-fre
 
 The challenge is that the Kindle doesn't have any ports for external keyboards. In addition, the device's operating system is limited and doesn't offer much opportunity for developers to build applications.
 
-There are some solutions that bring word processing to E-Ink screens. [Standalone E-Ink monitors](http://blog.the-ebook-reader.com/2015/01/15/paperlike-13-3-e-ink-monitor-by-dasung-tech-videos/) are now available, but expensive. Alternatively, Max Ogden has a [great tutorial](http://maxogden.com/kindleberry-wireless.html) on how to jailbreak the Kindle to SSH into the Raspberry Pi. His hack provides a portable setup for focused coding and writing.
+There are some solutions that bring word processing to E-Ink screens. [Stand-alone E-Ink monitors](http://blog.the-ebook-reader.com/2015/01/15/paperlike-13-3-e-ink-monitor-by-dasung-tech-videos/) are now available, but expensive. Alternatively, Max Ogden has a [great tutorial](http://maxogden.com/kindleberry-wireless.html) on how to jailbreak the Kindle to SSH into the Raspberry Pi. His hack provides a portable setup for focused coding and writing.
 
 Jailbreaking felt tedious, though, because of sparse and outdated documentation. I wondered if I could instead use the JavaScript-enabled Kindle web browser to display what's typed on another machine in real-time (a la [Collabedit](http://collabedit.com/)).
 
-The result was [_Typewriter_](https://github.com/shbhrsaha/typewriter), a Meteor app that brings distraction-free writing to the Kindle. After firing it up on your computer, point the Kindle's web browser to the Meteor app's IP and port. Because Meteor synchronizes data across clients, what you type in the computer's browser instantly appears on the Kindle. It's actually feels a little like magic. The screen is surprisingly responsive to keystrokes, considering network and E-Ink refresh latencies.
+The result was [_Typewriter_](https://github.com/shbhrsaha/typewriter), a Meteor app that brings distraction-free writing to the Kindle. After firing it up, I point the Kindle's web browser to the Meteor app's IP address and port. Because Meteor synchronizes data across clients, what I type into the computer's browser instantly appears on the Kindle. It actually feels a little magical. The screen is surprisingly responsive to keystrokes, considering network and E-Ink refresh latencies.
 
 <br />
 <video width="600" autoplay="autoplay" loop muted>
