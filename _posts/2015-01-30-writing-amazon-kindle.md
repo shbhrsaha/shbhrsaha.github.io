@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY word-processor with Amazon Kindle
+title: E-Ink word processing with Amazon Kindle
 ---
 
 <br />
