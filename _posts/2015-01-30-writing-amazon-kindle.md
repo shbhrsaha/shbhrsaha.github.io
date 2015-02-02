@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Distraction-free writing on the Amazon Kindle
+title: DIY word-processor with Amazon Kindle
 ---
 
 <br />
