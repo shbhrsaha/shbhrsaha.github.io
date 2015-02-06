@@ -20,7 +20,7 @@ As a writer, I sympathize with Draper's frustration. Oftentimes, it's difficult 
 
 The problem with my writing process, though, is that I generate thoughts faster than I can type them. By the time I'm ready to put down the next thought, I've already forgotten it.
 
-Dictating, on the other hand, is a naturally fast way of committing our thoughts to the record. By speaking our thoughts aloud, we can record ideas as soon as we get them, then organize them in writing later.
+Dictating, on the other hand, is a naturally fast way of committing our thoughts to the record. By speaking our thoughts aloud, we can record ideas as soon as we get them and organize them in writing later.
 
 The dictaphone encourages this process of brainstorming aloud. Speaking into a dictaphone can be a substitute for a first draft. Subsequent rewriting will then commit the recorded ideas to paper.
 
