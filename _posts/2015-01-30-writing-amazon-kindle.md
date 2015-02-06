@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Distraction-free writing on the Amazon Kindle
+title: E-Ink word processing with Amazon Kindle
 ---
 
 <br />
