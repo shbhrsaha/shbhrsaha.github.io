@@ -33,7 +33,7 @@ I configured my iPhone to use my Mac as the proxy by tapping Settings > Wi-Fi > 
 
 ### Recording Kayak network activity
 
-We're now able to observe and save all of the iPhone's network activity, including those occuring over HTTPS. Let's record activity for the Kayak iPhone app by running `mitmdump -w kayak_flows.out` and tapping through the Kayak app as usual. In particular, navigate to Flights > From > Current location > Find Flights. After getting to the search results page, close the Kayak app and exit mitmdump by pressing `q`. We know that, during this usage, the Kayak app must have communicated with the server to learn airports and prices.
+We're now able to observe and save all of the iPhone's network activity, including those occuring over HTTPS. Let's record activity for the Kayak iPhone app by running `mitmdump -w kayak_flows.out` and tapping through the Kayak app as usual. In particular, navigate to Flights > From > Current location > Find Flights. After getting to the search results page, close the Kayak app and exit mitmdump by pressing `ctrl+c`. We know that, during this usage, the Kayak app must have communicated with the server to learn airports and prices.
 
 ### Browsing saved network activity
 
