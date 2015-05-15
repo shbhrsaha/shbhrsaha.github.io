@@ -2,9 +2,9 @@ body {
 	padding-left:150px;
     padding-bottom:100px;
     position:absolute;
-    width:600px;
+    width:500px;
     top:0;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 blockquote p {
@@ -27,13 +27,12 @@ a:hover {
 
 h1, h2, h3, h4, p {
 	line-height:1.2em;
-    font-weight:300;
     margin-top:1em;
 }
 
 p{
-	font-size:16px;
-    line-height:1.5em;
+	font-size:18px;
+    line-height:29px;
 }
 
 h1{
@@ -70,8 +69,8 @@ h3 {
 }
 
 .posts-list li {
-    font-size:16px;
-    line-height:1.5em;
+    font-size:18px;
+    line-height:29px;
     list-style:none;
     margin-left:-24px;
     margin-bottom:25px;
@@ -79,9 +78,8 @@ h3 {
 
 .posts-list p {
     line-height: 1.5em;
-    text-align: justify;
     margin-top:8px;
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 .image-figure div {
@@ -91,8 +89,8 @@ h3 {
 
 ol, ul {
     font-weight:300;
-    font-size:16px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:18px;
+    font-family: 'Vollkorn', serif;
 }
 
 ol li {
@@ -113,7 +111,7 @@ hr {
 }
 
 .social-links {
-    font-size:13px;
+    font-size:15px;
 }
 
 .projects-list li {
