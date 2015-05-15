@@ -1,6 +1,6 @@
 ---
 layout: post
-title: High-volume search of 2013 Boston Marathon<br /> runners to rapidly identify community members
+title: High-volume search of 2013 Boston Marathon runners to rapidly identify community members
 ---
 
 ![](/static/boston-marathon/marathon.png)
