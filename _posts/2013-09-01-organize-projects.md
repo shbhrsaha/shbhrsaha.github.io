@@ -25,6 +25,6 @@ It's surprisingly refreshing to use a tool so simple for project management. The
 
 If you're interested in using it yourself, just copy the spreadsheet from the link below.
 
-[Link to Project Management Dashboard Template](https://docs.google.com/spreadsheet/ccc?key=0AiCh1N3Pov8tdElid0htN1h1LWc5M0RMTFZfLV9Nemc&usp=sharing)
+[Link to Project Management Dashboard Template](https://docs.google.com/spreadsheets/d/1jzlLcYxgx2546zvNLEsnJgr90yA1BteUw_276ZrmzF8/edit?usp=sharing)
 
 [ September 2013 ]
