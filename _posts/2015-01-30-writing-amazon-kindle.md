@@ -20,7 +20,7 @@ Jailbreaking felt tedious, though, because of sparse and outdated documentation.
 The result was [_Typewriter_](https://github.com/shbhrsaha/typewriter), a Meteor app that brings distraction-free writing to the Kindle. After firing it up, I point the Kindle's web browser to the Meteor app's IP address and port. Because Meteor synchronizes data across clients, what I type into the computer's browser instantly appears on the Kindle. It actually feels a little magical. The screen is surprisingly responsive to keystrokes, considering network and E-Ink refresh latencies.
 
 <br />
-<video width="600" autoplay="autoplay" loop muted>
+<video width="500" autoplay="autoplay" loop muted>
   <source src="/static/writing-amazon-kindle/clip.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
