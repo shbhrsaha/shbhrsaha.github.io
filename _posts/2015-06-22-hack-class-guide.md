@@ -2,7 +2,7 @@
 layout: post
 title: Guide to teaching an E-Club hack class
 ---
-<br />
+![](/static/hack-class-guide/illustration.png)
 
 1. [Introduction](#introduction)
 2. [Whether to Teach](#whether)
