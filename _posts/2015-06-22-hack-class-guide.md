@@ -174,4 +174,6 @@ Take all of this advice with a grain of salt, as circumstances change over time.
 
 I strongly encourage you to consider teaching an E-Club hack class. The experience is worth it.
 
+[ June 2015 ]
+
 Thanks to [Charlie Marsh](http://www.crmarsh.com) and [Dan Kang](http://www.dskang.com) for reviewing an earlier draft of this post.
