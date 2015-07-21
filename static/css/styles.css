@@ -178,13 +178,9 @@ pre {
 
 .footer {
   text-align: center;
-  font-size: 0.8em;
   border-top: 2px solid #CCC;
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px; }
-  @media (max-device-width: 500px) {
-    .footer {
-      font-size: 1em; } }
 
 /*# sourceMappingURL=styles.css.map */
