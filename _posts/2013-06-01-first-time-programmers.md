@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Clarifications and advice for first-time programmers
+categories:
+    - Education
 ---
 
 ![](/static/first-time-programmers/mac.jpg)
@@ -60,8 +62,6 @@ What's next? There are many places to begin, but here is my recommendation.
 These are just a few points of advice to get you started. If you've commited yourself to learn programming, stick with it. It will change your life. If you ever feel stuck, [send me an email](mailto:saha@princeton.edu). Know me, don't know me-- it doesn't matter. I love email.
 
 Onward and upward.
-
-[ June 2013 ]
 
 ### Acknowledgments
 

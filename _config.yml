@@ -7,4 +7,4 @@ url:          http://www.shubhro.com
 # Build settings
 highlighter: pygments
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:month/:day/:title/

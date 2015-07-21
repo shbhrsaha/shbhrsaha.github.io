@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Tips for software engineering internships
+categories:
+    - Software
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=8603341
+    - Reddit: https://www.reddit.com/r/programming/comments/2m7fqe/tips_for_software_engineering_internships/
 ---
 
 ![](/static/tips-for-internships/cartoon.png)
@@ -82,9 +87,3 @@ As an aside: some interns psych themselves out by looking around at other engine
 I hope that something in the above list gave you an idea about how to make the most of your internship. This list is by no means exhaustive, so if you think I've missed something, drop me a note!
 
 Thanks to [David Dohan](http://ddohan.com/), [Charlie Marsh](http://www.princeton.edu/~crmarsh/), and [Dan Kang](http://dskang.com/) for reviewing this post.
-
-[ October 2014 ]
-
-[Hacker News](https://news.ycombinator.com/item?id=8603341)
-&sdot;
-[Reddit](http://www.reddit.com/r/programming/comments/2m7fqe/tips_for_software_engineering_internships/)

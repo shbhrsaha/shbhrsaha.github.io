@@ -3,7 +3,6 @@
     <head>
         <title>{{ page.title }} | Shubhro Saha</title>
         <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
         <link href="/static/css/styles.css" rel="stylesheet">
         <link href="/static/css/syntax.css" rel="stylesheet">
         <script type="text/javascript">
@@ -22,26 +21,23 @@
     </head>
     <body>
         <a href="/"><div class="logo"></div></a>
-        <div class="runner">&nbsp;</div>
-        {{ content }}
-        <br /><br />
-        <hr />
-        <center>
-            &copy; 2015 Shubhro Saha
-            &sdot;
-            <a target="_blank" href="/">Home</a>
-            &sdot;
-            <a target="_blank" href="mailto:saha@princeton.edu">Email</a>
-            &sdot;
-            <a target="_blank" href="http://www.facebook.com/shubhro">Facebook</a>
-            &sdot;
-            <a target="_blank" href="https://twitter.com/shubroski">Twitter</a>
-            &sdot;
-            <a target="_blank" href="http://www.github.com/shbhrsaha">GitHub</a>
-            &sdot;
-            <a href="/links">Links</a>
-            &sdot;
-            <a href="/feed.xml">RSS</a>
-        </center>
+        <div class="container">
+            {{ content }}
+            <div class="footer">
+                &copy; 2015 Shubhro Saha
+                &sdot;
+                <a href="/">Home</a>
+                &sdot;
+                <a href="mailto:saha@princeton.edu">Email</a>
+                &sdot;
+                <a target="_blank" href="http://www.facebook.com/shubhro">Facebook</a>
+                &sdot;
+                <a target="_blank" href="https://twitter.com/shubroski">Twitter</a>
+                &sdot;
+                <a target="_blank" href="http://www.github.com/shbhrsaha">GitHub</a>
+                &sdot;
+                <a target="_blank" href="/feed.xml">RSS</a>
+            </div>
+        </div>
     </body>
 </html>

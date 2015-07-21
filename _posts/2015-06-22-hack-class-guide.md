@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Guide to teaching an E-Club hack class
+categories:
+    - Education
 ---
 ![](/static/hack-class-guide/illustration.png)
 
@@ -173,7 +175,5 @@ Teaching an E-Club hack class is simultaneously fascinating, challenging, and re
 Take all of this advice with a grain of salt, as circumstances change over time. I'm sure this guide will show its age at some point, and at that time, we hope you write a guide of your own. 
 
 I strongly encourage you to consider teaching an E-Club hack class. The experience is worth it.
-
-[ June 2015 ]
 
 Thanks to [Charlie Marsh](http://www.crmarsh.com) and [Dan Kang](http://www.dskang.com) for reviewing an earlier draft of this post.

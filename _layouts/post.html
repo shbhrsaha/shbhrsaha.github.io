@@ -1,8 +1,24 @@
 ---
 layout: default
 ---
-    <br /><br />
-    <br /><br />
     <br />
     <h2>{{ page.title }}</h2>
     {{ content }}
+    <br />
+    <p>
+    {% for category in page.categories %}
+        {{ category|capitalize }}
+        &sdot;
+    {% endfor %}
+    {{ page.date|date: "%B %Y" }}
+    </p>
+    <p>
+    {% for link_hash in page.links %}
+        {% for link in link_hash %}
+            <a href="{{ link[1] }}">{{ link[0] }}</a>
+        {% endfor %}
+        {% if forloop.last != true %}
+            &sdot;
+        {% endif %}
+    {% endfor %}
+    </p>

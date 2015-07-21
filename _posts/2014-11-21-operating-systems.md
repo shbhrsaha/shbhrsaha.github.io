@@ -1,6 +1,12 @@
 ---
 layout: post
 title: How a course in operating systems changed me
+categories:
+    - Education
+    - Software
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=8643235
+    - Reddit: https://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/
 ---
 <br />
 ![](/static/operating-systems/low-level.png)
@@ -93,9 +99,3 @@ Some other perspectives on these topics if you want to read more:
 - [Sean Cassidy: Sherlock Holmes Debugging](http://blog.seancassidy.me/sherlock-holmes-debugging.html)
 
 Thanks to [Dan Kang](http://dskang.com/) for reviewing this post.
-
-[ November 2014 ]
-
-[Hacker News](http://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/)
-&sdot;
-[Reddit](http://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/)

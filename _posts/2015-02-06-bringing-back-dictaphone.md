@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Bringing back the dictaphone
+categories:
+    - Productivity
 ---
 
 <br />
@@ -27,7 +29,5 @@ The dictaphone encourages this process of brainstorming aloud. Speaking into a d
 If this process sounds interesting to you, check out [Dictaphone](https://github.com/shbhrsaha/dictaphone), a Python script that imitates the behavior of the original dictaphone. It's like other sound recorders, but the stop-go functionality helps to eliminate silence and make recording dead simple.
 
 At a larger level, it's interesting how the demise of a technological device can change our behavior. I rarely hear about people using their mobile devices to orally record their thoughts. But when dictaphones were popular, it seems the practice was commonplace. This trend coincides with typing becoming mainstream. Today it's hard to think of an era when typing was a special skill. Sometimes, though, taking a step back in time can make our lives today a little easier.
-
-[ February 2015 ]
 
 [GitHub](https://github.com/shbhrsaha/dictaphone)

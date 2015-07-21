@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Links
+title: Links I recommend
+categories:
+    - Other
 ---
 
 Here are some articles by other people that I recommend. I don't necessarily agree with every view in the links below, but I think they're worth reading.

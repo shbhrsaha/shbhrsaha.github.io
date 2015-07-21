@@ -1,6 +1,8 @@
 ---
 layout: post
 title: E-Ink word processing with Amazon Kindle
+categories:
+    - Productivity
 ---
 
 <br />
@@ -29,8 +31,6 @@ The result was [_Typewriter_](https://github.com/shbhrsaha/typewriter), a Meteor
 Typewriter periodically saves drafts in a backup folder in case I accidentally delete my work. I couldn't figure out a clever way to display the cursor position, but Typewriter generally works well for writing first drafts. In the future it would be nice to run Typewriter on a Raspberry Pi so I won't have to keep a Macbook running on the side.
 
 At a broader level, this hack illustrates the power of Kindle's JavaScript engine. The browser can be a foundation for presenting applications in E-Ink, stretching the boundaries of what's possible in an otherwise locked-down operating system.
-
-[ January 2015 ]
 
 [GitHub](https://github.com/shbhrsaha/typewriter)
 

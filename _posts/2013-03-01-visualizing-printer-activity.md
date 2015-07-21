@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Visualizing printer activity at Princeton University
+categories:
+    - Other
 ---
+<br />
 
 ### Why Printers
 Data are everywhere at universities. Interestingly, Princeton University's Office of Information Technology publishes the [status of every networked printer](http://clusters-lamp.princeton.edu/cgi-bin/clusterinfo.pl) on campus. Though these data might strike some as uninteresting, I was absolutely fascinated the first time I came across that webpage. Watching printer activity is akin to measuring the average student's workload. In general, printers are more likely to be active when students have a lot of work, with readings and essays needing to be printed.
@@ -28,5 +31,3 @@ The above graph shows the ranking of campus printers based on the percentage of 
  
 ### GitHub
 The main Python scripts for this project are available in this [GitHub repository](https://github.com/shbhrsaha/printers).
-
-[ March 2013 ]

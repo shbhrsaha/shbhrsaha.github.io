@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Lessons from teaching a hack class
+categories:
+    - Education
 ---
 <br />
 ![](/static/lessons-intro-to-hacking/teaching.png)
@@ -70,5 +72,3 @@ Charlie and I were eager to hear feedback. Students preferred writing their feed
 A few months after _Introduction to Hacking_ ran, I was chatting with a friend who had taken the course. A politics major, he was actually now studying for a software engineering interview. I was surprised. He explained that, over the past year, he realized software engineering was his true calling, and _Introduction to Hacking_ was an influential reason for that change.
 
 Across our projects, Charlie and I are most motivated by the potential for _impact_. It's our answer to the 'why' question I mentioned earlier: we want our work to matter. My politics friend is just one instance of how hack classes are an incredible vehicle for impact. I believe that, in many cases, students learn more effectively when they're taught by other students. And I'm grateful for the opportunity to have been a part of that.
-
-[ December 2014 ]

@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Reverse-engineering the Kayak app with mitmproxy 
+categories:
+    - Software
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=8778003
+    - Reddit: https://www.reddit.com/r/programming/comments/2px1mv/reverseengineering_the_kayak_app_with_mitmproxy/
+    - Hackaday: http://hackaday.com/2015/01/03/reverse-engineering-the-kayak-mobile-api/
 ---
 <br />
 ![](/static/kayak-mitmproxy/kayakapp.png)
@@ -77,11 +83,3 @@ You can check out a complete basic client on [GitHub](https://github.com/shbhrsa
 The results presented here are far from a complete API, but I hope this tutorial demonstrates the power of reverse-engineering mobile apps. Tools like mitmproxy helps us obtain a level of understanding previously prohibited by the locked-down nature of mobile operating systems. Given how young the mobile space is, there's never been a better time to do some exploring.
 
 To read more about researching mobile apps with proxies, check out [Extracting My Data from the Microsoft Band](http://jeffhuang.com/extracting_my_data_from_the_microsoft_band.html), [Yik Hak](http://silverskylabs.github.io/yakhak/), and [What They Know Mobile](http://blogs.wsj.com/wtk-mobile/).
-
-[ December 2014 ]
-
-[Hacker News](https://news.ycombinator.com/item?id=8778003)
-&sdot;
-[Reddit](http://www.reddit.com/r/programming/comments/2px1mv/reverseengineering_the_kayak_app_with_mitmproxy/)
-&sdot;
-[Hackaday](http://hackaday.com/2015/01/03/reverse-engineering-the-kayak-mobile-api/)

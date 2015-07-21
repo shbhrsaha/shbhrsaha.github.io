@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Software engineers should write
+categories:
+    - Software
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=8810382
+    - Reddit: https://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/
+    - Portuguese: http://andersonnnunes.org/?p=338
 ---
 <br />
 ![](/static/software-engineers-should-write/illustration.png)
@@ -32,11 +38,3 @@ Even if nobody reads your essay, writing it will make an impact on _you_. It wil
 Writing offers the same sense of impact that motivates an engineer to write software. Combine this with how it promotes skills useful in software engineering and facilitates collaboration, then suddenly writing appears to be a worthwhile activity.
 
 Even for the "math kids".
-
-[ December 2014 ]
-
-[Hacker News](https://news.ycombinator.com/item?id=8810382)
-&sdot;
-[Reddit](http://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/)
-&sdot;
-[Portuguese](http://andersonnnunes.org/?p=338)

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Why I use 'I'm Feeling Lucky' for every search
+categories:
+    - Productivity
 ---
 
 ![](/static/im-feeling-lucky/screenshot.png)
@@ -20,8 +22,6 @@ Sometimes it screws up: 'obama birthday' takes me to [The Washington Times](http
 'I'm Feeling Lucky' doesn't always work. But when it does, it's insanely good.
 
 Give it a shot.
-
-[ January 2015 ]
 
 [GitHub](https://github.com/shbhrsaha/lucky-strike)
 &sdot;

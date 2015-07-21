@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Polly want to write a limerick
+categories:
+    - Other
 ---
 
 ![](/static/polly-limerick/polly_screenshot.png)
@@ -58,5 +60,3 @@ The results are quite amusing, most of the time meaning rubbish. Here's a select
 
 ### GitHub
 Try it out yourself! You can download Polly and all the instructions you need from [GitHub](https://github.com/shbhrsaha/polly/).
-
-[ March 2013 ]

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Language for giving and receiving effective feedback
+categories:
+    - Life
+links:
+    - Reddit: https://www.reddit.com/r/socialskills/comments/2np58d/language_tricks_to_make_feedback_conversations/
 ---
 <br />
 ![](/static/language-for-feedback/feedbackwave.png)
@@ -138,8 +142,4 @@ If you liked this post, I suggest checking out the following books:
 - [Daring Greatly by Brene Brown](http://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592407331) - As someone who's struggled with opening up myself, I recommend this book for anyone interested in the strength of vulnerability as a personality trait
 
 Thanks to Sneha Saha for reviewing an earlier draft of this post and drawing the "feedback sandwich".
-
-[ November 2014 ]
-
-[Reddit](http://www.reddit.com/r/socialskills/comments/2np58d/language_tricks_to_make_feedback_conversations/)
 

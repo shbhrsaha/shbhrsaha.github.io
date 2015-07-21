@@ -1,6 +1,8 @@
 ---
 layout: post
 title: On value-driven career advice
+categories:
+    - Life
 ---
 
 ![](/static/career-advice/cartoon.png)
@@ -60,5 +62,3 @@ Missionary companies, on the other hand, are driven by passion. They're still co
 ### Conclusion
 
 This collection of value-driven career advice is by no means the definite answer; it's just a few of the perspectives we encountered on TigerTrek 2013. Despite all the career planning anyone can do, we have to acknowledge that life is chaotic. For every planned career we heard about on TigerTrek, we heard of two careers shaped by curiously random events. Though it's important to seek opportunities and be open to change, values can certainly serve as a foundational guideline.
-
-[ June 2014 ]

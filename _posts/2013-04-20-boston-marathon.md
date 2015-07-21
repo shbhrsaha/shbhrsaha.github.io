@@ -1,6 +1,8 @@
 ---
 layout: post
 title: High-volume search of 2013 Boston Marathon runners to rapidly identify community members
+categories:
+    - Other
 ---
 
 ![](/static/boston-marathon/marathon.png)
@@ -138,5 +140,3 @@ for line in matchFile.readlines():
 ### GitHub
 
 You can find the source code for this project on [GitHub](https://github.com/shbhrsaha/boston-marathon).
-
-[ April 2013 ]

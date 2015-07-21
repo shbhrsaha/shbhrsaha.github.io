@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Who at Princeton has a web site?
+category:
+    - Other
 ---
 
 > I was curious how many students at Princeton had posted a web site and, if so, what those sites were about. Check out the [Princeton Undergraduate Personal Web Site Surfer](/static/princeton-web-sites/explorer.html) to stumble upon some cool pages.
@@ -30,8 +32,6 @@ It's expected that Computer Science is near the top of the list, but I was surpr
 
 ### GitHub
 The main scripts are available in a [GitHub repository](https://github.com/shbhrsaha/websites).
-
-[ March 2013 ]
 
 ### Notes
 

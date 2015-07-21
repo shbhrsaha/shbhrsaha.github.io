@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How I organize projects
+category:
+    - Productivity
 ---
 
 > A dead-simple spreadsheet that organizes tasks and shares knowledge for small teams and projects
@@ -26,5 +28,3 @@ It's surprisingly refreshing to use a tool so simple for project management. The
 If you're interested in using it yourself, just copy the spreadsheet from the link below.
 
 [Link to Project Management Dashboard Template](https://docs.google.com/spreadsheets/d/1jzlLcYxgx2546zvNLEsnJgr90yA1BteUw_276ZrmzF8/edit?usp=sharing)
-
-[ September 2013 ]
