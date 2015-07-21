@@ -7,7 +7,7 @@ layout: default
     <br />
     <p>
     {% for category in page.categories %}
-        {{ category|capitalize }}
+        <a href="/categories/{{ category }}/">{{ category|capitalize }}</a>
         &sdot;
     {% endfor %}
     {{ page.date|date: "%B %Y" }}
