@@ -8,7 +8,6 @@ links:
     - Hacker News: https://news.ycombinator.com/item?id=8643235
     - Reddit: https://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/
 ---
-<br />
 ![](/static/operating-systems/low-level.png)
 <br /><br />
 There are few classes at Princeton that changed me like COS 318 (Operating Systems). It was challenging, time-munching, and exhausting, but looking back: I'm glad I took the course.

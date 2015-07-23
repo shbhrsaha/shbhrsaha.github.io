@@ -176,6 +176,12 @@ pre {
     left: 12px;
     top: 12px; } }
 
+.image-figure {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .image-figure div {
+    font-style: italic; }
+
 .footer {
   text-align: center;
   border-top: 2px solid #CCC;

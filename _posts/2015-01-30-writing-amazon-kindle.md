@@ -4,10 +4,7 @@ title: E-Ink word processing with Amazon Kindle
 categories:
     - Productivity
 ---
-
-<br />
 ![](/static/writing-amazon-kindle/photo.jpg)
-<br /><br />
 
 I love the Amazon Kindle's E-Ink screen.
 

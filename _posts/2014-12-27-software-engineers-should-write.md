@@ -8,7 +8,6 @@ links:
     - Reddit: https://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/
     - Portuguese: http://andersonnnunes.org/?p=338
 ---
-<br />
 ![](/static/software-engineers-should-write/illustration.png)
 
 In elementary school, there were "math kids" and there were "English kids". You were classified by the other kids' impression of your prowess in each subject.

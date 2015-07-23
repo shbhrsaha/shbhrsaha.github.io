@@ -4,8 +4,6 @@ title: Bringing back the dictaphone
 categories:
     - Productivity
 ---
-
-<br />
 {% include image.html url="/static/bringing-back-dictaphone/don.jpg" caption="Don Draper speaks into a dictaphone in Mad Men Season 5, Episode 8" %}
 
 One of the fascinating things about _Mad Men_ is the frequent use of the dictaphone-- a tape recorder that starts and stops recording with the click of a button.

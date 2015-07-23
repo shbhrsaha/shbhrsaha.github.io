@@ -4,7 +4,6 @@ title: Lessons from teaching a hack class
 categories:
     - Education
 ---
-<br />
 ![](/static/lessons-intro-to-hacking/teaching.png)
 
 ### Introduction

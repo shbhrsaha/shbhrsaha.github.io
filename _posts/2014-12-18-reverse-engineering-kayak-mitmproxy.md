@@ -8,7 +8,6 @@ links:
     - Reddit: https://www.reddit.com/r/programming/comments/2px1mv/reverseengineering_the_kayak_app_with_mitmproxy/
     - Hackaday: http://hackaday.com/2015/01/03/reverse-engineering-the-kayak-mobile-api/
 ---
-<br />
 ![](/static/kayak-mitmproxy/kayakapp.png)
 
 ### Introduction

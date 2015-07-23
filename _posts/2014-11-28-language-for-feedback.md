@@ -6,7 +6,6 @@ categories:
 links:
     - Reddit: https://www.reddit.com/r/socialskills/comments/2np58d/language_tricks_to_make_feedback_conversations/
 ---
-<br />
 ![](/static/language-for-feedback/feedbackwave.png)
 
 > We can all remember to "ask for feedback" and "end on a positive note", but most of us are at a loss for how to translate broad advice into specific, thoughtful words.
