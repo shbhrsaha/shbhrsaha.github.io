@@ -22,4 +22,6 @@ Eating the crispy chicken burger was a similar experience. The chicken leg patty
 
 I had high hopes after the chicken burgers, and the classic cheeseburger did not disappoint. The generously thick slices of tomato and onion were a welcome surprise. The patty is soft but maintains structural integrity when eaten. The beef is the focus of flavor, not the afterthought. There's some drip, but the oil is less what I would put into a motor vehicle and more what I would rub on a baby's bum.
 
-The side dishes paled in comparison, but I would recommend the fried potato to round out a classic fast food meal. Like most Japanese cuisine, the fresh ingredients play the main act. It's hard to say whether this joint serves the best burger I've ever eaten. But if you gave me a choice between Shake Shack and Freshness Burger, I'd probably choose the latter.
+The side dishes paled in comparison, but I would recommend the fried potato to round out a classic fast food meal. Like most Japanese cuisine, the fresh ingredients play the main act. It's hard to say whether this joint serves the best burger I've ever eaten. But if you give me a choice between Shake Shack and Freshness Burger, I'd probably choose the latter.
+
+Freshness Burger. Kyoto, Japan
