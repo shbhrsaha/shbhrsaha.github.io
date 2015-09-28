@@ -11,6 +11,7 @@ Here are some articles by other people that I recommend. I don't necessarily agr
 - [On Having Something to Say](http://chadfowler.com/blog/2014/01/21/on-having-something-to-say/)
 - [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
 - [Engineering Management](http://algeri-wong.com/yishan/engineering-management.html)
+- [A Decade at Google](http://wp.sigmod.org/?p=1851)
 - [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf)
 - [You Should Write Blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 - [Why I Won't Sign Your NDA](http://blog.jpl-consulting.com/2012/04/why-i-wont-sign-your-nda/)
