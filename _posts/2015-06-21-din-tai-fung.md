@@ -31,6 +31,6 @@ I shoved heaps of rice into my mouth from the pork chop dish. The caked rice was
 
 The Shanghai location can be hard to find. Go to the third floor of the Super Brand Mall and look for directories.
 
-Din Tai Fung is a solid chain with reasonably-priced, quality food. You can't leave Shanghai without having xialongbao. Din Tai Fung wouldn't be a bad place to try it.
+Din Tai Fung is a solid chain with reasonably-priced, quality food. You can't leave Shanghai without having xiaolongbao. Din Tai Fung wouldn't be a bad place to try it.
 
 Din Tai Fung. Shanghai, China
