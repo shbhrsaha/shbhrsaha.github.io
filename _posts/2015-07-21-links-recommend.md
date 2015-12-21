@@ -15,6 +15,7 @@ Here are some articles by other people that I recommend. I don't necessarily agr
 - [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf)
 - [You Should Write Blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 - [Why I Won't Sign Your NDA](http://blog.jpl-consulting.com/2012/04/why-i-wont-sign-your-nda/)
+- [What can a technologist do about climate change?](http://worrydream.com/ClimateChange/)
 - [The Opposite of Loneliness](http://yaledailynews.com/crosscampus/2012/05/27/keegan-the-opposite-of-loneliness/)
 - [Are you a satisficer or a maximizer?](http://www.gretchenrubin.com/happiness_project/2006/06/are_you_a_satis/)
 - [The Age of the Essay](http://www.paulgraham.com/essay.html)
