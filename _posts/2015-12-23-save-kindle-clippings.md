@@ -6,7 +6,7 @@ categories:
 published: true
 ---
 
-{% include image.html url="/static/saving-kindle-clippings/screenshot.png" caption="Dickens displaying clippings from a recently read article" %}
+{% include image.html url="/static/save-kindle-clippings/screenshot.png" caption="Dickens displaying clippings from a recently read article" %}
 
 I'm a big fan of the Amazon Kindle. Not only is it great for reading books and articles, but also it has a clever highlighting/commenting feature. I can drag my finger across the text to highlight it, optionally add a comment, then revisit it later on the device.
 
