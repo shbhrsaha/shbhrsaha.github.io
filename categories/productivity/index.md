@@ -3,5 +3,5 @@ layout: post
 title: Writing About Productivity
 ---
 
-{% include categorypostlist.html category="productivity" %}
+{% include categorypostlist.html category="Productivity" %}
 

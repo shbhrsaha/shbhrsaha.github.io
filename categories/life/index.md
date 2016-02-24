@@ -3,5 +3,5 @@ layout: post
 title: Writing About Life
 ---
 
-{% include categorypostlist.html category="life" %}
+{% include categorypostlist.html category="Life" %}
 
