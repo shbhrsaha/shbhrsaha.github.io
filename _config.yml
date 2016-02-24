@@ -5,6 +5,6 @@ description: "Personal web site of Shubhro Saha"
 url:          http://www.shubhro.com
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
