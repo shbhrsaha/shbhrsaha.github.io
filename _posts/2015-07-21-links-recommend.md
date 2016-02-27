@@ -8,6 +8,7 @@ categories:
 Here are some articles by other people that I recommend. I don't necessarily agree with every view in the links below, but I think they're worth reading.
 
 - [Life is Short](http://paulgraham.com/vb.html)
+- [Imagining your future projects is holding you back](http://jessicaabel.com/2016/01/27/idea-debt/)
 - [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
 - [On Having Something to Say](http://chadfowler.com/blog/2014/01/21/on-having-something-to-say/)
 - [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
