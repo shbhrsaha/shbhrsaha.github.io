@@ -25,3 +25,4 @@ Here are some articles by other people that I recommend. I don't necessarily agr
 - [RECONSIDER](https://signalvnoise.com/posts/3972-reconsider)
 - [On Secretly Terrible Engineers](http://techcrunch.com/2015/03/08/on-secretly-terrible-engineers/)
 - [Someone else had your idea first](http://www.aaronkharris.com/someone-else-had-your-idea-first)
+- [The Curse of Culture](https://stratechery.com/2016/the-curse-of-culture/)
