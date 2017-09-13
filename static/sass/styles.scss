@@ -26,7 +26,7 @@ $color-selection:   #b4d5fe;
 
     font: 100% $font-stack;
     color: $color-text;
-    
+
     @include mobile {
         font-size:54px;
         margin-top:200px;
@@ -40,7 +40,7 @@ $color-selection:   #b4d5fe;
         width: $mobile-desktop-divider;
         margin: 45px;
         margin-top:100px;
-        border-left: 4px solid #CCC;
+        border-left: 2px solid #CCC;
         padding-left: 60px;
     }
 
@@ -83,12 +83,12 @@ a:hover {
     border-bottom: 1px solid #888;
 }
 
-.list {   
+.list {
 
     margin-left:2em;
     margin-top:1em;
     margin-bottom:1.5em;
-    
+
     li {
         line-height: $golden-ratio;
         margin-bottom:0.5em;
@@ -144,9 +144,9 @@ pre {
 	padding-bottom: 2em;
 	overflow-y: hidden;
 	overflow: visible;
-	overflow-x: auto; 
+	overflow-x: auto;
 	}
-* html pre { 
+* html pre {
 	padding-bottom: 2em;
 	overflow: visible;
 	overflow-x: auto;
