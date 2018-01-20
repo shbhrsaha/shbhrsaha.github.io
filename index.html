@@ -34,28 +34,40 @@ title: Home
         </li>
     </ul>
 
-    <p>Find me on <a target="_blank" href="https://github.com/shbhrsaha">GitHub</a> and <a target="_blank" href="https://twitter.com/shubroski">Twitter</a>.
+    <p>Find me on <a target="_blank" href="https://github.com/shbhrsaha">GitHub</a> and <a target="_blank" href="https://twitter.com/shubroski">Twitter</a></p>
 
     <br />
-    <br />
 
-    <h3><a href="/categories/software/">Software</a></h3>
-        {% include categorypostlist.html category="Software" %}
+    <p><span class="popular">* </span> denotes popular post.</p>
 
-    <h3><a href="/categories/education/">Education</a></h3>
-        {% include categorypostlist.html category="Education" %}
+    <ul>
+    {% for post in site.posts %}
 
-    <h3><a href="/categories/productivity/">Productivity</a></h3>
-        {% include categorypostlist.html category="Productivity" %}
+        <li style="list-style-type:none; margin-left:-20px;">
 
-    <h3><a href="/categories/startups/">Startups</a></h3>
-        {% include categorypostlist.html category="Startups" %}
+            {% if post.popular %}
+                    <span class="popular">* </span>
+                {% endif %}
 
-    <h3><a href="/categories/life/">Life</a></h3>
-        {% include categorypostlist.html category="Life" %}
+            <a href="{{ post.url }}">
 
-    <h3><a href="/categories/food/">Food</a></h3>
-        {% include categorypostlist.html category="Food" %}
 
-    <h3><a href="/categories/other/">Other</a></h3>
-        {% include categorypostlist.html category="Other" %}
+                {{ post.title }}
+            </a>
+            <p>
+                {% for link_hash in post.links %}
+                    {% for link in link_hash %}
+                        <a href="{{ link[1] }}">{{ link[0] }}</a>
+                    {% endfor %}
+                    {% if forloop.last != true %}
+                         &sdot;
+                    {% endif %}
+                {% endfor %}
+            </p>
+        </li>
+
+
+
+
+    {% endfor %}
+</ul>

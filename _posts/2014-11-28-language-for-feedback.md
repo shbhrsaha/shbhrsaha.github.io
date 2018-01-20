@@ -3,8 +3,6 @@ layout: post
 title: Language for giving and receiving effective feedback
 categories:
     - Life
-links:
-    - Reddit: https://www.reddit.com/r/socialskills/comments/2np58d/language_tricks_to_make_feedback_conversations/
 ---
 ![](/static/language-for-feedback/feedbackwave.png)
 
@@ -22,7 +20,7 @@ In this post, I want to run through some specific phrasings that can be helpful 
 
 ![](/static/language-for-feedback/squatguy.png)
 
-I'll start by introducing TACOISL, a framework for giving feedback. Then, 
+I'll start by introducing TACOISL, a framework for giving feedback. Then,
 I'll conclude with some tips for receiving feedback.
 
 ### TACOISL
@@ -55,7 +53,7 @@ That said, don't focus all of your thought on where things could've gone better.
 
 Now we start the conversation by _asking_ the recipient if they want to receive feedback. It's important to ask because the recipient might not want it (for reasons we cannot control) or simply doesn't have the time right now (in which case they'll postpone). Good feedback conversations require at least a few minutes of one-on-one time.
 
-The language we use to "ask" is important because it frames the rest of the discussion. We want to minimize anxiety while also taking some time out to communicate honestly in a safe environment. The appropriate language can vary, but because we're usually on a friendly basis with the recipient, we can be more or less casual about it. In the case of our squatting friend, we can ask him one of the following after he catches his breath: 
+The language we use to "ask" is important because it frames the rest of the discussion. We want to minimize anxiety while also taking some time out to communicate honestly in a safe environment. The appropriate language can vary, but because we're usually on a friendly basis with the recipient, we can be more or less casual about it. In the case of our squatting friend, we can ask him one of the following after he catches his breath:
 
 "Hey, are you interested in some feedback?" <br />
 "Are you looking for pointers on your squats?" <br />
@@ -67,7 +65,7 @@ Also, consider using "pointers" or "suggestions" instead of the word "feedback" 
 
 ### Communicate Observations
 
-Good feedback begins with observations. These points can be complimentary or critical, but it's crucial that we refrain from drawing inferences about _why_ they happened. We can speak only from where we stand, so we have to be careful not to jump to conclusions about the recipient's perspective. Let's return to the squat example. The observations we communicate are: 
+Good feedback begins with observations. These points can be complimentary or critical, but it's crucial that we refrain from drawing inferences about _why_ they happened. We can speak only from where we stand, so we have to be careful not to jump to conclusions about the recipient's perspective. Let's return to the squat example. The observations we communicate are:
 
 "Your back looked great on the way down-- really straight, with a slight arch inwards. On the way up, I think your knees buckled in a little bit."
 

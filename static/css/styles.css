@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -50,8 +50,7 @@ table {
   color: #333; }
   @media (max-device-width: 500px) {
     .container {
-      font-size: 54px;
-      margin-top: 200px;
+      font-size: 42px;
       margin-left: 60px;
       margin-right: 60px;
       overflow: scroll; } }
@@ -59,10 +58,7 @@ table {
     .container {
       font-size: 16px;
       width: 500px;
-      margin: 45px;
-      margin-top: 100px;
-      border-left: 2px solid #CCC;
-      padding-left: 60px; } }
+      margin: 45px; } }
 
 h1 {
   font-size: 2em; }
@@ -158,29 +154,6 @@ pre {
   overflow: visible;
   overflow-x: auto; }
 
-/* END OF CODE STYLES */
-@media (max-device-width: 500px) {
-  .logo {
-    width: 140px;
-    height: 140px;
-    border-radius: 70px;
-    -webkit-border-radius: 70px;
-    -moz-border-radius: 70px;
-    background: url("../img/logo-large.png") no-repeat;
-    position: absolute;
-    left: 60px;
-    top: 60px; } }
-@media (min-device-width: 501px) {
-  .logo {
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    background: url("../img/logo.png") no-repeat;
-    position: absolute;
-    left: 12px;
-    top: 12px; } }
 
 .image-figure {
   margin-top: 2em;
@@ -194,5 +167,11 @@ pre {
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px; }
+
+.popular {
+  color: red;
+  position:absolute;
+  margin-left:-15px;
+}
 
 /*# sourceMappingURL=styles.css.map */

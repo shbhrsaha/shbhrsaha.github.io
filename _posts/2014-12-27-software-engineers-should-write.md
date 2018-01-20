@@ -7,6 +7,7 @@ links:
     - Hacker News: https://news.ycombinator.com/item?id=8810382
     - Reddit: https://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/
     - Portuguese: http://andersonnnunes.org/?p=338
+popular: True
 ---
 ![](/static/software-engineers-should-write/illustration.png)
 

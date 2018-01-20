@@ -7,6 +7,7 @@ categories:
 links:
     - Hacker News: https://news.ycombinator.com/item?id=8643235
     - Reddit: https://www.reddit.com/r/programming/comments/2n0nw5/how_a_course_in_operating_systems_changed_me/
+popular: True
 ---
 ![](/static/operating-systems/low-level.png)
 <br /><br />

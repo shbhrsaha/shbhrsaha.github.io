@@ -6,6 +6,7 @@ categories:
 links:
     - Hacker News: https://news.ycombinator.com/item?id=8603341
     - Reddit: https://www.reddit.com/r/programming/comments/2m7fqe/tips_for_software_engineering_internships/
+popular: True
 ---
 
 ![](/static/tips-for-internships/cartoon.png)

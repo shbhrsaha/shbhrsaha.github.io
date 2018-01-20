@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Reverse-engineering the Kayak app with mitmproxy 
+title: Reverse-engineering the Kayak app with mitmproxy
 categories:
     - Software
 links:
     - Hacker News: https://news.ycombinator.com/item?id=8778003
     - Reddit: https://www.reddit.com/r/programming/comments/2px1mv/reverseengineering_the_kayak_app_with_mitmproxy/
     - Hackaday: http://hackaday.com/2015/01/03/reverse-engineering-the-kayak-mobile-api/
+popular: True
 ---
 ![](/static/kayak-mitmproxy/kayakapp.png)
 
@@ -28,7 +29,7 @@ Getting started with mitmproxy is straightforward:
 
 Run `mitmproxy` to generate certificate files in `~/.mitmproxy`. From that folder, get the `mitmproxy-ca-cert.pem` file onto your mobile device by emailing it to yourself, for example. Then follow certificate installation steps for [iOS](http://mitmproxy.org/doc/certinstall/ios.html) or [Android](http://mitmproxy.org/doc/certinstall/android.html). Because I used the Kayak iPhone app, I'll continue this tutorial with iOS.
 
-Mobile apps often encrypt traffic to protect data integrity and confidentiality. Transport Layer Security (TLS) is a popular protocol for implementing this encryption. By installing the certificate on a mobile device, we’re enabling mitmproxy to decrypt its TLS traffic, which includes HTTPS requests and responses. 
+Mobile apps often encrypt traffic to protect data integrity and confidentiality. Transport Layer Security (TLS) is a popular protocol for implementing this encryption. By installing the certificate on a mobile device, we’re enabling mitmproxy to decrypt its TLS traffic, which includes HTTPS requests and responses.
 
 We need to configure the mobile device to use our computer's IP address as the proxy. On a Mac, we can find the IP address my opening up System Preferences > Network:
 
@@ -52,7 +53,7 @@ As we flip through the requests with the arrow keys, the first to jump out is:
 
 I hit &lt;Enter&gt; then &lt;Tab&gt; to view the server response. We discover fields for `status`, `uid`, `token`, `sid`, and `bogus`.
 
-Great! Let's make a note of the `uid`, `token`, and `sid` fields because they might be used in later requests. Back in the request list, we continue to look for interesting URLs. Here's one: 
+Great! Let's make a note of the `uid`, `token`, and `sid` fields because they might be used in later requests. Back in the request list, we continue to look for interesting URLs. Here's one:
 
     GET https://www.kayak.com/api/search/V8/flight/start?cabin=e&travelers=1&origin1=BDL&nearbyO1=false&destination1=LAX&nearbyD1=false&depart_date1=12/18/2014&depart_time1=a&depart_date_flex1=exact&_sid_=[SID VALUE]
 

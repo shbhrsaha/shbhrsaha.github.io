@@ -6,6 +6,7 @@ categories:
 published: true
 links:
     - Hacker News: https://news.ycombinator.com/item?id=10823783
+popular: True
 ---
 
 {% include image.html url="/static/learned-clearing-disk-space/screenshot.png" caption="Ushering one of computing's most mundane tasks" %}

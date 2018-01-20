@@ -6,10 +6,6 @@ layout: default
     {{ content }}
     <br />
     <p>
-    {% for category in page.categories %}
-        <a href="/categories/{{ category|downcase }}/">{{ category|capitalize }}</a>
-        &sdot;
-    {% endfor %}
     {{ page.date|date: "%B %Y" }}
     </p>
     <p>
