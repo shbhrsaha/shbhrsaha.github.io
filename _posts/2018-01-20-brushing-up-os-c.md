@@ -4,6 +4,9 @@ title: Brushing up on operating systems and C programming
 categories:
     - Software
 published: true
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=16196194
+popular: True
 ---
 
 If you were like me in college, you first learned about the C programming language in an introductory computer science course. Then, perhaps you [took a really hard course in operating systems]({% post_url 2014-11-21-operating-systems %}). Then, you never thought deeply about those concepts ever again.
