@@ -23,6 +23,7 @@ Here are some articles by other people that I recommend. I don't necessarily agr
 - [Are you a satisficer or a maximizer?](http://www.gretchenrubin.com/happiness_project/2006/06/are_you_a_satis/)
 - [The Age of the Essay](http://www.paulgraham.com/essay.html)
 - [Writing, Briefly](http://www.paulgraham.com/writing44.html)
+- [AngelList new employee reading list](http://venturehacks.com/articles/reading)
 - [RECONSIDER](https://signalvnoise.com/posts/3972-reconsider)
 - [On Secretly Terrible Engineers](http://techcrunch.com/2015/03/08/on-secretly-terrible-engineers/)
 - [Someone else had your idea first](http://www.aaronkharris.com/someone-else-had-your-idea-first)
