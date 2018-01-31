@@ -13,6 +13,7 @@ Here are some articles by other people that I recommend. I don't necessarily agr
 - [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
 - [On Having Something to Say](http://chadfowler.com/blog/2014/01/21/on-having-something-to-say/)
 - [Why we care about whales](http://yaledailynews.com/blog/2009/09/11/keegan-why-we-care-about-whales/)
+- [Latent serendipity](http://danshipper.com/latent-serendipity)
 - [Engineering Management](http://algeri-wong.com/yishan/engineering-management.html)
 - [A Decade at Google](http://wp.sigmod.org/?p=1851)
 - [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf)
