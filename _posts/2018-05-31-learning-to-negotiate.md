@@ -21,7 +21,7 @@ If you're looking for resources to learn more about negotiation skills, I recomm
 - _Negotiation Genius_ by Deepak Malhotra and Max H. Bazerman
 - _Negotiating Rationally_ by Margaret Ann Neale and Max H. Bazerman
 - _Getting to Yes_ by Roger Fisher and William Ury
-- [Patrick McKenzie's article on salary negotiation](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 - _Influence: Science and Practice_ by Robert Cialdini
+- [Patrick McKenzie's article on salary negotiation](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 
 Board games like _Settlers of Catan_ offer great opportunities to put negotiation skills to practice.
