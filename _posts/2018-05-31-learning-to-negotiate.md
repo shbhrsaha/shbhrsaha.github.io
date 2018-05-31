@@ -14,9 +14,7 @@ We're trained to think negotiations require lawyers sitting around a boardroom t
 
 As important as good negotiation skills are, the disappointing thing is that most people I know-- me included-- never took a class on negotiation. The exceptions are psychology majors who spent maybe a day on the subject and business school friends who enrolled in some class like _Power and Influence_.
 
-After checking out a few books on negotiation this past year, I'm surprised how much can be discovered in these books, yet how hard it is to improve negotiation skills through practice. You have to practice negotiating with real people to get better at it. Only by putting yourself in negotiation situations can you "level up". Ironically, part of good negotiation skills is actually recognizing a negotiation opportunity when it comes up.
-
-Board games like _Settlers of Catan_ offer great opportunities to put negotiation skills to practice.
+After checking out a few books on negotiation this past year, I'm surprised how much can be discovered in these books, yet how hard it is to improve negotiation skills through practice. You have to practice negotiating with real people to get better at it. Only by putting yourself in negotiation situations can you "level up". Ironically, part of good negotiation skills is recognizing a negotiation opportunity when it comes up.
 
 If you're looking for resources to learn more about negotiation skills, I recommend the following:
 
@@ -26,4 +24,4 @@ If you're looking for resources to learn more about negotiation skills, I recomm
 - [Patrick McKenzie's article on salary negotiation](http://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 - _Influence: Science and Practice_ by Robert Cialdini
 
-
+Board games like _Settlers of Catan_ offer great opportunities to put negotiation skills to practice.
