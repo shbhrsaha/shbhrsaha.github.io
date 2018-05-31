@@ -12,7 +12,7 @@ Opportunities to negotiate come up often. Classic ones are negotiating a salary,
 
 We're trained to think negotiations require lawyers sitting around a boardroom table, but negotiations are not so dramatic. They're also not simply about "power", "win win", or "give and take". Those are caricatures of what makes a good negotiation.
 
-As important as good negotiation skills are, the disappointing thing is that most people I know-- me included-- never took a class on negotiation. The exceptions are psychology majors who spent maybe a day on the subject and business school friends who enrolled in some class like _Power and Influence_.
+As important as good negotiation skills are, it's disappointing that most people I know-- me included-- never took a class on negotiation. The exceptions are psychology majors who spent maybe a day on the subject and business school friends who enrolled in some class like _Power and Influence_.
 
 After checking out a few books on negotiation this past year, I'm surprised how much can be discovered in these books, yet how hard it is to improve negotiation skills through practice. You have to practice negotiating with real people to get better at it. Only by putting yourself in negotiation situations can you "level up". Ironically, part of good negotiation skills is recognizing a negotiation opportunity when it comes up.
 
