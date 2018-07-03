@@ -4,6 +4,8 @@ title: Whiteboard interview tips
 categories:
     - Software
 published: true
+links:
+    - Reddit: https://www.reddit.com/r/programming/comments/8vv03q/whiteboard_interview_tips/
 ---
 
 I'm going through interview training at my employer right now. Watching whiteboard interviews reminds me of mistakes I used to make when coding on a whiteboard:
