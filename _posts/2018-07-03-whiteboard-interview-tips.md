@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Whiteboard interview tips
+title: Whiteboard interview mistakes
 categories:
     - Software
 published: true
