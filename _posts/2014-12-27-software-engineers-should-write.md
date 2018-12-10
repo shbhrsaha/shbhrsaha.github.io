@@ -8,6 +8,7 @@ links:
     - Reddit: https://www.reddit.com/r/programming/comments/2qpy4g/software_engineers_should_write/
     - Portuguese: http://andersonnnunes.org/?p=338
 popular: True
+priority: 0
 ---
 ![](/static/software-engineers-should-write/illustration.png)
 

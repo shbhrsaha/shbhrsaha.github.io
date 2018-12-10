@@ -5,69 +5,56 @@ title: Home
 <br />
 <p><h1>Hey.</h1></p>
 <p>
-    I'm Shubhro Saha, a software engineer at Facebook in California. <br />
-    My notable work includes:
-</p>
+    I'm Shubhro Saha, a software engineer at Facebook in California.
+
+    <br /><br />
+    <b>Popular Posts</b>
+
     <ul>
-        <li>
-            <a target="_blank" href="http://jasperproject.github.io/">Jasper</a>
-            <p>
-                <a href="https://news.ycombinator.com/item?id=7546858">Hacker News</a>
-                &sdot;
-                <a href="http://www.forbes.com/sites/davealtavilla/2014/04/09/princeton-wiz-kids-create-open-source-api-for-device-voice-control-assistant-runs-on-raspberry-pi/">Forbes</a>
-                &sdot;
-                <a href="http://www.wired.com/2014/04/out-in-the-open-jasper/">Wired</a>
-                &sdot;
-                <a href="http://www.pcworld.com/article/2142283/jasper-voice-automation-project-brings-a-siri-like-virtual-assistant-to-raspberry-pi.html">PCWorld</a>
-                &sdot;
-                <a href="http://lifehacker.com/jasper-adds-voice-control-to-your-raspberry-pi-projects-1560145451">Lifehacker</a>
-            </p>
-        </li>
-        <li>
-            <a href="http://introsideprojects.github.io/">Introduction to Side Projects</a> &amp; <a href="http://introtohacking.github.io/">Introduction to Hacking</a>
-        </li>
-        <li>
-            <a href="/2013/11/01/phony/">The "Humans of New York" Post Generator</a>
-            <p class="social-links">
-                <a href="https://www.facebook.com/humansofnewyork/photos/a.102107073196735.4429.102099916530784/586050984802339/">Humans of New York</a>
-            </p>
-        </li>
+        {% assign sorted_popular_posts = site.posts | sort:"priority" %}
+
+        {% for post in sorted_popular_posts %}
+            {% if post.popular != True %}
+                <li class="post-li">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                    <p>
+                        {% for link_hash in post.links %}
+                            {% for link in link_hash %}
+                                <a href="{{ link[1] }}">{{ link[0] }}</a>
+                            {% endfor %}
+                            {% if forloop.last != true %}
+                                 &sdot;
+                            {% endif %}
+                        {% endfor %}
+                    </p>
+                </li>
+            {% endif %}
+        {% endfor %}
     </ul>
 
-    <p>Find me on <a target="_blank" href="https://github.com/shbhrsaha">GitHub</a> and <a target="_blank" href="https://twitter.com/shubroski">Twitter</a></p>
-
     <br />
-
-    <p><span class="popular">* </span> denotes popular post.</p>
+    <b>All Posts</b>
 
     <ul>
-    {% for post in site.posts %}
-
-        <li style="list-style-type:none; margin-left:-20px;">
-
-            {% if post.popular %}
-                    <span class="popular">* </span>
-                {% endif %}
-
-            <a href="{{ post.url }}">
-
-
-                {{ post.title }}
-            </a>
-            <p>
-                {% for link_hash in post.links %}
-                    {% for link in link_hash %}
-                        <a href="{{ link[1] }}">{{ link[0] }}</a>
+        {% for post in site.posts %}
+            <li class="post-li">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+                <p>
+                    {% for link_hash in post.links %}
+                        {% for link in link_hash %}
+                            <a href="{{ link[1] }}">{{ link[0] }}</a>
+                        {% endfor %}
+                        {% if forloop.last != true %}
+                             &sdot;
+                        {% endif %}
                     {% endfor %}
-                    {% if forloop.last != true %}
-                         &sdot;
-                    {% endif %}
-                {% endfor %}
-            </p>
-        </li>
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
 
-
-
-
-    {% endfor %}
-</ul>
+</p>

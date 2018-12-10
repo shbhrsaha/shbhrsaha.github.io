@@ -5,7 +5,6 @@ categories:
     - Education
 links:
     - Reddit: http://www.reddit.com/r/programming/comments/26z9lk/life_after_codecademy_setting_up_your_development/
-popular: True
 ---
 
 ![](/static/development-environment/angrylaptop.png)

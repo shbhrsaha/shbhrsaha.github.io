@@ -6,6 +6,7 @@ categories:
 links:
     - Hacker News: https://news.ycombinator.com/item?id=6084312
 popular: True
+priority: 5
 ---
 
 For some time a few months ago, I became obsessed with [wireless sniffing](http://en.wikipedia.org/wiki/Packet_analyzer). I didn't want to sniff others' wireless traffic so much as be able to detect smartphones by their wireless probes. There is incredible potential in this area-- a startup called [Euclid Analytics](http://euclidanalytics.com/) is tracking smartphone probes inside stores to provide retail customer analytics.
