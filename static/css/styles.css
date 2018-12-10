@@ -51,6 +51,7 @@ table {
   @media (max-device-width: 500px) {
     .container {
       font-size: 42px;
+      margin: 45px;
       margin-left: 60px;
       margin-right: 60px;
       overflow: scroll; } }
