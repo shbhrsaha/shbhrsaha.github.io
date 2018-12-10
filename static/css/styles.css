@@ -177,7 +177,11 @@ pre {
 
 .post-li {
   list-style-type:none;
-  margin-left:-20px;
+}
+
+@media (min-device-width: 501px) {
+    .post-li {
+      margin-left:-20px; }
 }
 
 
