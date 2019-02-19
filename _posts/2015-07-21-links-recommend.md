@@ -5,10 +5,12 @@ categories:
     - Other
 ---
 
-Here are some articles by other people that I recommend. I don't necessarily agree with every view in the links below, but I think they're worth reading.
+Here are some articles by other people that I recommend. I don't necessarily agree with every view in the links below, but I think they're worth reading. I periodically edit this list.
 
 - [Life is Short](http://paulgraham.com/vb.html)
 - [The Tyranny of Convenience](https://www.nytimes.com/2018/02/16/opinion/sunday/tyranny-convenience.html)
+- [Reading in the Age of Constant Distraction](https://www.theparisreview.org/blog/2019/02/08/reading-in-the-age-of-constant-distraction/)
+- [How To Be Wrong](https://mathenchant.wordpress.com/2016/01/16/how-to-be-wrong/)
 - [Imagining your future projects is holding you back](http://jessicaabel.com/2016/01/27/idea-debt/)
 - [Things Many People Find Too Obvious To Have Told You Already](https://threadreaderapp.com/thread/936615043126370306)
 - [The Unexotic Underclass](https://miter.mit.edu/the-unexotic-underclass/)
