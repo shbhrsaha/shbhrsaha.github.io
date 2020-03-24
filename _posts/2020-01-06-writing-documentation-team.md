@@ -49,7 +49,7 @@ Layering communication enables readers to start shallow and go deep into parts w
 
 Implement practices that help your documentation age well over time.
 
-Code, systems, and processes change quickly. Maintenance of documentation is essential to keep it fresh, and there are things you can do as the original author can do to grease the wheels for future maintainers.
+Code, systems, and processes change quickly. Maintenance of documentation is essential to keep it fresh, and there are things you can do as the original author to grease the wheels for future maintainers.
 
 Be concise. Don't repeat yourself. Maintainers should have to update the same information in as few places as possible.
 
