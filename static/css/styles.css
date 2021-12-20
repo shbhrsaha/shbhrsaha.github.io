@@ -46,7 +46,7 @@ table {
   border-spacing: 0; }
 
 .container {
-  font: 100% "Vollkorn", serif;
+  font: 100% serif;
   color: #333; }
   @media (max-device-width: 500px) {
     .container {
@@ -58,17 +58,20 @@ table {
   @media (min-device-width: 501px) {
     .container {
       font-size: 16px;
-      width: 500px;
-      margin: 45px; } }
+      width: 400px;
+      margin: 140px;} }
 
 h1 {
-  font-size: 2em; }
+  font-size: 2em;
+  margin-bottom:1em; }
 
 h2 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  margin-top: 3em; }
 
 h3 {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  margin-top: 3em; }
 
 h4 {
   font-size: 1.1em; }
