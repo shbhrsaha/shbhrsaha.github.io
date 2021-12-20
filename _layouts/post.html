@@ -1,0 +1,19 @@
+---
+layout: default
+---
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+    <br />
+    <p>
+    {{ page.date|date: "%B %Y" }}
+    </p>
+    <p>
+    {% for link_hash in page.links %}
+        {% for link in link_hash %}
+            <a href="{{ link[1] }}">{{ link[0] }}</a>
+        {% endfor %}
+        {% if forloop.last != true %}
+            &sdot;
+        {% endif %}
+    {% endfor %}
+    </p>

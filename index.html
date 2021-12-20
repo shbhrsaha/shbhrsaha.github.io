@@ -1,0 +1,55 @@
+---
+layout: default
+title: Home
+---
+<p>
+    <b>Popular Posts</b>
+
+    <ul>
+        {% assign sorted_popular_posts = site.posts | sort:"priority" %}
+
+        {% for post in sorted_popular_posts %}
+            {% if post.popular != True %}
+                <li class="post-li">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                    <p>
+                        {% for link_hash in post.links %}
+                            {% for link in link_hash %}
+                                <a href="{{ link[1] }}">{{ link[0] }}</a>
+                            {% endfor %}
+                            {% if forloop.last != true %}
+                                 &sdot;
+                            {% endif %}
+                        {% endfor %}
+                    </p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <br />
+    <b>All Posts</b>
+
+    <ul>
+        {% for post in site.posts %}
+            <li class="post-li">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+                <p>
+                    {% for link_hash in post.links %}
+                        {% for link in link_hash %}
+                            <a href="{{ link[1] }}">{{ link[0] }}</a>
+                        {% endfor %}
+                        {% if forloop.last != true %}
+                             &sdot;
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+
+</p>

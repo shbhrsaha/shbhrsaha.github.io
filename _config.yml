@@ -1,0 +1,9 @@
+# Site settings
+title: Shubhro Saha
+description: "Personal web site of Shubhro Saha"
+url:          http://www.shubhro.com
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
