@@ -46,18 +46,16 @@ table {
   border-spacing: 0; }
 
 .container {
-  font: 100% serif;
+  font: 100% "PT Serif", serif;
   color: #333; }
   @media (max-device-width: 500px) {
     .container {
-      font-size: 42px;
-      margin: 45px;
-      margin-left: 60px;
-      margin-right: 60px;
+      font-size: 36px;
+      margin: 80px;
       overflow: scroll; } }
   @media (min-device-width: 501px) {
     .container {
-      font-size: 16px;
+      font-size: 14px;
       width: 400px;
       margin-left: 140px;
       margin-right: 140px;
