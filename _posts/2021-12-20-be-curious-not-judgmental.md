@@ -33,9 +33,9 @@ Why not add a factory reset button? Well, where would we put it? We can't put it
 
 Even if we did manage to sneak a button onto the bulb, how would people press it? Unscrew the light bulb, fair enough. But now we don't have power to run the factory reset process. Should we add a capacitor or a battery? If the latter, how do we keep it protected from the bulb's heat?
 
-So, we ditch the button and settle for a timed sequence. Why not shorten the sequence length? Be careful-- get it too short, then people might trigger it accidentally during day-to-day use.
+So, we ditch the button and settle for a timed sequence. Why not shorten the sequence length? Be careful-- if it's too short, people might trigger it accidentally during day-to-day use.
 
-Why not shorten the time intervals to two seconds? If it's too short, then people might execute it incorrectly when they _do_ want to factory reset.
+Why not shorten the time intervals to two seconds? If they're too short, people might execute it incorrectly when they _do_ want to factory reset.
 
 ## The takeaway
 
