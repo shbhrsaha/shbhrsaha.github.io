@@ -61,6 +61,10 @@ table {
       margin-right: 140px;
       margin-top:  45px;} }
 
+sup {
+  vertical-align: super;
+}
+
 h1 {
   font-size: 2em;
   margin-bottom:1em; }
