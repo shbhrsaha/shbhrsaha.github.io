@@ -2,6 +2,9 @@
 layout: post
 title: Be curious, not judgmental
 published: true
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=29663080
+popular: True
 ---
 
 ## The trigger
