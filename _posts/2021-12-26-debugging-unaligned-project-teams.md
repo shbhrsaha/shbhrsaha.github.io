@@ -49,7 +49,7 @@ What is _not_ tactics-- i.e. the execution steps that will make the solution a r
 
 _Who_ defines the roles of people involved
 
-The [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) is a useful tool here. While it may seem overkill for a lot of projects, I've observed countless "simple" projects encounter failure states because of a lack of ownership and accountability.
+The [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) is a useful tool here. While it may seem overkill for a lot of projects, I've observed countless "simple" projects encounter failure states because of lack of ownership and accountability.
 
 Clear roles help teams make hard decisions. When 100% consensus is not attainable, it's important to have a single owner for the decision and commitment from others to agree or [disagree and commit](https://en.wikipedia.org/wiki/Disagree_and_commit).
 
@@ -73,6 +73,6 @@ Projections need to be revised, though, when answers to the earlier questions ch
 
 While this framework is helpful for diagnosing the lack of alignment, fixing the problem requires tactics specific to the particular situations.
 
-I often find it helpful to offer the observed diagnosis directly-- perhaps jumping into a long-winded discussion to ask, for example: _"Hey, it feels like we're spending a lot of time talking about how to build this, but are we all clear on why we should build this?"_
+I often find it helpful to offer the observed diagnosis directly-- perhaps jumping into a long-winded discussion to ask, for example: _"Hey, it feels like we're spending a lot of time talking about **how** to build this, but are we all clear on **why** we should build this?"_
 
 Even if the initial diagnosis is off-base, the ensuing discussion usually brings teams closer to being "on the same page".
