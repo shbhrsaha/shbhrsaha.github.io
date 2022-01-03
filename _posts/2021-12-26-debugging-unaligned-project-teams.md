@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Debugging unaligned project teams
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=29697041
 ---
 
 As an Engineering Manager, I frequently observe teams working on projects where something doesn't feel right.
