@@ -15,6 +15,6 @@ Second, it helps the author gain the reader's trust. A well-constructed case aga
 
 The hardest challenge is to genuinely identify and present the strongest case against a proposal. It's tempting to present a ["straw man" argument](https://en.wikipedia.org/wiki/Straw_man) and tear it down, but doing so is a waste of time. 
 
-The goal should be to present the ["steel man" argument](https://en.wikipedia.org/wiki/Straw_man#Steelmanning)-- i.e. the one that lays out the biggest reasons for why the proposal should not be done.
+The goal should be to present the ["steel man" argument](https://en.wikipedia.org/wiki/Straw_man#Steelmanning)-- i.e. the one that lays out the most compelling reasons for why the proposal should not be done.
 
-Adequately refuted, such a "case against" makes the "case for" doing the proposal even stronger.
+Adequately refuted, such a "case against" makes the "case for" doing it even stronger.
