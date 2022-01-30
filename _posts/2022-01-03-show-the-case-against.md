@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Show the case against
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=30139734
 ---
 
 I often read product and engineering documents that detail reasons for why the team/org/company should do something-- launch a new product, refactor a system, etc.
