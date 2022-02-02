@@ -5,7 +5,7 @@ title: Hacks for engineering estimates
 
 Engineers often have to ask each other for "estimates"-- rough projections for how long projects will take. While some teams do rigorous estimation rituals to varying degrees of success, many situations simply require answering based on gut feel.
 
-However, just because answers are based on gut feel doesn't mean that how you ask for and interpret the estimates doesn't matter. Here are a few behavioral hacks I've observed that often made the difference between a bad estimate conversation and a great one.
+Even though answers are often based on gut feel, how you ask for and interpret the estimates still matter. Here are a few behavioral hacks I've observed that often made the difference between a bad estimate conversation and a great one.
 
 ## Separate estimate vs. target vs. commitment vs. plan
 
