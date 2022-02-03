@@ -5,7 +5,6 @@ categories:
     - Software
 published: true
 links:
-    - Hacker News: https://news.ycombinator.com/item?id=15239480
     - Reddit: https://www.reddit.com/r/programming/comments/6zvgae/its_easy_to_criticize_other_teams/
 ---
 
