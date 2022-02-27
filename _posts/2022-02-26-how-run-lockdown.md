@@ -21,9 +21,9 @@ Hit a gong. Send an email. Schedule an all-hands meeting.
 
 Where you declare a lockdown is less important than how you declare it. Specifically, observe the following rules:
 
-1. **Lockdowns should be infrequent** - Lockdowns interrupt previously planned work. While the associated thrash is acceptable in rare circumstances, the overuse of lockdowns fatigues people over time.
+- **Lockdowns should be infrequent** - Lockdowns interrupt previously planned work. While the associated thrash is acceptable in rare circumstances, the overuse of lockdowns fatigues people over time.
 
-2. **Lockdowns should have clear exit criteria** - State when the lockdown will end. This criteria can be either milestone-based (e.g. ship Project Foobar) or time-based (e.g. one month). When choosing the latter, state clearly what type of work people should focus on during that time.
+- **Lockdowns should have clear exit criteria** - State when the lockdown will end. This criteria can be either milestone-based (e.g. ship Project Foobar) or time-based (e.g. one month). When choosing the latter, state clearly what type of work people should focus on during that time.
 
 After a lockdown begins, it's important to emphasize:
 
