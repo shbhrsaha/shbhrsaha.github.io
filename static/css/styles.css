@@ -116,8 +116,7 @@ a:hover {
     .list li p, ul li p, ol li p {
       margin: 0px;
       margin-top: 4px;
-      margin-bottom: 4px;
-      font-size: 0.85em; }
+      margin-bottom: 4px; }
 
 ul {
   list-style: disc; }
