@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Hacks for engineering estimates
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=31317037
 ---
 
 Engineers often have to ask each other for "estimates"-- rough projections for how long projects will take. While some teams do rigorous estimation rituals to varying degrees of success, many situations simply require answering based on gut feel.
