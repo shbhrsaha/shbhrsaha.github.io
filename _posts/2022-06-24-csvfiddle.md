@@ -7,7 +7,7 @@ When working with CSV files, I often want to query them with SQL. There are a [l
 
 What I want is an experience resembling the [BigQuery SQL Editor](https://www.google.com/search?q=bigquery+sql+editor&tbm=isch), but optimized for quick import of CSV data. I want to generate links to share my queries with anyone on the Internet.
 
-So, I built a quick hack called [CSVFiddle](http://csvfiddle.io/).
+So, I built a quick hack called [CSVFiddle](http://csvfiddle.io/):
 
 ![](/static/csvfiddle/demo.gif)
 
