@@ -17,4 +17,4 @@ You can import data, write SQL, then instantly share it with anyone. Everything 
 
 Building CSVFiddle was a good opportunity to use technologies like NextJS and DuckDB, both of which have been a phenomenal experience to work with. In its current state, I wouldn't describe CSVFiddle as a "robust" tool; reliably parsing CSVs alone would require more configuration options.
 
-Still, I'm putting this out there in case it's useful to someone. If you're using CSVFiddle for anything, I'd [love to hear from you](https://twitter.com/shubroski)!
+Still, I'm putting this out there in case it's useful to someone. If you're using CSVFiddle for anything, I'd [love to hear from you](https://twitter.com/shubroski).
