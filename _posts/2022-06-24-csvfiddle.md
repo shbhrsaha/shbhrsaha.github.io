@@ -1,6 +1,8 @@
 ---
 layout: post
 title: CSVFiddle for querying CSVs with SQL
+links:
+    - Hacker News: https://news.ycombinator.com/item?id=31946039
 ---
 
 When working with CSV files, I often want to query them with SQL. There are a [lot](https://jupyter.org/) [of](https://shell.duckdb.org/) [tools](https://simonwillison.net/2021/Jun/19/sqlite-utils-memory/) that make it technically possible to do this, but they fall short on user experience in a couple ways.
