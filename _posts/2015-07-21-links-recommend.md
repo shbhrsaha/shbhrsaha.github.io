@@ -21,6 +21,7 @@ Here are some articles by other people that I recommend. I don't necessarily agr
 - [Latent serendipity](http://danshipper.com/latent-serendipity)
 - [Engineering Management](http://algeri-wong.com/yishan/engineering-management.html)
 - [A Decade at Google](http://wp.sigmod.org/?p=1851)
+- [Advice That Actually Worked For Me](https://nabeelqu.co/advice)
 - [Principles](http://www.bwater.com/Uploads/FileManager/Principles/Bridgewater-Associates-Ray-Dalio-Principles.pdf)
 - [You Should Write Blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
 - [Why I Won't Sign Your NDA](http://blog.jpl-consulting.com/2012/04/why-i-wont-sign-your-nda/)
