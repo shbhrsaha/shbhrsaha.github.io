@@ -26,7 +26,7 @@ This pattern is most vivid in the early applications for which “Generative AI�
 
 1. **Writing** - Whether it’s for marketing copy or fiction, it’s hard to explain how to write something well, but easy to verify it’s written well.
 
-2. **Generative Art** - It’s hard to explain all the steps to draw a cat in the style of an oil painting. But if I showed you one, it’d be easy to verify it depicts what I claim.
+2. **Images** - It’s hard to explain all the steps to draw a cat in the style of an oil painting. But if I showed you one, it’d be easy to verify it depicts what I claim.
 
 3. **Coding** - Given an IDE context, it’s hard to explain how to produce the next line of code. But when GitHub Copilot suggests a code block, it’s easy to verify by inspecting the code and/or running it.
 
