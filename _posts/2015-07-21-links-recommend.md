@@ -8,6 +8,7 @@ categories:
 Here are some articles by other people that I recommend. I don't necessarily agree with every view in the links below, but I think they're worth reading. I periodically edit this list.
 
 - [Life is Short](http://paulgraham.com/vb.html)
+- [Intelligent vs. Smart](https://collabfund.com/blog/intelligent-vs-smart/)
 - [Goodbye Microsoft, Hello Facebook!](https://medium.com/@philipsu/goodbye-microsoft-hello-facebook-94a189d56830)
 - [Embrace the Grind](https://jacobian.org/2021/apr/7/embrace-the-grind/)
 - [The Day You Decided to Take the Leap](https://moretothat.com/take-the-leap/)
